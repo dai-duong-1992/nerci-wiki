@@ -15,7 +15,7 @@ summary: Báo cáo đặc tả kiến trúc kỹ thuật chuyên sâu, Medical U
   <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.5px; opacity: 0.85; text-transform: uppercase; margin-bottom: 4px;">NERCI ARCHITECTURE & SPECIFICATION REPORT</div>
   <h1 style="margin: 0 0 8px 0; color: white; border: none; padding: 0; font-size: 24px;">ĐẶC TẢ KỸ THUẬT CHUYÊN SÂU & CHIẾN LƯỢC ĐỘT PHÁ HỆ SINH THÁI SỐ NERCI</h1>
   <div style="font-size: 13px; opacity: 0.9;">
-    <strong>Người lập:</strong> Lê Đại Dương • <strong>Ngày ban hành:</strong> 21/08/2026 • <strong>Phạm vi:</strong> Web NERCI, Web H&H, Pancake & CRM Pipeline
+    <strong>Người lập:</strong> Lê Đại Dương • <strong>Ngày lập:</strong> 21/08/2026 • <strong>Phạm vi:</strong> Web NERCI, Web H&H, Pancake & CRM Pipeline
   </div>
 </div>
 
