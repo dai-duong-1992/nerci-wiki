@@ -19,24 +19,14 @@ source_count: 0
 
 ### 📌 GIAO DIỆN KANBAN BOARD (EVENT PIPELINE)
 
-```mermaid
-kanban
-  🔴 PHASE 1: BÀN GIAO QUYỀN (11/08 - 18/08)
-    [🔵 Đang xin quyền] Admin Web NERCI - IT Lead
-    [🟡 Chờ bàn giao] GA4 & Search Console - Data Lead
-    [⚪ Chưa bắt đầu] GMC & Google Ads API - Đại Dương
-    [⚪ Chưa bắt đầu] Data Kế Toán / ERP - Kế toán trưởng
+> 🔗 **Xem trực tiếp trên giao diện tương tác:** [Mở Kanban Board trên Lark Base ➔](https://ajpi82edbxhs.jp.larksuite.com/base/LSnUbBwp9aO0AvsjOsvjFLrfpab)
 
-  🟡 PHASE 2: TÍCH HỢP API & ĐỐI TÁC (16/08 - 24/08)
-    [⚪ Chưa bắt đầu] CRM Bán Hàng - CRM Specialist
-    [⚪ Chưa bắt đầu] Partner Giao Vận (GHN/GHTK) - Ops Lead
-    [⚪ Chưa bắt đầu] Zalo Cloud (ZNS) - CSKH Lead
-    [⚪ Chưa bắt đầu] SMS Brandname Gateway - Digital Mkt
-
-  🟢 PHASE 3: AUTOMATION & GOLIVE (21/08 - 31/08)
-    [⚪ Chưa bắt đầu] VPS Webhook & n8n Flow - Tech Lead
-    [⚪ Chưa bắt đầu] E2E Testing & Golive - Team NERCI
-```
+| 🔴 PHASE 1: BÀN GIAO QUYỀN (11/08 - 18/08) | 🟡 PHASE 2: TÍCH HỢP API & ĐỐI TÁC (16/08 - 24/08) | 🟢 PHASE 3: AUTOMATION & GOLIVE (21/08 - 31/08) |
+| :--- | :--- | :--- |
+| 🔵 **Đang xin quyền:** Admin Web NERCI (*IT Lead*) | ⚪ **Chưa bắt đầu:** CRM Bán Hàng (*CRM Specialist*) | ⚪ **Chưa bắt đầu:** VPS Webhook & n8n Flow (*Tech Lead*) |
+| 🟡 **Chờ bàn giao:** GA4 & Search Console (*Data Lead*) | ⚪ **Chưa bắt đầu:** Partner Giao Vận (GHN/GHTK) (*Ops Lead*) | ⚪ **Chưa bắt đầu:** E2E Testing & Golive (*Team NERCI*) |
+| ⚪ **Chưa bắt đầu:** GMC & Google Ads API (*Đại Dương*) | ⚪ **Chưa bắt đầu:** Zalo Cloud (ZNS) (*CSKH Lead*) | |
+| ⚪ **Chưa bắt đầu:** Data Kế Toán / ERP (*Kế toán trưởng*) | ⚪ **Chưa bắt đầu:** SMS Brandname Gateway (*Digital Mkt*) | |
 
 ---
 
