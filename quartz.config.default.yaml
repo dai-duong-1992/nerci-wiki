@@ -210,9 +210,9 @@ plugins:
     enabled: true
     options:
       links:
-        "🛏️ Thế Giới Nệm": https://thegioinem.goccuaduong.com
-        "📊 Báo cáo PMA": https://thegioinem.goccuaduong.com/Nem/PMA-Price-Monitoring/
-        "📣 Báo cáo ASA": https://thegioinem.goccuaduong.com/Nem/ASA-Ads-Scraper/
+        "🌿 Viện Dinh Dưỡng NERCI": https://nerci.goccuaduong.com
+        "📊 Kiểm toán Pancake (PCA)": https://nerci.goccuaduong.com/Pancake-Audit/
+        "🏛️ Chiến Lược & Kế Hoạch": https://nerci.goccuaduong.com/Brand-Strategy/
     layout:
       position: footer
       priority: 50

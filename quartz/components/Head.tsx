@@ -91,7 +91,7 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        <meta name="generator" content="Thế Giới Nệm Intelligence Platform" />
+        <meta name="generator" content="Viện Dinh Dưỡng NERCI Intelligence Platform" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

@@ -357,7 +357,7 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
           xmlFile,
           xmlContent.replace(
             /<generator>Quartz -- quartz\.jzhao\.xyz<\/generator>/g,
-            "<generator>Thế Giới Nệm -- thegioinem.goccuaduong.com</generator>",
+            "<generator>Viện Dinh Dưỡng NERCI -- nerci.goccuaduong.com</generator>",
           ),
           "utf-8",
         )

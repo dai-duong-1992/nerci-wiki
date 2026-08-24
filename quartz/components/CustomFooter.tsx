@@ -8,15 +8,15 @@ export default ((opts?: Options) => {
   const CustomFooter: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? {
-      "🛏️ Thế Giới Nệm": "https://thegioinem.goccuaduong.com",
-      "📊 Báo cáo PMA": "https://thegioinem.goccuaduong.com/Nem/PMA-Price-Monitoring/",
-      "📣 Báo cáo ASA": "https://thegioinem.goccuaduong.com/Nem/ASA-Ads-Scraper/",
+      "🌿 Viện Dinh Dưỡng NERCI": "https://nerci.goccuaduong.com",
+      "📊 Kiểm toán Pancake (PCA)": "https://nerci.goccuaduong.com/Pancake-Audit/",
+      "🏛️ Chiến Lược & Kế Hoạch": "https://nerci.goccuaduong.com/Brand-Strategy/",
     }
 
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          © {year} <strong>Thế Giới Nệm</strong> — Hệ thống Giám sát & Báo cáo Thị trường Tự động.
+          © {year} <strong>Viện Dinh Dưỡng NERCI & H&H Nutrition</strong> — Hệ thống Intelligence & Báo cáo Vận hành Tự động.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
