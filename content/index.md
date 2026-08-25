@@ -12,7 +12,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
 
 ### 1. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
-- 📄 **[[Pancake-Audit/2026-08-25-PCA-Pancake-Operations-Report-24-25-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake (24/08 - 25/08/2026)]]** 🚨 *(Mới nhất — 30 Ngày & MTD)*
+- 📄 **[[Pancake-Audit/2026-08-25-PCA-Pancake-Operations-Report-24-25-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake (24/08 - 25/08/2026)]]** 🚨 *(Mới nhất)*
 - 📄 **[[Pancake-Audit/2026-08-25-NERCI-Pancake-Omnichannel-Performance-Report|Báo Cáo Hiệu Suất Đa Kênh Pancake NERCI — Toàn Bộ 10 Kênh]]** 
 - 📄 **[[Pancake-Audit/2026-08-24-PCA-Pancake-Operations-Report-22-23-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake 4 Kênh (22/08 - 23/08/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-08-21-PCA-Pancake-Audit-Report|Báo Cáo Đánh Giá Hiện Trạng & Kiểm Toán Pancake 4 Kênh (21/08/2026)]]** 
@@ -24,20 +24,18 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ---
 
-### 3. 📋 Kế Hoạch Vận Hành & Hệ Sinh Thái Google
-- 📝 **[[Brand-Strategy/nerci-probation-checklist-and-google-ecosystem-action-log|Kế Hoạch 60 Ngày Thử Việc & Checklist Chi Tiết Hệ Sinh Thái Google]]**
-- 🛡️ **[[Brand-Strategy/nerci-google-ecosystem-action-log-and-compliance-playbook|Nhật Ký Hành Động Chi Tiết Từng Tài Khoản Google & Playbook Quảng Cáo Y Tế]]**
-- 🔑 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
-
----
-
-### 4. 🏛️ Chiến Lược Thương Hiệu & Đặc Tả Kỹ Thuật
+### 3. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
+- 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
+- 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
-- 🏥 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Đặc Tả Kỹ Thuật Chuyên Sâu & Medical UX Hệ Sinh Thái Số NERCI]]**
-- 📈 **[[Brand-Strategy/nerci-h2-2026-business-and-mkt-plan-analysis|Phân Tích Kế Hoạch Kinh Doanh & Marketing H2/2026 (Trần Ngân Sách 7%)]]**
-- 📊 **[[Brand-Strategy/nerci-marketing-reporting-system-proposal-and-spec|Đề Xuất Hệ Thống Báo Cáo Marketing Đa Tầng H2/2026]]**
-- ⏱️ **[[Brand-Strategy/nerci-project-timeline-and-automation-roadmap|Lộ Trình Triển Khai Kỹ Thuật & Tự Động Hóa Hệ Sinh Thái]]**
-- 🗺️ **[[Brand-Strategy/nerci-event-style-roadmap|Roadmap Sự Kiện & Lễ Ra Mắt Thương Hiệu NERCI]]**
+- 📜 **[[Brand-Strategy/nerci-event-style-roadmap|NERCI Event-Style Project Roadmap & Milestone Guide]]**
+- 📜 **[[Brand-Strategy/nerci-google-ads-domain-migration-and-asset-plan|Kế Hoạch Chuyển Đổi Domain DNS & Chuẩn Hóa Asset Google Ads (NERCI 615-344-1915)]]**
+- 📜 **[[Brand-Strategy/nerci-google-ecosystem-action-log-and-compliance-playbook|Nhật Ký Hành Động Chi Tiết Hệ Sinh Thái Google & Medical Compliance Playbook NERCI]]**
+- 📜 **[[Brand-Strategy/nerci-h2-2026-business-and-mkt-plan-analysis|Phân Tích & Đánh Giá Kế Hoạch Kinh Doanh - Marketing H2/2026 (NERCI & H&H Nutrition)]]**
+- 📜 **[[Brand-Strategy/nerci-marketing-reporting-system-proposal-and-spec|Đề Xuất & Đặc Tả Hệ Thống Báo Cáo Marketing H2/2026 (NERCI & H&H Nutrition)]]**
+- 📜 **[[Brand-Strategy/nerci-master-project-hub|NERCI Master Project Hub — Trung Tâm Quản Trị Dự Án & Vận Hành Số]]**
+- 📜 **[[Brand-Strategy/nerci-probation-checklist-and-google-ecosystem-action-log|Kế Hoạch 60 Ngày Thử Việc & Nhật Ký Hành Động Chi Tiết Hệ Sinh Thái Google NERCI]]**
+- 📜 **[[Brand-Strategy/nerci-project-timeline-and-automation-roadmap|NERCI Project Timeline & Automation Roadmap 2026]]**
 
 ---
 *Cập nhật tự động bởi Antigravity AI Agent System.*

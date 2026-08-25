@@ -3,7 +3,7 @@ title: 'Chiến Lược Thương Hiệu & Đặc Tả Kỹ Thuật NERCI'
 ---
 
 # 🏛️ Chiến Lược Thương Hiệu, Kế Hoạch & Google Ecosystem
-> *Toàn bộ tài liệu đặc tả kiến trúc số, kế hoạch thử việc, sổ tay quảng cáo y tế và chiến lược thương hiệu NERCI 2025-2030.*
+> *Toàn bộ tài liệu đặc tả kiến trúc số, kế hoạch chuyển đổi domain DNS, kế hoạch thử việc, sổ tay quảng cáo y tế và chiến lược thương hiệu NERCI 2025-2030.*
 
 ---
 

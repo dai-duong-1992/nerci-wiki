@@ -1,9 +1,9 @@
 ---
-title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake 4 Kênh'
+title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 # 📊 Kiểm Toán & Vận Hành Hội Thoại Pancake (PCA)
-> *Báo cáo kiểm toán, đánh giá chất lượng hội thoại, tỷ lệ phân luồng lead và hiệu suất chăm sóc khách hàng 4 kênh (TikTok Bác sĩ Hùng, Zalo OA Viện NERCI, Web Chat NERCI, Web Chat H&H).*
+> *Báo cáo kiểm toán, đánh giá chất lượng hội thoại, tỷ lệ phân luồng lead và hiệu suất chăm sóc khách hàng toàn bộ 10 kênh (TikTok Bác sĩ Hùng, 5 Fanpage Facebook, 2 Zalo OA, 2 Web Chat).*
 
 ---
 
