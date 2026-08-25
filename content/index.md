@@ -12,7 +12,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
 
 ### 1. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
-- 📄 **[[Pancake-Audit/2026-08-25-NERCI-Pancake-Omnichannel-Performance-Report|Báo Cáo Hiệu Suất Đa Kênh Pancake NERCI — Chu Kỳ 30 Ngày]]** 🚨 *(Mới nhất — 30 Ngày & MTD)*
+- 📄 **[[Pancake-Audit/2026-08-25-NERCI-Pancake-Omnichannel-Performance-Report|Báo Cáo Hiệu Suất Đa Kênh Pancake NERCI — Toàn Bộ 10 Kênh]]** 🚨 *(Mới nhất — 30 Ngày & MTD)*
 - 📄 **[[Pancake-Audit/2026-08-24-PCA-Pancake-Operations-Report-22-23-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake 4 Kênh (22/08 - 23/08/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-08-21-PCA-Pancake-Audit-Report|Báo Cáo Đánh Giá Hiện Trạng & Kiểm Toán Pancake 4 Kênh (21/08/2026)]]** 
 
