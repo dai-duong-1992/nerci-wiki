@@ -16,7 +16,8 @@ source_count: 0
 # 🛡️ KẾ HOẠCH CHUYỂN ĐỔI DOMAIN DNS & CHUẨN HÓA ASSET GOOGLE ADS (NERCI)
 *Tài khoản Google Ads mới: `NERCI 615-344-1915` | Đích đến tên miền: `nerci.vn`*
 
-> 🔗 **Lark Base Bảng Theo Dõi Tiến Độ:** [Kế Hoạch Domain & Google Ads (`tblpuFdMelDTibEA`)](https://ajpi82edbxhs.jp.larksuite.com/base/AUCebLJ2baYgHXsu9F4jTBnypsc?table=tblpuFdMelDTibEA)  
+> 🔗 **Lark Base Bảng Mapping 5 Tên Miền & Landing Page:** [Danh Sách Domain & Landing Page (`tblZ10E97CyTBfCj`)](https://ajpi82edbxhs.jp.larksuite.com/base/AUCebLJ2baYgHXsu9F4jTBnypsc?table=tblZ10E97CyTBfCj)  
+> 🔗 **Lark Base Bảng Tiến Độ Công Việc:** [Kế Hoạch Domain & Google Ads (`tblpuFdMelDTibEA`)](https://ajpi82edbxhs.jp.larksuite.com/base/AUCebLJ2baYgHXsu9F4jTBnypsc?table=tblpuFdMelDTibEA)  
 > 🌐 **Cổng Thông Tin NERCI Wiki:** [nerci.goccuaduong.com](https://nerci.goccuaduong.com)
 
 ---
@@ -30,17 +31,17 @@ Tài khoản Google Ads mới tạo (**NERCI `615-344-1915`**) đang gặp phả
 
 ---
 
-## 🌐 II. BẢNG QUY HOẠCH SUBDOMAIN & CẤU HÌNH DNS MẮT BÃO
+## 🌐 II. BẢNG QUY HOẠCH CHI TIẾT 5 TÊN MIỀN CẦN CHUYỂN ĐỔI
 
-Toàn bộ 5 trang đích phải được cấu hình trên hệ thống quản lý DNS **Mắt Bão** (`id.matbao.net`):
+Dưới đây là 5 đường link cụ thể đã được đồng bộ vào bảng Lark Base `tblZ10E97CyTBfCj`:
 
-| STT | Nghiệp Vụ / Khóa Học | Subdomain Cũ (Loại Bỏ) | Subdomain Mới Trên `nerci.vn` | Loại Bản Ghi (DNS) | Giá Trị Cần Trỏ (Target) | Trạng Thái |
-| :---: | :--- | :--- | :--- | :---: | :--- | :---: |
-| **1** | **Khóa Dinh Dưỡng Cơ Bản** | `dinhduongcoban.nreci.org` | `dinhduongcoban.nerci.vn` | `CNAME` | `dns.ladipage.com` | 🟡 Đang trỏ |
-| **2** | **Khóa Sơ Cấp Nghề Dinh Dưỡng** | `socapnghedinhduong.nreci.org` | `socapnghedinhduong.nerci.vn` | `CNAME` | `dns.ladipage.com` | 🟡 Đang trỏ |
-| **3** | **Khóa TVDD Cộng Đồng** | `tuvandinhduongcongdong.nreci.org` | `tuvandinhduongcongdong.nerci.vn` | `CNAME` | `dns.ladipage.com` | 🟡 Đang trỏ |
-| **4** | **Liệu Trình Dinh Dưỡng** | `lieutrinhdinhduong.nreci.org` | `lieutrinhdinhduong.nerci.vn` | `CNAME` | `dns.ladipage.com` | 🟡 Đang trỏ |
-| **5** | **Tư Vấn Dinh Dưỡng Tổng Thể** | `tuvandinhduong.nreci.org` | `tuvandinhduong.nerci.vn` | `CNAME` | `dns.ladipage.com` | 🟡 Đang trỏ |
+| STT | Nghiệp Vụ / Khóa Học | Link Cũ Cần Đổi (`nreci.org`) | Link Mới Hoạt Động (`nerci.vn`) | Host CNAME (Mắt Bão) | Target Trỏ Về | Trạng Thái Xử Lý |
+| :---: | :--- | :--- | :--- | :--- | :--- | :---: |
+| **1** | **Khóa Học Dinh Dưỡng Cơ Bản** | `https://dinhduongcoban.nreci.org/` | `https://dinhduongcoban.nerci.vn/` | `dinhduongcoban` | `dns.ladipage.com` | 🟡 Chờ trỏ DNS |
+| **2** | **Khóa Sơ Cấp Nghề Dinh Dưỡng** | `https://socapnghedinhduong.nreci.org/` | `https://socapnghedinhduong.nerci.vn/` | `socapnghedinhduong` | `dns.ladipage.com` | 🟡 Chờ trỏ DNS |
+| **3** | **Khóa TVDD Cộng Đồng** | `https://tuvandinhduongcongdong.nreci.org/` | `https://tuvandinhduongcongdong.nerci.vn/` | `tuvandinhduongcongdong` | `dns.ladipage.com` | 🟡 Chờ trỏ DNS |
+| **4** | **Liệu Trình Dinh Dưỡng Y Khoa** | `https://lieutrinhdinhduong.nreci.org/` | `https://lieutrinhdinhduong.nerci.vn/` | `lieutrinhdinhduong` | `dns.ladipage.com` | 🟡 Chờ trỏ DNS |
+| **5** | **Tư Vấn Dinh Dưỡng Tổng Thể** | `https://tuvandinhduong.nreci.org/` | `https://tuvandinhduong.nerci.vn/` | `tuvandinhduong` | `dns.ladipage.com` | 🟡 Chờ trỏ DNS |
 
 ---
 
