@@ -3,7 +3,7 @@ title: 'Viện Dinh Dưỡng NERCI — Portal Báo Cáo & Tự Động Hóa'
 ---
 
 # 🌿 Viện Dinh Dưỡng NERCI & H&H Nutrition
-> *Hệ thống Intelligence, Kiểm toán Hội thoại Đa kênh & Báo cáo Tự động hóa Dinh Dưỡng Chữa Lành*
+> *Hệ thống Intelligence, Kiểm toán Hội thoại Đa kênh, Ma Trận Google Ads & Báo cáo Tự động hóa Dinh Dưỡng Chữa Lành*
 
 Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thông minh của **Viện Dinh Dưỡng NERCI & H&H Nutrition** (`nerci.goccuaduong.com`).
 
@@ -11,7 +11,14 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
 
-### 1. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
+### 1. 📈 Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)
+- 📈 **[[Google-Ads-Matrix/2026-08-27-NERCI-Google-Ads-Matrix-Performance-Report|Báo Cáo Ma Trận Hiệu Suất Google Ads — H&H Group MCC (NERCI & H&H Nutrition)]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-08-11-Google-Ads-Detailed-Report|2026 08 11 Google Ads Detailed Report]]** 
+- 📈 **[[Google-Ads-Matrix/2026-08-10-Google-Ads-PMax-Shopping-Report|Google Ads PMax & Shopping Detailed Report]]** 
+
+---
+
+### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
 - 📄 **[[Pancake-Audit/2026-08-26-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 26/08/2026)]]** 🚨 *(Mới nhất)*
 - 📄 **[[Pancake-Audit/2026-08-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/08/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-08-24-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 24/08/2026)]]** 
@@ -19,12 +26,12 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ---
 
-### 2. 📢 Giám Sát Quảng Cáo Đối Thủ Dược Phẩm (ASA-NERCI)
+### 3. 📢 Giám Sát Quảng Cáo Đối Thủ Dược Phẩm (ASA-NERCI)
 - 📊 **[[ASA-Ads-Scraper/2026-07-28-ASA-NERCI-FB-Detailed-Comparison|2026 07 28 ASA NERCI FB Detailed Comparison]]** 🚨 *(Mới nhất)*
 
 ---
 
-### 3. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
+### 4. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
