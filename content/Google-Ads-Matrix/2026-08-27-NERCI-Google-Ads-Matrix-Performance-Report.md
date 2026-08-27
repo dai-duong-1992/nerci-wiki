@@ -6,6 +6,7 @@ tags:
   - "nerci"
   - "hh-nutrition"
   - "ga4"
+  - "gsc"
 topics: []
 status: seed
 created: 2026-08-27
@@ -16,27 +17,24 @@ aliases: []
 ---
 
 <div style="background: linear-gradient(135deg, #064e3b, #047857); padding: 30px; border-radius: 20px; color: #ffffff; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);">
-    <div style="background: #10b981; color: #ffffff; font-size: 10px; font-weight: 800; padding: 5px 12px; border-radius: 20px; display: inline-block; margin-bottom: 15px; letter-spacing: 1px;">PMA — GOOGLE ADS MONITORING AGENT · VIỆN DINH DƯỠNG NERCI & H&H GROUP</div>
-    <div style="font-size: 30px; font-weight: 800; margin: 0 0 10px 0;">Báo Cáo Phân Tích Ma Trận Hiệu Quả Google Ads & GA4</div>
-    <div style="font-size: 15px; opacity: 0.9; margin-bottom: 20px;">Đánh giá toàn diện MCC H&H Group, Search, Shopping & GA4 Traffic Conversion (27/08/2026)</div>
+    <div style="background: #10b981; color: #ffffff; font-size: 10px; font-weight: 800; padding: 5px 12px; border-radius: 20px; display: inline-block; margin-bottom: 15px; letter-spacing: 1px;">PMA — GOOGLE UNIFIED ECOSYSTEM AGENT · NERCI & H&H GROUP</div>
+    <div style="font-size: 30px; font-weight: 800; margin: 0 0 10px 0;">Báo Cáo Phân Tích Ma Trận Google Ads, GA4 & Search Console</div>
+    <div style="font-size: 15px; opacity: 0.9; margin-bottom: 20px;">Hợp nhất dữ liệu Paid Ads, E-commerce Funnel & Organic Search Intent (27/08/2026)</div>
     <div style="display: flex; gap: 30px; border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 20px;">
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Người báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">Đại Dương</span></div>
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Ngày báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">27/08/2026</span></div>
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">MCC Quản Lý</span><br><span style="font-size: 14px; font-weight: 700;">270-190-4600 (H&H Group)</span></div>
-        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Tài sản GA4 ID</span><br><span style="font-size: 14px; font-weight: 700;">370513333 (H&H Nutrition)</span></div>
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Hạ Tầng Tích Hợp</span><br><span style="font-size: 14px; font-weight: 700;">Google Ads · GA4 (370513333) · GSC</span></div>
     </div>
 </div>
 
 > [!abstract] NHẬN XÉT CHIẾN LƯỢC TỔNG QUAN TỪ AI PERFORMANCE AGENT
 > 1. **Quy mô Đầu tư Lịch sử:** Toàn hệ thống MCC đã giải ngân tích lũy **1,159,941,552đ** (~1.16 tỷ đồng), mang lại **1,124,691 lượt nhấp** và **21,714 chuyển đổi**.
-> 2. **Hiệu suất 30 Ngày Gần Nhất (Google Ads):** Chi phí đạt **26,071,726đ**, mang lại **8,236 clicks**, **402.1 chuyển đổi**. Giá CPC trung bình là **3,166đ/click**, CPA trung bình toàn mạng đạt **64,840đ/chuyển đổi**.
-> 3. **Tương quan Dữ liệu GA4 Thời Gian Thực (Property 370513333):**
->    - Google Ads (Paid Search & Shopping) đóng góp trực tiếp **4.366 Sessions**, mang lại **322 chuyển đổi** và **39.960.800đ** doanh thu trực tiếp.
->    - Toàn sàn website ghi nhận **207 đơn hàng Purchase** (Tổng doanh thu: **212.991.000đ**), **977 lượt gửi Form**, **317 lượt click Zalo** và **297 lượt gọi Hotline**.
-> 4. **Trụ cột Doanh thu & Chuyển đổi:**
->    - **Mảng Dịch vụ Khám Y Khoa:** Chiến dịch *"NRECI - Khám Thận - Miền Nam"* đóng góp **126 chuyển đổi** (CPA **70.840đ**), chiếm 34.2% chi phí 30 ngày.
->    - **Mảng Bán lẻ E-commerce:** Chiến dịch *"HH - Shopping T10/2025"* mang lại **160.9 chuyển đổi**, đạt **ROAS 320.6%** với CPA siêu rẻ (**37.578đ**).
->    - **Nhóm Hero SKUs Dinh Dưỡng Y Học:** *Fomeal Basic Soup* (ROAS **1550.0%**), *Fomeal Care* (ROAS **1323.9%**), *Diben Drink* (ROAS **601.7%**), *Supportan* (ROAS **347.8%**), *Cudo Forte* (ROAS **244.8%**).
+> 2. **Hiệu suất Google Ads (30 Ngày):** Chi phí đạt **26,071,726đ**, mang lại **8,236 clicks**, **402.1 chuyển đổi**. Giá CPC trung bình **3,166đ/click**, CPA trung bình **64,840đ/chuyển đổi**.
+> 3. **Phễu Chuyển Đổi GA4 (Property 370513333):** Google Ads đóng góp trực tiếp **4.366 Sessions**, **322 chuyển đổi** và **39.960.800đ** doanh thu trực tiếp. Toàn sàn ghi nhận **207 đơn hàng Purchase** (Tổng E-com: **212.991.000đ**), **977 Form Submit**, **317 Zalo**, **297 Hotline**.
+> 4. **Ý Định Tìm Kiếm Tự Nhiên (Search Console Intent):**
+>    - Domain `nerci.vn` thống trị tuyệt đối từ khóa thương hiệu (`nerci` CTR 53.5%, `viện dinh dưỡng nreci` CTR 57.1% Top 1.0).
+>    - Domain `dinhduongtoiuu.com` chiếm lĩnh top hiển thị sản phẩm Hero SKUs: *ProtiMedic* (3.4k imp), *Canxi Citrate* (6.1k imp), *Sữa Supportan* (Top 1.8), *Cudo Forte* (Top 3.8).
 
 > [!danger] BIẾN ĐỘNG TIÊU CỰC & ĐIỂM NÓNG CẦN XỬ LÝ (ALERT)
 > ### ⚠️ 1. Chiến dịch ROAS Thấp & CPA Quá Cao
@@ -46,9 +44,8 @@ aliases: []
 > | **HH - Nutricare Gastro - 1/6/2026** | `ENABLED` | 213.232đ | 1.0 | **213.232đ** | **2.3%** | CPA cao gấp 3.3x mức trung bình toàn tài khoản, biên lợi nhuận bị âm |
 > | **HH - Fresubin Renal Drink - 1/6/2026** | `ENABLED` | 4.391.799đ | 24.5 | **179.257đ** | **107.6%** | CPA 179k khá cao so với giá trị sản phẩm, ROAS chỉ vừa hòa vốn |
 > 
-> ### ⚠️ 2. Rà Soát Độ Tuổi: Lãng Phí Nhóm 18-24 Tuổi Trên Shopping
-> - **Lãng phí 3.75 triệu VNĐ trên Shopping:** Lứa tuổi 18-24 trên chiến dịch Shopping ngốn 680 clicks nhưng ROAS chỉ vỏn vẹn **0.7%**. Cần loại trừ ngay trên giao diện Shopping.
-> - **Tài khoản NERCI 615-344-1915:** Đang chờ hoàn tất xác minh Advertiser Verification trước khi nạp mục tiêu chuyển đổi từ GA4.
+> ### ⚠️ 2. Cảnh báo Lãng Phí Độ Tuổi 18-24 Trên Shopping
+> - **Lãng phí 3.75 triệu VNĐ trên Shopping:** Nhóm 18-24 tuổi trên Google Shopping ngốn 680 clicks nhưng ROAS chỉ **0.7%**. Đã rà soát: 14 nhóm Search đã sạch, cần loại trừ ngay trên giao diện Shopping.
 
 > [!success] CHIẾN DỊCH NGÔI SAO & CƠ HỘI TĂNG TRƯỞNG (HIGH PERFORMERS)
 > ### 🌟 Top 5 Chiến Dịch Mang Lại Hiệu Quả & Chuyển Đổi Cao Nhất (Star Campaigns)
@@ -62,15 +59,40 @@ aliases: []
 
 ## 🎯 MA TRẬN PHÂN TÍCH CHUYÊN SÂU (MULTI-DIMENSIONAL ANALYSIS)
 
+> [!info] Google Search Console: Bóc Tách Nhu Cầu Tìm Kiếm Tự Nhiên (SEO & Brand Intent)
+> ### 🌿 1. Phân Tích Ý Định Tìm Kiếm Trên Domain Viện NERCI (`nerci.vn`)
+> | Cụm Từ Tìm Kiếm (Query) | Lượt Nhấp (Clicks) | Lượt Hiển Thị (Imp) | Tỷ Lệ Nhấp (CTR) | Vị Trí Trung Bình (Position) |
+> | :--- | :---: | :---: | :---: | :---: |
+> | **nerci** | 114 | 213 | 53.5% | **Top 1.4** |
+> | **viện dinh dưỡng nreci** | 56 | 98 | 57.1% | **Top 1.0** |
+> | **viện nghiên cứu và tư vấn dinh dưỡng (nreci)** | 25 | 33 | 75.8% | **Top 1.0** |
+> | **viện dinh dưỡng nerci** | 24 | 65 | 36.9% | **Top 1.0** |
+> | **thực đơn cho người trên 60 tuổi** | 23 | 213 | 10.8% | **Top 2.2** |
+> | **những món ăn sáng tốt cho sức khỏe** | 20 | 88 | 22.7% | **Top 2.0** |
+> | **nreci** | 19 | 44 | 43.2% | **Top 1.3** |
+> | **nerci viện dinh dưỡng** | 18 | 35 | 51.4% | **Top 1.0** |
+> 
+> ### 🛒 2. Phân Tích Nhu Cầu Sản Phẩm Dinh Dưỡng Trên Domain H&H (`dinhduongtoiuu.com`)
+> | Cụm Từ Tìm Kiếm (Query) | Lượt Nhấp (Clicks) | Lượt Hiển Thị (Imp) | Tỷ Lệ Nhấp (CTR) | Vị Trí Trung Bình (Position) |
+> | :--- | :---: | :---: | :---: | :---: |
+> | **h&h nutrition** | 134 | 243 | 55.1% | **Top 1.2** |
+> | **protimedic** | 61 | 3,445 | 1.8% | **Top 4.7** |
+> | **centrum** | 52 | 2,133 | 2.4% | **Top 3.7** |
+> | **hh nutrition** | 51 | 68 | 75.0% | **Top 1.1** |
+> | **sữa supportan** | 38 | 376 | 10.1% | **Top 1.8** |
+> | **canxi citrate** | 35 | 6,128 | 0.6% | **Top 3.6** |
+> | **cudo forte** | 34 | 607 | 5.6% | **Top 3.8** |
+> | **sữa delical** | 33 | 646 | 5.1% | **Top 2.9** |
+
 > [!info] Phân Tích GA4 Multi-Channel Traffic & Conversion Funnel (Property ID: 370513333)
 > | Kênh Truy Cập (Channel Group) | Lượt Truy Cập (Sessions) | Người Dùng (Users) | Tỷ Lệ Thoát (Bounce) | Chuyển Đổi (Conversions) | Doanh Thu GA4 (VNĐ) |
 > | :--- | :---: | :---: | :---: | :---: | :---: |
 > | **Organic Search** | 8,369 | 7,198 | 50.0% | **476.0** | **107,918,000đ** |
-> | **Paid Shopping** | 2,300 | 1,984 | 56.3% | **205.0** | **10,559,800đ** |
-> | **Paid Search** | 2,066 | 1,758 | 53.6% | **117.0** | **29,401,000đ** |
+> | **Paid Shopping** | 2,303 | 1,987 | 56.3% | **205.0** | **10,559,800đ** |
+> | **Paid Search** | 2,068 | 1,759 | 53.7% | **117.0** | **29,401,000đ** |
 > | **Organic Social** | 2,035 | 1,813 | 65.2% | **122.0** | **34,872,400đ** |
-> | **Unassigned** | 799 | 677 | 65.0% | **33.0** | **11,939,000đ** |
-> | **Direct** | 569 | 486 | 58.2% | **65.0** | **14,891,800đ** |
+> | **Unassigned** | 800 | 678 | 64.9% | **33.0** | **11,939,000đ** |
+> | **Direct** | 570 | 487 | 58.2% | **65.0** | **14,891,800đ** |
 > | **Referral** | 500 | 264 | 42.0% | **24.0** | **300,000đ** |
 > | **Organic Shopping** | 91 | 82 | 49.5% | **9.0** | **2,235,000đ** |
 > | **Cross-network** | 74 | 74 | 12.2% | **0.0** | **0đ** |
@@ -91,17 +113,17 @@ aliases: []
 
 > ```mermaid
 > graph LR
->     B1["1. Loại Trừ Tuổi 18-24<br/>trên Google Shopping"] --> B2["2. Nhập Mục Tiêu GA4<br/>(Form Submit, Hotline, Zalo)"]
->     B2 --> B3["3. Đẩy Mạnh PMax & Shopping<br/>Scale Hero SKUs > 300% ROAS"]
->     B3 --> B4["4. Kích Hoạt Webhook Lead Form<br/>Đẩy Tức Thì Vào Pancake CRM"]
+>     B1["1. Kết Nối Google Unified<br/>(Ads + GA4 + Search Console)"] --> B2["2. Điều Chuyển Ngân Sách<br/>vào Hero SKUs & Dịch Vụ Khám"]
+>     B2 --> B3["3. Tối Ưu SEO & Content<br/>dựa trên Search Console Query"]
+>     B3 --> B4["4. Kích Hoạt Lead Webhook<br/>Đẩy Tức Thì Vào Pancake CRM"]
 >     B4 --> B5["5. Duy Trì Tỷ Lệ Chi Phí<br/>Ads / Doanh Thu <= 7%"]
 > ```
 >
 
-> 1. **Loại Trừ Lứa Tuổi 18-24 Khỏi Shopping:** Thao tác trên giao diện chiến dịch Shopping để cắt giảm ngay 3.75 triệu ngân sách lãng phí.
-> 2. **Tận Dụng 4 Mục Tiêu Chuyển Đổi Từ GA4:** Nhập `form_submit`, `GA4 - Hotline`, `GA4 - Zalo` và `purchase` vào Google Ads làm Smart Bidding Signals.
-> 3. **Tăng Ngân Sách Cho Top Hero SKUs:** Bổ sung 20% ngân sách cho *Fomeal Care* (ROAS 1324%), *Supportan* (ROAS 348%), *Cudo Forte* (ROAS 245%).
-> 4. **Tắt / Tối Ưu Chiến Dịch Nutren Junior:** Tạm dừng hoặc phủ lại negative keyword cho chiến dịch Nutren Junior.
+> 1. **Khai Thác Cụm Từ Khóa Tiềm Năng Từ Search Console:** Bổ sung các cụm từ có lượt tìm kiếm tự nhiên cao (*Canxi Citrate, Supportan, ProtiMedic, Thực đơn người trên 60 tuổi*) vào danh sách từ khóa quảng cáo Search.
+> 2. **Loại Trừ Lứa Tuổi 18-24 Khỏi Shopping:** Thao tác trên giao diện chiến dịch Shopping để cắt giảm ngay 3.75 triệu ngân sách lãng phí.
+> 3. **Tận Dụng 4 Mục Tiêu Chuyển Đổi Từ GA4:** Nhập `form_submit`, `GA4 - Hotline`, `GA4 - Zalo` và `purchase` vào Google Ads làm Smart Bidding Signals.
+> 4. **Tăng Ngân Sách Cho Top Hero SKUs:** Bổ sung 20% ngân sách cho *Fomeal Care* (ROAS 1324%), *Supportan* (ROAS 348%), *Cudo Forte* (ROAS 245%).
 
 # 📋 CHI TIẾT MA TRẬN TOÀN BỘ CHIẾN DỊCH GOOGLE ADS (27/08/2026)
 
@@ -147,6 +169,6 @@ aliases: []
 
 ---
 ⚠️ **TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM (DISCLAIMER):**
-Báo cáo phân tích ma trận Google Ads & GA4 này được truy xuất và tổng hợp tự động từ dữ liệu Google Ads API (v19/v25) với Developer Token `OBkH1tk4qLM8JA_dLu8EeQ` của MCC H&H Group (ID: 270-190-4600), tài khoản NERCI (ID: 615-344-1915), tài khoản H&H Nutrition (ID: 605-311-2652) và GA4 Data API (Property ID: 370513333). Các chỉ số về doanh thu, lượt chuyển đổi và ROAS được tính toán theo mô hình gán quyền (Attribution Model) của Google. Báo cáo này phục vụ mục đích phân tích chiến lược kinh doanh và tối ưu vận hành nội bộ, không có giá trị quyết toán tài chính chính thức.
+Báo cáo phân tích ma trận hợp nhất Google Ecosystem này được truy xuất và tổng hợp tự động từ dữ liệu Google Ads API (v19/v25) của MCC H&H Group (ID: 270-190-4600), tài khoản NERCI (ID: 615-344-1915), tài khoản H&H Nutrition (ID: 605-311-2652), GA4 Data API (Property ID: 370513333) và Google Search Console API (nerci.vn & dinhduongtoiuu.com). Báo cáo này phục vụ mục đích phân tích chiến lược kinh doanh và tối ưu vận hành nội bộ, không có giá trị quyết toán tài chính chính thức.
 
 <div style="text-align:center;">Made with ❤️ by Performance Marketing Team · NERCI & H&H Group</div>
