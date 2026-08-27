@@ -11,9 +11,78 @@ h1, h2, h3, h4, h5, h6,
 .article-title, 
 .page-title, 
 .page-title a, 
-.nav-file-title, 
-.folder-title,
-.title-button,
 b, strong {
   font-family: var(--headerFont) !important;
+}
+
+/* ==========================================================================
+   QUARTZ EXPLORER SIDEBAR: PHÂN CẤP DANH MỤC CHA / CON CHUẨN MỰC
+   ========================================================================== */
+
+/* 1. Khung tổng thể Explorer */
+.explorer, #explorer {
+  font-family: var(--bodyFont);
+}
+
+/* 2. Danh mục Cha / Tổng (In đậm, kích thước chuẩn 15px) */
+.explorer .folder-container,
+.explorer .folder-title,
+.explorer button.folder-button,
+.explorer button.title-button,
+.explorer > .explorer-content > ul > li > div.folder-container,
+.explorer > .explorer-content > ul > li > a.folder-title {
+  font-family: var(--headerFont) !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: var(--dark) !important;
+  letter-spacing: -0.01em;
+}
+
+/* 3. Khối Danh mục Con: Thụt lề và kẻ chỉ phân nhánh nhẹ */
+.explorer .folder-outer,
+.explorer .folder-outer > ul,
+.explorer-content ul ul,
+.explorer ul.overflow ul {
+  padding-left: 14px !important;
+  margin-left: 6px !important;
+  border-left: 1.5px solid var(--lightgray) !important;
+  margin-top: 3px !important;
+  margin-bottom: 5px !important;
+}
+
+/* 4. Danh mục Con / Tệp tin con (Thu nhỏ 13px, KHÔNG in đậm, thụt lề) */
+.explorer .folder-outer li,
+.explorer .folder-outer li a,
+.explorer .folder-outer a,
+.explorer-content ul ul li,
+.explorer-content ul ul li a,
+.explorer ul.overflow ul li a,
+.explorer .nav-file-title,
+.explorer li li a {
+  font-family: var(--bodyFont) !important;
+  font-size: 0.83rem !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+  color: var(--darkgray) !important;
+  padding: 3px 0 3px 6px !important;
+  display: block;
+  transition: all 0.15s ease-in-out;
+}
+
+/* 5. Hiệu ứng Hover mượt mà cho Danh mục Con */
+.explorer .folder-outer li a:hover,
+.explorer-content ul ul li a:hover,
+.explorer ul.overflow ul li a:hover,
+.explorer li li a:hover {
+  color: var(--secondary) !important;
+  font-weight: 600 !important;
+  padding-left: 9px !important;
+}
+
+/* 6. Trạng thái Đang Chọn (Active Link) */
+.explorer li a.active,
+.explorer .folder-outer li a.active {
+  color: var(--secondary) !important;
+  font-weight: 600 !important;
+  border-left: 2px solid var(--secondary);
 }
