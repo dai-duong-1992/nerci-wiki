@@ -12,10 +12,10 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
 
 ### 1. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
-- 📄 **[[Pancake-Audit/2026-08-25-PCA-Pancake-Operations-Report-24-25-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake (24/08 - 25/08/2026)]]** 🚨 *(Mới nhất)*
-- 📄 **[[Pancake-Audit/2026-08-25-NERCI-Pancake-Omnichannel-Performance-Report|Báo Cáo Hiệu Suất Đa Kênh Pancake NERCI — Toàn Bộ 10 Kênh]]** 
-- 📄 **[[Pancake-Audit/2026-08-24-PCA-Pancake-Operations-Report-22-23-Aug|Báo Cáo Vận Hành & Tương Tác Khách Hàng Pancake 4 Kênh (22/08 - 23/08/2026)]]** 
-- 📄 **[[Pancake-Audit/2026-08-21-PCA-Pancake-Audit-Report|Báo Cáo Đánh Giá Hiện Trạng & Kiểm Toán Pancake 4 Kênh (21/08/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-08-26-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 26/08/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-08-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/08/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-08-24-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 24/08/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-08-21-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 21/08/2026)]]** 
 
 ---
 
