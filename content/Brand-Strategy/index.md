@@ -13,6 +13,7 @@ title: 'Chiến Lược Thương Hiệu & Đặc Tả Kỹ Thuật NERCI'
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
 - 📜 **[[Brand-Strategy/nerci-event-style-roadmap|NERCI Event-Style Project Roadmap & Milestone Guide]]**
 - 📜 **[[Brand-Strategy/nerci-google-ads-domain-migration-and-asset-plan|Kế Hoạch Chuyển Đổi Domain DNS & Chuẩn Hóa Asset Google Ads (NERCI 615-344-1915)]]**
+- 📜 **[[Brand-Strategy/nerci-google-ads-to-pancake-boostspace-integration|Kiến Trúc & Hướng Dẫn Cấu Hình Webhook Tích Hợp Google Ads Lead Form Sang Pancake CRM Qua Boostspace]]**
 - 📜 **[[Brand-Strategy/nerci-google-ecosystem-action-log-and-compliance-playbook|Nhật Ký Hành Động Chi Tiết Hệ Sinh Thái Google & Medical Compliance Playbook NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-h2-2026-business-and-mkt-plan-analysis|Phân Tích & Đánh Giá Kế Hoạch Kinh Doanh - Marketing H2/2026 (NERCI & H&H Nutrition)]]**
 - 📜 **[[Brand-Strategy/nerci-marketing-reporting-system-proposal-and-spec|Đề Xuất & Đặc Tả Hệ Thống Báo Cáo Marketing H2/2026 (NERCI & H&H Nutrition)]]**
