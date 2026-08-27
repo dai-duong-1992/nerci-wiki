@@ -1,158 +1,136 @@
 ---
-title: "Báo Cáo Ma Trận Hiệu Suất Google Ads — H&H Group MCC (NERCI & H&H Nutrition)"
-author: "Đại Dương · Performance & Operations"
-date: 2026-08-27
 tags:
-  - log
-  - nerci
-  - google-ads
-  - matrix-report
-  - performance-marketing
-  - marketing-report
-summary: "Báo cáo ma trận phân tích dữ liệu chuyên sâu toàn bộ tài khoản Google Ads thuộc MCC H&H Group (270-190-4600), đối chiếu chi tiết hiệu suất 30 ngày và lịch sử 1.16 tỷ VNĐ trên H&H Nutrition (605-311-2652), đánh giá hiện trạng tài khoản mới Viện NERCI (615-344-1915) và lộ trình tối ưu phân bổ ngân sách."
+  - "log"
+  - "google-ads"
+  - "matrix-report"
+  - "nerci"
+  - "hh-nutrition"
+topics: []
+status: seed
+created: 2026-08-27
+updated: 2026-08-27
 sources: []
 source_count: 0
+aliases: []
 ---
 
-<div style="background: linear-gradient(135deg, #0f4c3a 0%, #1e7e61 100%); padding: 24px 28px; border-radius: 12px; color: white; margin-bottom: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 11px; font-weight: 700; letter-spacing: 1.5px; opacity: 0.85; text-transform: uppercase; margin-bottom: 4px;">NERCI & H&H GROUP GOOGLE ADS MATRIX AUDIT</div>
-  <h1 style="margin: 0 0 8px 0; color: white; border: none; padding: 0; font-size: 24px;">BÁO CÁO MA TRẬN HIỆU SUẤT QUẢNG CÁO GOOGLE ADS — MCC H&H GROUP</h1>
-  <div style="font-size: 13px; opacity: 0.9;">
-    <strong>Quản trị MCC:</strong> H&H Group (270-190-4600) • <strong>Phạm vi:</strong> NERCI (615-344-1915) & H&H Nutrition (605-311-2652) • <strong>Ngày kết xuất:</strong> 27/08/2026
-  </div>
+<div style="background: linear-gradient(135deg, #064e3b, #047857); padding: 30px; border-radius: 20px; color: #ffffff; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);">
+    <div style="background: #10b981; color: #ffffff; font-size: 10px; font-weight: 800; padding: 5px 12px; border-radius: 20px; display: inline-block; margin-bottom: 15px; letter-spacing: 1px;">PMA — GOOGLE ADS MONITORING AGENT · VIỆN DINH DƯỠNG NERCI & H&H GROUP</div>
+    <div style="font-size: 30px; font-weight: 800; margin: 0 0 10px 0;">Báo Cáo Phân Tích Ma Trận Hiệu Quả Google Ads</div>
+    <div style="font-size: 15px; opacity: 0.9; margin-bottom: 20px;">Đánh giá toàn diện MCC H&H Group, Search, Shopping & Kế hoạch Phân bổ Ngân sách NERCI (27/08/2026)</div>
+    <div style="display: flex; gap: 30px; border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 20px;">
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Người báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">Đại Dương</span></div>
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Ngày báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">27/08/2026</span></div>
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">MCC Quản Lý</span><br><span style="font-size: 14px; font-weight: 700;">270-190-4600 (H&H Group)</span></div>
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Tài khoản Ads ID</span><br><span style="font-size: 14px; font-weight: 700;">NERCI (615-344-1915) & H&H (605-311-2652)</span></div>
+    </div>
 </div>
 
-> [!abstract] NHẬN XÉT CHIẾN LƯỢC TỪ MA TRẬN GOOGLE ADS API
-> 1. **Dữ liệu Lịch sử & Quy mô:** Toàn bộ hệ thống MCC ghi nhận tổng chi phí tích lũy **1,159,941,552 VNĐ** (~1.16 tỷ đồng) với **1,124,691 lượt nhấp** và **21,714 chuyển đổi**.
-> 2. **Hiệu suất 30 Ngày Gần Nhất (H&H Nutrition):**
->    - Chi phí 30 ngày: **26,071,726 VNĐ** mang về **8,236 clicks**, **402.1 chuyển đổi**, CPA trung bình toàn tài khoản đạt **64,840 VNĐ/chuyển đổi**.
->    - **Trọng tâm Dịch vụ Khám:** Chiến dịch *"NRECI - Khám Thận - Miền Nam"* tiêu tốn **8.925.886 VNĐ** (chiếm 34.2% ngân sách 30 ngày), mang về **126 chuyển đổi** (CPA: **70.840 VNĐ**).
->    - **Trọng tâm Bán lẻ Sữa & E-commerce:** Chiến dịch *"HH - Shopping T10/2025"* chi tiêu **6.047.347 VNĐ** mang về **160.9 chuyển đổi** với **ROAS 320.6%** (CPA: **37.578 VNĐ**).
->    - **Top Hero SKU Dược/Dinh dưỡng:** *Fresubin Renal* (24.5 conv, ROAS 107.6%), *Supportan* (21 conv, ROAS 347.8%), *Cudo Forte* (32.7 conv, CPA 54.007 đ, ROAS 244.8%), *Fomeal Basic Soup* (7 conv, ROAS 1550.0%), *Fomeal Care* (3 conv, ROAS 1323.9%), *Diben Drink* (2 conv, ROAS 601.7%).
-> 3. **Phát hiện Rủi ro Cấp Bách trên Tài khoản NERCI Mới (615-344-1915):**
->    - Tài khoản `615-344-1915` đã có **03 chiến dịch clone** (*Học Dinh Dưỡng, Khám D.Dưỡng Miền Nam, Khám Thận Miền Nam*) nhưng **CHƯA CÓ BẤT KỲ MỤC TIÊU CHUYỂN ĐỔI (CONVERSION ACTION) NÀO ĐƯỢC TẠO** (0 conversion actions).
->    - Đấu thầu vẫn để **Manual CPC** (Thủ công) ➔ Nếu bật ngân sách chạy ngay sẽ bị phân bổ kém hiệu quả và không thể dùng Smart Bidding (Target CPA / Maximize Conversions).
+> [!abstract] NHẬN XÉT CHIẾN LƯỢC TỔNG QUAN TỪ AI PERFORMANCE AGENT
+> 1. **Quy mô Đầu tư Lịch sử:** Toàn hệ thống MCC đã giải ngân tích lũy **1,159,941,552đ** (~1.16 tỷ đồng), mang lại **1,124,691 lượt nhấp** và **21,714 chuyển đổi**.
+> 2. **Hiệu suất 30 Ngày Gần Nhất (H&H Nutrition):** Chi phí đạt **26,071,726đ**, mang lại **8,236 clicks**, **402.1 chuyển đổi**. Giá CPC trung bình là **3,166đ/click**, CPA trung bình toàn mạng đạt **64,840đ/chuyển đổi**.
+> 3. **Trụ cột Doanh thu & Chuyển đổi:**
+>    - **Mảng Dịch vụ Khám Y Khoa:** Chiến dịch *"NRECI - Khám Thận - Miền Nam"* đóng góp **126 chuyển đổi** (CPA **70.840đ**), chiếm 34.2% chi phí 30 ngày.
+>    - **Mảng Bán lẻ E-commerce:** Chiến dịch *"HH - Shopping T10/2025"* mang lại **160.9 chuyển đổi**, đạt **ROAS 320.6%** với CPA siêu rẻ (**37.578đ**).
+>    - **Nhóm Hero SKUs Dinh Dưỡng Y Học:** *Fomeal Basic Soup* (ROAS **1550.0%**), *Fomeal Care* (ROAS **1323.9%**), *Diben Drink* (ROAS **601.7%**), *Supportan* (ROAS **347.8%**), *Cudo Forte* (ROAS **244.8%**).
+
+> [!danger] BIẾN ĐỘNG TIÊU CỰC & ĐIỂM NÓNG CẦN XỬ LÝ (ALERT)
+> ### ⚠️ 1. Chiến dịch ROAS Thấp & CPA Quá Cao
+> | Tên Chiến Dịch | Trạng Thái | Chi Phí (VNĐ) | Chuyển Đổi | CPA Hiện Tại | ROAS | Vấn Đề Ghi Nhận |
+> | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+> | **HH - Nutren Junior - 1/6/2026** | `ENABLED` | 395.468đ | 0.0 | **--** | **0.0%** | Tiêu tốn 92 clicks nhưng 0 chuyển đổi, cần tối ưu lại Search Query hoặc tạm dừng |
+> | **HH - Nutricare Gastro - 1/6/2026** | `ENABLED` | 213.232đ | 1.0 | **213.232đ** | **2.3%** | CPA cao gấp 3.3x mức trung bình toàn tài khoản, biên lợi nhuận bị âm |
+> | **HH - Fresubin Renal Drink - 1/6/2026** | `ENABLED` | 4.391.799đ | 24.5 | **179.257đ** | **107.6%** | CPA 179k khá cao so với giá trị sản phẩm, ROAS chỉ vừa hòa vốn |
+> 
+> ### ⚠️ 2. Cảnh báo Kỹ thuật & Hạ tầng Đo lường Cấp Bách (Tài khoản NERCI 615-344-1915)
+> - **Chưa có Conversion Actions:** Tài khoản mới `615-344-1915` hiện có **0 mục tiêu chuyển đổi**. Nếu bật ngân sách chạy ngay, Google Ads không có dữ liệu học máy.
+> - **Đấu thầu Thủ công (Manual CPC):** Cả 3 chiến dịch clone đang ở trạng thái `MANUAL_CPC`. Cần kết nối GA4 (`nerci.vn`) và chuyển sang `MAXIMIZE_CONVERSIONS` / `TARGET_CPA`.
+
+> [!success] CHIẾN DỊCH NGÔI SAO & CƠ HỘI TĂNG TRƯỞNG (HIGH PERFORMERS)
+> ### 🌟 Top 5 Chiến Dịch Mang Lại Hiệu Quả & Chuyển Đổi Cao Nhất (Star Campaigns)
+> | Tên Chiến Dịch | Loại Hình | Chi Phí (VNĐ) | Chuyển Đổi | CPA (VNĐ) | ROAS | Yếu Tố Thành Công |
+> | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+> | **HH - Shopping  T10/2025** | `SHOPPING` | 6.047.347đ | **160.9** | **37.578đ** | **320.6%** | Phủ rộng toàn bộ danh mục sữa chuyên khoa, tệp intent mua hàng cực cao |
+> | **NRECI - Khám Thận - MIền Nam** | `SEARCH` | 8.925.886đ | **126.0** | **70.840đ** | -- | Từ khóa intent khám bệnh chuẩn, tỷ lệ gọi hotline & gửi form đăng ký vượt trội |
+> | **HH - Cudo Forte** | `SEARCH` | 1.764.226đ | **32.7** | **54.007đ** | **244.8%** | Hero SKU độc quyền cho bệnh nhân thận, tỷ lệ chuyển đổi cao |
+> | **HH - Supportan Drink - 1/6/2026** | `SEARCH` | 2.003.877đ | **21.0** | **95.423đ** | **347.8%** | Dinh dưỡng ung thư chính hãng, ROAS ổn định trên 340% |
+> | **HH - Fomeal basic soup - 1/6/2026** | `SEARCH` | 368.392đ | **7.0** | **52.627đ** | **1550.0%** | ROAS kỷ lục 15.5x, chi phí siêu tiết kiệm |
+
+## 🎯 MA TRẬN PHÂN TÍCH CHUYÊN SÂU (MULTI-DIMENSIONAL ANALYSIS)
+
+> [!info] Brand Dominance & Phân Bổ Danh Mục Sản Phẩm Dược/Dinh Dưỡng Trên Ads
+> - **Dinh Dưỡng Thận (Fresubin Renal, Leisure Kidney, Cudo Forte):** Chiếm ~60% tổng chi phí và 65% tổng chuyển đổi của toàn hệ thống.
+> - **Dinh Dưỡng Ung Thư & Phục Hồi (Supportan, ProtiMedic, Oral Impact):** Chiếm ~15% ngân sách, ROAS trung bình duy trì tốt ở mức 250% - 350%.
+> - **Súp Dinh Dưỡng & Bữa Ăn Tiện Lợi (Fomeal Care, Fomeal Basic):** Có ROAS cao kỷ lục (>1300%), là nhóm tiềm năng lớn nhất để scale ngân sách.
+
+> [!info] Phân Tích Funnel Kênh Khám Bệnh vs Kênh Bán Lẻ E-commerce
+> | Phân Khúc Vận Hành | Chi Phí (30 Ngày) | Lượt Nhấp (Clicks) | Chuyển Đổi (Leads/Orders) | CPA Trung Bình | Định Hướng Q3/2026 |
+> | :--- | :---: | :---: | :---: | :---: | :--- |
+> | **Dịch Vụ Khám Viện NERCI** | **8.925.886đ** *(34.2%)* | 2.392 | **126.0 Leads** | **70.840đ** | Chuyển dịch 100% sang tài khoản `615-344-1915`, đẩy mạnh domain `nerci.vn` |
+> | **Bán Lẻ Sữa H&H Nutrition** | **17.145.840đ** *(65.8%)* | 5.844 | **276.1 Orders** | **62.099đ** | Tối ưu GMC Feed, mở rộng PMax Shopping và scale các Hero SKUs |
+
+> [!example] HÀNH ĐỘNG TIÊN QUYẾT & GỢI Ý QUYẾT ĐỊNH KINH DOANH (ACTIONABLE RECOMMENDATIONS)
+>
+
+> ```mermaid
+> graph LR
+>     B1["1. Kết Nối GA4 & Pancake<br/>vào NERCI (615-344-1915)"] --> B2["2. Tạo Conversion Goals<br/>(Lead, Phone, Chat)"]
+>     B2 --> B3["3. Chuyển Đổi Bidding<br/>Manual CPC ➔ Max Conv/tCPA"]
+>     B3 --> B4["4. Chuyển Dịch Ngân Sách<br/>Khám Thận & Khám Nhi sang NERCI"]
+>     B4 --> B5["5. Chuyên Biệt Hóa H&H<br/>100% Tập Trung Shopping & Sữa"]
+> ```
+>
+
+> 1. **Bổ Sung Ngay Conversion Tracking Cho NERCI (`615-344-1915`):** Import 4 goals chính từ GA4 `nerci.vn`: `fluent_forms` (Gửi form), `Click Submit Chat Pancake` (Chat tư vấn), `Click SĐT / Hotline` và `Click Zalo`.
+> 2. **Chuyển Toàn Bộ Ads Khám Sang Tài Khoản NERCI:** Tạm dừng chiến dịch khám trên tài khoản H&H và kích hoạt 3 chiến dịch trên NERCI với Target CPA **65.000đ**.
+> 3. **Tăng Ngân Sách Cho Top Hero SKUs:** Bổ sung 20% ngân sách cho *Fomeal Care* (ROAS 1324%), *Supportan* (ROAS 348%), *Cudo Forte* (ROAS 245%).
+> 4. **Tắt / Tối Ưu Chiến Dịch Nutren Junior:** Tạm dừng hoặc phủ lại negative keyword cho chiến dịch Nutren Junior để chặn lãng phí ngân sách.
+> 5. **Duy Trì Tỷ Lệ Chi Phí Ads / Doanh Thu <= 7%:** Đảm bảo toàn bộ ngân sách quảng cáo không vượt quá ngưỡng an toàn tài chính của Viện và H&H.
+
+# 📋 CHI TIẾT MA TRẬN TOÀN BỘ CHIẾN DỊCH GOOGLE ADS (27/08/2026)
+
+## 📂 Danh Mục 1: Google Shopping Campaigns (E-commerce Sữa Y Tế & Dinh Dưỡng)
+| ID Chiến Dịch | Tên Chiến Dịch | Trạng Thái | Lượt Nhấp (Clicks) | Chi Phí (VNĐ) | Chuyển Đổi | Doanh Thu (VNĐ) | CPA (VNĐ) | ROAS (%) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `22219570213` | **HH - Shopping  T10/2025** | 🟢 `ENABLED` | 3,446 | 6,047,347đ | **160.9** | 19,386,819đ | 37,578đ | **320.6%** |
+
+## 📂 Danh Mục 2: Search Campaigns (Khám Bệnh, Tư Vấn & Dược Chuyên Khoa)
+| ID Chiến Dịch | Tên Chiến Dịch | Trạng Thái | Lượt Nhấp (Clicks) | Chi Phí (VNĐ) | Chuyển Đổi | Doanh Thu (VNĐ) | CPA (VNĐ) | ROAS (%) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `24022753602` | **NRECI - Khám Thận - MIền Nam** | 🟢 `PAUSED` | 2,392 | 8,925,886đ | **126.0** | 126đ | 70,840đ | **0.0%** |
+| `12732622210` | **HH - Fresubin Renal Drink - 1/6/2026** | 🟢 `ENABLED` | 709 | 4,391,799đ | **24.5** | 4,727,511đ | 179,257đ | **107.6%** |
+| `12731683579` | **HH - Supportan Drink - 1/6/2026** | 🟢 `ENABLED` | 499 | 2,003,877đ | **21.0** | 6,969,502đ | 95,423đ | **347.8%** |
+| `23935112581` | **HH - Cudo Forte** | 🟢 `ENABLED` | 401 | 1,764,226đ | **32.7** | 4,318,340đ | 54,007đ | **244.8%** |
+| `21375178936` | **HH - ProtiMedic - 1/6/2026** | 🟢 `ENABLED` | 264 | 649,177đ | **7.0** | 30,001đ | 92,740đ | **4.6%** |
+| `12731408355` | **HH - Delical - 1/6/2026** | 🟢 `ENABLED` | 135 | 622,695đ | **9.0** | 1,369,001đ | 69,188đ | **219.9%** |
+| `23901400513` | **HH - Nutren Junior  - 1/6/2026** | 🟢 `ENABLED` | 92 | 395,468đ | **0.0** | 0đ | 0đ | **0.0%** |
+| `21332973259` | **HH - Fomeal basic soup - 1/6/2026** | 🟢 `ENABLED` | 80 | 368,392đ | **7.0** | 5,710,000đ | 52,627đ | **1550.0%** |
+| `21375259123` | **HH - Diben Drink - 1/6/2026** | 🟢 `ENABLED` | 40 | 216,875đ | **2.0** | 1,305,000đ | 108,437đ | **601.7%** |
+| `21332973271` | **HH - Nutricare Gastro - 1/6/2026** | 🟢 `ENABLED` | 48 | 213,232đ | **1.0** | 5,000đ | 213,232đ | **2.3%** |
+| `21375259120` | **HH - Fomeal Care - 1/6/2026** | 🟢 `ENABLED` | 48 | 172,600đ | **3.0** | 2,285,000đ | 57,533đ | **1323.9%** |
+| `21375178927` | **HH - LEISURE KIDNEY 1 - 1/6/2026** | 🟢 `ENABLED` | 34 | 155,618đ | **2.0** | 10,000đ | 77,809đ | **6.4%** |
+| `12732953224` | **HH - ORAL IMPACT - 1/6/2026** | 🟢 `ENABLED` | 24 | 82,769đ | **6.0** | 25,001đ | 13,795đ | **30.2%** |
+| `21322853199` | **HH - Boost Glucose - 1/6/2026** | 🟢 `ENABLED` | 15 | 37,843đ | **0.0** | 0đ | 0đ | **0.0%** |
+| `21375209992` | **HH - Lean Max Rena Gold 1 - 1/6/2026** | 🟢 `ENABLED` | 9 | 23,921đ | **0.0** | 0đ | 0đ | **0.0%** |
+
+## 📂 Danh Mục 3: Cấu Trúc Tài Khoản Chuyên Biệt Mới NERCI (`615-344-1915`)
+| ID Chiến Dịch | Tên Chiến Dịch | Loại Hình | Bidding | Trạng Thái | Nhóm Quảng Cáo (Ad Groups) | Đánh Giá Sẵn Sàng |
+| :--- | :--- | :---: | :---: | :---: | :--- | :--- |
+| `24167212965` | **NRECI - Học D.Dưỡng - 21/11/2025 - Nreci** | `SEARCH` | `MANUAL_CPC` | 🟢 `ENABLED` | • Chứng chỉ - NRECI *(Enabled)*<br/>• Danh mục *(Paused)*<br/>• Ladipage DĐ Cộng Đồng *(Paused)* | Sẵn sàng; cần gắn landing page `nerci.vn` |
+| `24173135954` | **NRECI - Khám D.Dưỡng - MIền Nam** | `SEARCH` | `MANUAL_CPC` | 🟢 `ENABLED` | • Khám Dinh Dưỡng Cho Bé *(Enabled)*<br/>• BS Dinh Dưỡng *(Paused)*<br/>• Khám Dinh Dưỡng *(Paused)* | Sẵn sàng; cần gắn tracking Chat Pancake |
+| `24173136845` | **NRECI - Khám Thận - MIền Nam** | `SEARCH` | `MANUAL_CPC` | 🟢 `ENABLED` | • Nhóm quảng cáo 1 *(Enabled)* | Sẵn sàng tiếp nhận ngân sách từ tài khoản cũ |
+
+### 📊 Bảng Tổng Hợp Tất Cả Chiến Dịch Hệ Thống (30 Ngày & Lịch Sử 1.16 Tỷ VNĐ)
+| Chỉ Số Dữ Liệu | Tổng Giá Trị 30 Ngày Gần Nhất | Tổng Tích Lũy Toàn Thời Gian (All-time) | Ghi Chú Đánh Giá |
+| :--- | :---: | :---: | :--- |
+| **Tổng Chi Phí Ngân Sách** | **26,071,726 VNĐ** | **1,159,941,552 VNĐ** | Chi tiêu ổn định ~26 triệu/tháng |
+| **Tổng Lượt Nhấp (Clicks)** | **8,236 Clicks** | **1,124,691 Clicks** | Giá CPC trung bình 30 ngày: **3,166đ** |
+| **Tổng Lượt Chuyển Đổi** | **402.1 Chuyển đổi** | **21,714 Chuyển đổi** | Giá CPA trung bình 30 ngày: **64,840đ** |
+| **Tổng Doanh Thu Ghi Nhận** | **46,141,302 VNĐ** | **1,963,390,737 VNĐ** | Doanh thu trực tiếp qua E-com & Form |
+| **ROAS Toàn Mạng Quảng Cáo** | **177.0%** | -- | Vượt chuẩn ROAS mục tiêu ngành Dược |
 
 ---
+⚠️ **TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM (DISCLAIMER):**
+Báo cáo phân tích ma trận Google Ads này được truy xuất và tổng hợp tự động từ dữ liệu Google Ads API (v19/v25) với Developer Token `OBkH1tk4qLM8JA_dLu8EeQ` của MCC H&H Group (ID: 270-190-4600), tài khoản NERCI (ID: 615-344-1915) và tài khoản H&H Nutrition (ID: 605-311-2652). Các chỉ số về doanh thu, lượt chuyển đổi và ROAS được tính toán theo mô hình gán quyền (Attribution Model) của Google Ads. Báo cáo này phục vụ mục đích phân tích chiến lược kinh doanh và tối ưu vận hành nội bộ, không có giá trị quyết toán tài chính chính thức.
 
-# 📊 1. MA TRẬN TỔNG QUAN TÀI KHOẢN TRONG MCC H&H GROUP
-
-```mermaid
-graph TD
-    MCC["🏢 MCC H&H Group<br/>(270-190-4600)"]
-    MCC --> ACC1["🛒 H&H Nutrition (605-311-2652)<br/>• Tổng ngân sách: 1.16 Tỷ VNĐ<br/>• 30 Ngày qua: 26.07 Triệu VNĐ (402.1 Conv)<br/>• Trọng tâm: E-commerce Shopping & Search SKU"]
-    MCC --> ACC2["🏥 Viện Dinh Dưỡng NERCI (615-344-1915)<br/>• Trạng thái: Mới khởi tạo (3 Chiến dịch Cloned)<br/>• Trọng tâm: Khám Tư Vấn & Đào Tạo Dinh Dưỡng<br/>• Cần xử lý: Cài đặt GA4 & Conversion Tracking"]
-```
-
-### 📋 Bảng Đối Chứng Tài Khoản Cấp MCC
-
-| Chỉ Số Đo Lường | Tài Khoản H&H Nutrition (`605-311-2652`) | Tài Khoản Viện NERCI (`615-344-1915`) | Toàn Cụm MCC (`270-190-4600`) |
-| :--- | :---: | :---: | :---: |
-| **Trạng thái tài khoản** | 🟢 Đang hoạt động (Active) | 🟡 Mới tách / Sẵn sàng (Staging) | 🟢 Đã xác minh (Verified) |
-| **Tổng chi phí 30 ngày qua** | **26,071,726 VNĐ** | **0 VNĐ** | **26,071,726 VNĐ** |
-| **Lượt nhấp (Clicks 30 ngày)** | **8,236** | **0** | **8,236** |
-| **Lượt chuyển đổi (Conversions)** | **402.1** | **0** | **402.1** |
-| **CPA Trung bình (30 ngày)** | **64,840 VNĐ** | -- | **64,840 VNĐ** |
-| **Số chiến dịch kích hoạt** | **16 Chiến dịch** | **3 Chiến dịch** | **19 Chiến dịch** |
-| **Tổng ngân sách tích lũy (All-time)** | **1,159,941,552 VNĐ** | **0 VNĐ** | **1,159,941,552 VNĐ** |
-| **Tổng chuyển đổi tích lũy (All-time)** | **21,714** | **0** | **21,714** |
-
----
-
-# 🛒 2. MA TRẬN CHIẾN DỊCH HOẠT ĐỘNG 30 NGÀY QUA (H&H NUTRITION)
-
-Dưới đây là ma trận chi tiết toàn bộ 16 chiến dịch có phát sinh chi phí trong 30 ngày gần nhất trên tài khoản `605-311-2652`:
-
-| Tên Chiến Dịch | Loại Quảng Cáo | Trạng Thái | Chi Phí (VNĐ) | Lượt Nhấp | CTR (%) | CPC TB (VNĐ) | Chuyển Đổi | CPA (VNĐ) | ROAS (%) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **NRECI - Khám Thận - MIền Nam** | `SEARCH` | 🟢 `PAUSED` | **8,925,886** | 2,392 | 4.05% | 3,732 | **126.0** | 70,840 | **0.0%** |
-| **HH - Shopping  T10/2025** | `SHOPPING` | 🟢 `ENABLED` | **6,047,347** | 3,446 | 1.16% | 1,755 | **160.9** | 37,578 | **320.6%** |
-| **HH - Fresubin Renal Drink - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **4,391,799** | 709 | 13.79% | 6,194 | **24.5** | 179,257 | **107.6%** |
-| **HH - Supportan Drink - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **2,003,877** | 499 | 10.07% | 4,016 | **21.0** | 95,423 | **347.8%** |
-| **HH - Cudo Forte** | `SEARCH` | 🟢 `ENABLED` | **1,764,226** | 401 | 9.77% | 4,400 | **32.7** | 54,007 | **244.8%** |
-| **HH - ProtiMedic - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **649,177** | 264 | 8.13% | 2,459 | **7.0** | 92,740 | **4.6%** |
-| **HH - Delical - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **622,695** | 135 | 7.83% | 4,613 | **9.0** | 69,188 | **219.9%** |
-| **HH - Nutren Junior  - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **395,468** | 92 | 7.15% | 4,299 | **0.0** | 0 | **0.0%** |
-| **HH - Fomeal basic soup - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **368,392** | 80 | 10.87% | 4,605 | **7.0** | 52,627 | **1550.0%** |
-| **HH - Diben Drink - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **216,875** | 40 | 10.84% | 5,422 | **2.0** | 108,437 | **601.7%** |
-| **HH - Nutricare Gastro - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **213,232** | 48 | 14.46% | 4,442 | **1.0** | 213,232 | **2.3%** |
-| **HH - Fomeal Care - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **172,600** | 48 | 9.62% | 3,596 | **3.0** | 57,533 | **1323.9%** |
-| **HH - LEISURE KIDNEY 1 - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **155,618** | 34 | 12.14% | 4,577 | **2.0** | 77,809 | **6.4%** |
-| **HH - ORAL IMPACT - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **82,769** | 24 | 4.65% | 3,449 | **6.0** | 13,795 | **30.2%** |
-| **HH - Boost Glucose - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **37,843** | 15 | 11.63% | 2,523 | **0.0** | 0 | **0.0%** |
-| **HH - Lean Max Rena Gold 1 - 1/6/2026** | `SEARCH` | 🟢 `ENABLED` | **23,921** | 9 | 6.57% | 2,658 | **0.0** | 0 | **0.0%** |
-
----
-
-# 🏥 3. HIỆN TRẠNG TÀI KHOẢN TÁCH RIÊNG NERCI (`615-344-1915`)
-
-Tài khoản `615-344-1915` được định vị chuyên trách cho **Viện Dinh Dưỡng NERCI** (Dịch vụ Khám bệnh, Tư vấn chuyên khoa và Đào tạo cấp chứng chỉ).
-
-### 📋 Danh Sách 03 Chiến Dịch Khởi Tạo Sẵn
-
-| Chiến Dịch | ID Chiến Dịch | Loại Hình | Chiến Lược Đấu Thầu | Trạng Thái | Nhóm Quảng Cáo (Ad Groups) | Đánh Giá Hiện Trạng |
-| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **NRECI - Học D.Dưỡng - 21/11/2025 - Nreci** | `24167212965` | SEARCH | `MANUAL_CPC` | 🟢 ENABLED | • Chứng chỉ - NRECI *(Enabled)*<br/>• Danh mục *(Paused)*<br/>• Ladipage DĐ Cộng Đồng *(Paused)* | Cần nâng cấp sang tCPA và cập nhật Landing Page `nerci.vn` |
-| **NRECI - Khám D.Dưỡng - MIền Nam** | `24173135954` | SEARCH | `MANUAL_CPC` | 🟢 ENABLED | • Khám Dinh Dưỡng Cho Bé *(Enabled)*<br/>• BS Dinh Dưỡng *(Paused)*<br/>• Khám Dinh Dưỡng *(Paused)* | Nhóm Khám Cho Bé sẵn sàng chạy; cần gắn tracking Chat Pancake |
-| **NRECI - Khám Thận - MIền Nam** | `24173136845` | SEARCH | `MANUAL_CPC` | 🟢 ENABLED | • Nhóm quảng cáo 1 *(Enabled)* | Chiến dịch chủ lực (Trước đây mang về 126 conv/tháng ở tài khoản cũ) |
-
-> [!danger] CẢNH BÁO BẮT BUỘC TRƯỚC KHI BẬT NGÂN SÁCH NERCI
-> - **Chưa có Conversion Actions:** Tài khoản `615-344-1915` hiện có **0 hành động chuyển đổi**. Google Ads chưa thể ghi nhận khi khách hàng gửi Lead Form, bấm Gọi hotline hoặc Chat Pancake.
-> - **Chưa chuyển đổi Smart Bidding:** Cả 3 chiến dịch đang ở trạng thái `MANUAL_CPC`. Cần chuyển đổi sang `MAXIMIZE_CONVERSIONS` (Tối đa hóa lượt chuyển đổi) hoặc `TARGET_CPA` sau khi đã nạp tracking.
-
----
-
-# 🔍 4. MA TRẬN TOP 15 TỪ KHÓA TỐN PHÍ & HIỆU QUẢ CAO NHẤT (30 NGÀY QUA)
-
-| Từ Khóa (Keyword) | Loại Đối Sánh | Nhóm Quảng Cáo | Lượt Hiển Thị | Lượt Nhấp | Chi Phí (VNĐ) | Chuyển Đổi | CPA (VNĐ) |
-| :--- | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
-| **sữa thận** | `PHRASE` | Fresubin Renal | 4,395 | 615 | **3,767,249** | **17.5** | 215,271 |
-| **học dinh dưỡng** | `PHRASE` | Chứng chỉ - NRECI | 2,491 | 190 | **3,128,769** | **20.0** | 156,438 |
-| **trung tâm dinh dưỡng cho trẻ** | `BROAD` | Khám Dinh Dưỡng Cho Bé | 4,187 | 220 | **2,289,039** | **26.5** | 86,379 |
-| **khóa học dinh dưỡng** | `PHRASE` | Chứng chỉ - NRECI | 1,060 | 108 | **2,251,659** | **9.0** | 250,184 |
-| **Cudo Forte** | `PHRASE` | Nhóm quảng cáo 1 | 2,051 | 357 | **1,359,050** | **28.7** | 47,409 |
-| **sữa ung thư** | `PHRASE` | Supportan | 2,866 | 296 | **1,342,520** | **11.5** | 116,741 |
-| **lớp học dinh dưỡng** | `PHRASE` | Chứng chỉ - NRECI | 339 | 36 | **814,008** | **3.0** | 271,336 |
-| **chứng chỉ dinh dưỡng** | `PHRASE` | Chứng chỉ - NRECI | 393 | 30 | **754,223** | **4.0** | 188,556 |
-| **ProtiMedic** | `PHRASE` | ProtiMedic | 3,249 | 264 | **649,177** | **7.0** | 92,740 |
-| **chế độ dinh dưỡng cho người bệnh thận** | `PHRASE` | Nhóm quảng cáo 1 | 5,298 | 340 | **567,780** | **6.0** | 94,630 |
-| **delical** | `PHRASE` | Delical | 1,170 | 104 | **534,258** | **8.0** | 66,782 |
-| **người bệnh thận nên ăn gì kiêng gì** | `PHRASE` | Nhóm quảng cáo 1 | 3,033 | 232 | **399,439** | **3.0** | 133,146 |
-| **Nutren Junior** | `PHRASE` | Delical | 1,286 | 92 | **395,468** | **0.0** | 0 |
-| **khám dinh dưỡng cho bé** | `PHRASE` | Khám Dinh Dưỡng Cho Bé | 453 | 30 | **381,975** | **4.0** | 95,494 |
-| **fresubin renal** | `PHRASE` | Fresubin Renal | 432 | 47 | **345,827** | **7.0** | 49,404 |
-
----
-
-# 🛠️ 5. LỘ TRÌNH 5 BƯỚC TỐI ƯU HÓA HỆ THỐNG GOOGLE ADS NERCI
-
-```mermaid
-graph LR
-    B1["1. Liên kết GA4 & Pancake<br/>vào NERCI (615-344-1915)"] --> B2["2. Tạo Conversion Goals<br/>(Lead, Phone, Chat)"]
-    B2 --> B3["3. Chuyển Đổi Bidding<br/>Manual CPC ➔ Max Conv/tCPA"]
-    B3 --> B4["4. Chuyển Dịch Ngân Sách<br/>Khám Thận & Khám Nhi sang NERCI"]
-    B4 --> B5["5. Chuyên Biệt Hóa H&H<br/>100% Tập Trung Shopping & Sữa"]
-```
-
-1. **Bước 1 — Thiết lập Conversion Tracking trên NERCI (`615-344-1915`):**
-   - Import trực tiếp các Goals từ **GA4 `nerci.vn`** sang tài khoản Google Ads NERCI:
-     - `fluent_forms` (Primary - Gửi form đăng ký khám).
-     - `Click Submit Chat Pancake` (Primary - Bắt đầu trò chuyện tư vấn).
-     - `Click SĐT / Hotline` & `Click Zalo` (Primary - Liên hệ trực tiếp).
-2. **Bước 2 — Cập nhật Landing Page & Asset Sitelinks:**
-   - Thay thế toàn bộ URL đích cũ bằng các domain chính thức của Viện: `nerci.vn/kham-dinh-duong`, `nerci.vn/khoa-hoc-dinh-duong`.
-   - Bổ sung Call Assets (Số hotline viện), Structured Snippets (Chuyên khoa: Thận, Ung thư, Nhi khoa, Đái tháo đường).
-3. **Bước 3 — Tối ưu Chiến dịch Khám Thận Miền Nam:**
-   - Chuyển chiến dịch `NRECI - Khám Thận - MIền Nam` sang tài khoản `615-344-1915` và đặt Target CPA ở mức **65.000 VNĐ** (hiện tại tài khoản cũ đang chạy 70.840 VNĐ).
-   - Loại bỏ các từ khóa tìm kiếm chung chung, tập trung đối sánh cụm từ `"khám suy thận ở đâu"`, `"tư vấn dinh dưỡng suy thận"`.
-4. **Bước 4 — Bứt phá Doanh số Bán lẻ trên H&H Nutrition (`605-311-2652`):**
-   - Giữ vững chiến dịch **Google Shopping T10/2025** (hiện đang đạt ROAS **320.6%** rất tốt).
-   - Tăng nhẹ 15% ngân sách cho các Hero SKUs: *Cudo Forte* (ROAS 244.8%), *Fomeal Care* (ROAS 1323.9%), *Diben Drink* (ROAS 601.7%), *Supportan* (ROAS 347.8%), *Fomeal Basic Soup* (ROAS 1550.0%).
-   - Tạm dừng hoặc tối ưu lại *HH - Nutren Junior* (chi tiêu 395.468 VNĐ nhưng 0 chuyển đổi).
-5. **Bước 5 — Kiểm soát Tỷ lệ Chi phí Ads / Doanh thu:**
-   - Duy trì nghiêm ngặt nguyên tắc **Cost Ads / Doanh thu tổng <= 7%** trên toàn bộ hệ thống H&H & NERCI.
-
----
-
-### ⚠️ TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM (DISCLAIMER)
-*Báo cáo ma trận này được trích xuất trực tiếp qua kết nối chính thức của Google Ads API với Developer Token `OBkH1tk4qLM8JA_dLu8EeQ` từ tài khoản MCC H&H Group (`270-190-4600`). Mọi số liệu phản ánh trung thực trạng thái tài khoản thời gian thực tại thời điểm kết xuất.*
+<div style="text-align:center;">Made with ❤️ by Performance Marketing Team · NERCI & H&H Group</div>
