@@ -8,6 +8,7 @@ title: 'Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)'
 ---
 
 ## 📑 Danh Sách Báo Cáo Ma Trận Google Ads
-- 📈 **[[Google-Ads-Matrix/2026-08-27-NERCI-Google-Ads-Matrix-Performance-Report|2026 08 27 NERCI Google Ads Matrix Performance Report]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-08-28-NERCI-Google-Ads-Matrix-Performance-Report|2026 08 28 NERCI Google Ads Matrix Performance Report]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-08-27-NERCI-Google-Ads-Matrix-Performance-Report|2026 08 27 NERCI Google Ads Matrix Performance Report]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-11-Google-Ads-Detailed-Report|2026 08 11 Google Ads Detailed Report]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-10-Google-Ads-PMax-Shopping-Report|Google Ads PMax & Shopping Detailed Report]]** 
