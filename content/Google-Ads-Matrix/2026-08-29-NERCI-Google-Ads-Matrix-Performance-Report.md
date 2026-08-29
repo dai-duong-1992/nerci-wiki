@@ -1,29 +1,28 @@
 ---
-title: "Báo Cáo Phân Tích Ma Trận Google Ads, GA4 & Search Console (28/08/2026)"
-author: "Đại Dương · Performance & Operations"
-date: 2026-08-28
 tags:
-  - log
-  - nerci
-  - google-ads
-  - matrix-report
-  - hh-nutrition
-  - ga4
-  - gsc
-  - performance-marketing
-  - marketing-report
-summary: "Báo cáo ma trận phân tích dữ liệu chuyên sâu toàn bộ tài khoản Google Ads thuộc MCC H&H Group (270-190-4600), đối chiếu chi tiết hiệu suất 30 ngày và lịch sử 1.16 tỷ VNĐ trên H&H Nutrition (605-311-2652), phễu chuyển đổi GA4 và ý định tìm kiếm Search Console ngày 28/08/2026."
+  - "log"
+  - "google-ads"
+  - "matrix-report"
+  - "nerci"
+  - "hh-nutrition"
+  - "ga4"
+  - "gsc"
+topics: []
+status: seed
+created: 2026-08-29
+updated: 2026-08-29
 sources: []
 source_count: 0
+aliases: []
 ---
 
 <div style="background: linear-gradient(135deg, #064e3b, #047857); padding: 30px; border-radius: 20px; color: #ffffff; margin-bottom: 25px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);">
     <div style="background: #10b981; color: #ffffff; font-size: 10px; font-weight: 800; padding: 5px 12px; border-radius: 20px; display: inline-block; margin-bottom: 15px; letter-spacing: 1px;">PMA — GOOGLE UNIFIED ECOSYSTEM AGENT · NERCI & H&H GROUP</div>
     <div style="font-size: 30px; font-weight: 800; margin: 0 0 10px 0;">Báo Cáo Phân Tích Ma Trận Google Ads, GA4 & Search Console</div>
-    <div style="font-size: 15px; opacity: 0.9; margin-bottom: 20px;">Hợp nhất dữ liệu Paid Ads, E-commerce Funnel & Organic Search Intent (28/08/2026)</div>
+    <div style="font-size: 15px; opacity: 0.9; margin-bottom: 20px;">Hợp nhất dữ liệu Paid Ads, E-commerce Funnel & Organic Search Intent (29/08/2026)</div>
     <div style="display: flex; gap: 30px; border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 20px;">
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Người báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">Đại Dương</span></div>
-        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Ngày báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">28/08/2026</span></div>
+        <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Ngày báo cáo</span><br><span style="font-size: 14px; font-weight: 700;">29/08/2026</span></div>
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">MCC Quản Lý</span><br><span style="font-size: 14px; font-weight: 700;">270-190-4600 (H&H Group)</span></div>
         <div><span style="font-size: 9px; font-weight: 700; text-transform: uppercase; opacity: 0.8;">Hạ Tầng Tích Hợp</span><br><span style="font-size: 14px; font-weight: 700;">Google Ads · GA4 (370513333) · GSC</span></div>
     </div>
@@ -126,7 +125,7 @@ source_count: 0
 > 3. **Tận Dụng 4 Mục Tiêu Chuyển Đổi Từ GA4:** Nhập `form_submit`, `GA4 - Hotline`, `GA4 - Zalo` và `purchase` vào Google Ads làm Smart Bidding Signals.
 > 4. **Tăng Ngân Sách Cho Top Hero SKUs:** Bổ sung 20% ngân sách cho *Fomeal Care* (ROAS 1324%), *Supportan* (ROAS 348%), *Cudo Forte* (ROAS 245%).
 
-# 📋 CHI TIẾT MA TRẬN TOÀN BỘ CHIẾN DỊCH GOOGLE ADS (28/08/2026)
+# 📋 CHI TIẾT MA TRẬN TOÀN BỘ CHIẾN DỊCH GOOGLE ADS (29/08/2026)
 
 ## 📂 Danh Mục 1: Google Shopping Campaigns (E-commerce Sữa Y Tế & Dinh Dưỡng)
 | ID Chiến Dịch | Tên Chiến Dịch | Trạng Thái | Lượt Nhấp (Clicks) | Chi Phí (VNĐ) | Chuyển Đổi | Doanh Thu (VNĐ) | CPA (VNĐ) | ROAS (%) |
