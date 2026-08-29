@@ -136,7 +136,29 @@ Dựa trên chiến dịch khách hàng điền form, hệ thống sẽ tự đ�
 * 🟢 `tag_20`: **Đủ tiêu chuẩn (SQL / Lead chất lượng)**
 * 🟡 `tag_28`: **Tiềm Năng (MQL)**
 * 🎯 Thẻ nguồn: `Google Ads`, `Lead Form Extension`
-* 🏥 Thẻ chuyên khoa: `Khám Thận`, `Khám Nhi`, `Khám Dinh Dưỡng`, `Đào Tạo`
+* 🏥 Thẻ chuyên khoa: `CKD_Thận_Mạn`, `Đái_Tháo_Đường`, `Khám_Nhi`, `Học_Nghề_Dinh_Dưỡng`
+
+---
+
+## 📦 5. TỆP BLUEPRINT JSON & CÔNG CỤ KIỂM THỬ SIMULATOR (1-CLICK SETUP)
+
+Hệ thống đã chuẩn bị sẵn bộ công cụ tự động hóa hoàn chỉnh trong kho lưu trữ:
+
+### 1. File Blueprint JSON Import Thẳng Vào Boostspace Integrator
+* 📄 **Đường dẫn tệp:** [`01 Projects/NERCI-Automation/boostspace_google_ads_to_pancake_blueprint.json`](file:///Users/ledaiduong/Library/CloudStorage/OneDrive-Personal/Duong%20Obsidian%20Vault/01%20Projects/NERCI-Automation/boostspace_google_ads_to_pancake_blueprint.json)
+* **Cách import vào Boostspace:**
+  1. Trong Boostspace Integrator ➔ Tạo Scenario mới.
+  2. Bấm vào biểu tượng dấu **3 chấm `...`** ở thanh công cụ dưới cùng ➔ Chọn **Import Blueprint**.
+  3. Tải tệp `boostspace_google_ads_to_pancake_blueprint.json` lên ➔ Hệ thống tự động vẽ đầy đủ 4 modules, cấu hình sẵn bộ lọc bảo mật, chuẩn hóa số điện thoại `+84 ➔ 0` và mapping biến vào Pancake CRM!
+
+### 2. Kịch Bản Giả Lập Bắn Thử Lead (Google Lead Simulator)
+* 🧪 **Đường dẫn script:** [`01 Projects/NERCI-Automation/scripts/test_google_lead_simulator.py`](file:///Users/ledaiduong/Library/CloudStorage/OneDrive-Personal/Duong%20Obsidian%20Vault/01%20Projects/NERCI-Automation/scripts/test_google_lead_simulator.py)
+* **Câu lệnh chạy thử nghiệm với Webhook URL thật:**
+  ```bash
+  .venv/bin/python "01 Projects/NERCI-Automation/scripts/test_google_lead_simulator.py" "https://hook.eu1.boost.space/YOUR_WEBHOOK_ID" 1
+  ```
+  *(Tham số `1`: Lead Suy thận CKD, `2`: Lead Tiểu đường, `3`: Lead Đào tạo nghề Academy)*.
 
 ---
 *Tài liệu kỹ thuật được xây dựng và chuẩn hóa bởi Performance Marketing & Operations Team.*
+
