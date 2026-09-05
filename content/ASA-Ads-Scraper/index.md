@@ -8,4 +8,5 @@ title: 'Giám Sát & Phân Tích Quảng Cáo Đối Thủ Dược Phẩm (ASA-N
 ---
 
 ## 📑 Danh Sách Báo Cáo ASA-NERCI
-- 📊 **[[ASA-Ads-Scraper/2026-07-28-ASA-NERCI-FB-Detailed-Comparison|2026 07 28 ASA NERCI FB Detailed Comparison]]** 🚨 *(Mới nhất)*
+- 📊 **[[ASA-Ads-Scraper/2026-09-05-ASA-NERCI-FB-Detailed-Comparison|2026 09 05 ASA NERCI FB Detailed Comparison]]** 🚨 *(Mới nhất)*
+- 📊 **[[ASA-Ads-Scraper/2026-07-28-ASA-NERCI-FB-Detailed-Comparison|2026 07 28 ASA NERCI FB Detailed Comparison]]** 
