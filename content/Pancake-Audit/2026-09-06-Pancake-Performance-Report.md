@@ -99,28 +99,38 @@ xychart-beta
 | **10** | **Nerci** | `PKE_CHAT_PLUGIN` | **0** | 0 | 0 | **0** | **0.00%** | 💬 Web Livechat Plugin |
 | | **TỔNG CỘNG TOÀN HỆ THỐNG** | `OMNICHANNEL` | **302** | **402** | **590** | **30** | **3.02%** | **10 Kênh Pancake NERCI** |
 
-## 👥 II. ĐÁNH GIÁ NĂNG LỰC & TỐC ĐỘ PHẢN HỒI TƯ VẤN VIÊN (STAFF SLA)
-### 📈 1. Biểu Đồ Thời Gian Phản Hồi Trung Bình Của Tư Vấn Viên (Phút)
+## 👥 II. ĐÁNH GIÁ NĂNG LỰC & TỐC ĐỘ PHẢN HỒI TƯ VẤN VIÊN (STAFF SLA & PERFORMANCE)
+
+### 📈 1. Biểu Đồ Thời Gian Phản Hồi Trung Bình Ngày 06/09/2026 (Phút)
 ```mermaid
 xychart-beta
-    title "Tốc Độ Phản Hồi Trung Bình (Phút - Càng Thấp Càng Tốt)"
-    x-axis ["Nhân", "Yến", "Diệu", "Uyên", "Thủy", "Đậu"]
-    y-axis "Thời gian (phút)" 0 --> 473
-    bar [162, 24, 16, 423, 41, 74]
-    line [162, 24, 16, 423, 41, 74]
+    title "Tốc Độ Phản Hồi Trung Bình Ngày 06/09 (Phút - Càng Thấp Càng Tốt)"
+    x-axis ["Hồng Yến", "Hồng Thủy", "Thiện Nhân", "Phương Uyên", "Anh Thư"]
+    y-axis "Thời gian (phút)" 0 --> 120
+    bar [16.3, 23.1, 51.6, 79.8, 112.4]
+    line [16.3, 23.1, 51.6, 79.8, 112.4]
 ```
 
-### 📑 2. Bảng Xếp Hạng Hiệu Suất & SLA Nhân Sự Ngày 06/09/2026
-| Họ Tên Nhân Sự | Kênh Phụ Trách Chính | Tin Nhắn Xử Lý | SĐT Thu Thập | SLA Phản Hồi TB | Đánh Giá Chuyên Môn & Tác Nghiệp | Xếp Loại |
-| :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Nguyễn Thiện Nhân** | Đa kênh | **2,751** | **29** | `162.5 phút` | Phụ trách các Fanpage Viện (NERCI & NERCI.vn), xử lý 2.572 inboxes, thu 33 SĐT tích lũy | 🟢 **Tốt** (Trụ cột khối Fanpage Viện) |
-| **Nguyễn Thị Hồng Yến** | Đa kênh | **2,432** | **22** | `24.2 phút` | Phụ trách FB H&H và Zalo H&H, xử lý 2.468 inboxes, thu 22 SĐT, tư vấn dinh dưỡng bệnh lý chuyên sâu | 🟢 **Xuất sắc** (SLA 25.5p, Chuyên môn Thận & Tiểu đường) |
-| **Hồ Dương Xuân  Diệu** | Đa kênh | **2,235** | **23** | `16.0 phút` | Trực Zalo H&H và Webchat, xử lý 2.555 inboxes, thu 26 SĐT tích lũy, tốc độ phản hồi siêu tốc (16.2p) | 🟢 **Xuất sắc** (SLA 16.2p, Trụ cột Zalo) |
-| **Nguyễn Phương Uyên** | Đa kênh | **1,337** | **49** | `423.0 phút` | Xử lý 1.282 inboxes tích lũy, thu 45 SĐT tích lũy | 🟡 **Khá** |
-| **Nguyễn Châu Hồng Thủy** | Đa kênh | **605** | **5** | `41.2 phút` | Hỗ trợ tư vấn dinh dưỡng lâm sàng và phản hồi khách hàng ca chiều | 🟢 **Tốt** (SLA 48.0p) |
-| **Anna Đậu** | Đa kênh | **456** | **3** | `74.6 phút` | Phụ trách Tuyển sinh NERCI Academy & Zalo Viện, bùng nổ 13 SĐT học viên đăng ký khóa K20 | 🟢 **Bứt phá Ngoạn mục** (Tuyển sinh K20) |
-| **Đặng Hoàng Anh Thư** | Đa kênh | **119** | **3** | `59.4 phút` | Trực ca ngày, hỗ trợ điều phối tin nhắn đa kênh | 🟡 **Khá** (SLA 44.2p) |
-| **Hồng Yến** | Đa kênh | **5** | **0** | `0.0 phút` | Hỗ trợ điều phối tin nhắn | ⚪ **Đạt chuẩn** |
+### 📑 2. Bảng Hiệu Suất & Thời Gian Phản Hồi Ngày 06/09/2026 (Chủ Nhật)
+| Họ Tên Tư Vấn Viên | Kênh Phụ Trách Chính | Tin Nhắn Trực Tiếp | SĐT Thu Về | Tỷ Lệ Thu SĐT (CR) | SLA Phản Hồi TB | Đánh Giá Tác Nghiệp Ca Trực | Xếp Loại Ca |
+| :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **Nguyễn Thị Hồng Yến** | FB H&H & Zalo H&H | **252** | **2** | `0.8%` | **16.3 phút** | 🟢 Phản hồi siêu tốc, duy trì phong độ tư vấn sản phẩm đặc trị và sữa dinh dưỡng | 🟢 **Xuất sắc** |
+| **Nguyễn Châu Hồng Thủy** | FB NERCI Viện Tư Vấn | **246** | **0** | `0.0%` | **23.1 phút** | 🟢 Tốc độ tư vấn tốt, giải thích bệnh lý cặn kẽ, cần chủ động xin số điện thoại Bác sĩ gọi lại | 🟢 **Tốt** (SLA chuẩn) |
+| **Nguyễn Thiện Nhân** | FB NERCI.vn & Academy | **425** | **5** | `1.2%` | **51.6 phút** | 🟡 Gánh khối lượng tin nhắn lớn nhất ngày Chủ Nhật, thu 5 SĐT cho khối Viện và đào tạo | 🟡 **Khá** (Tải nặng) |
+| **Nguyễn Phương Uyên** | Đa kênh / Hỗ trợ phễu | **31** | **3** | **9.7%** | **79.8 phút** | 🟢 Tỷ lệ chốt SĐT cao nhất trong ngày (9.7%), tập trung bám đuổi các lead tiềm năng | 🟡 **Khá** |
+| **Đặng Hoàng Anh Thư** | Khối Viện & TikTok | **5** | **0** | `0.0%` | **112.4 phút** | 🔴 Hỗ trợ ca muộn, thời gian phản hồi còn chậm trên 1 tiếng | 🔴 **Cần cải thiện** |
+| **Hồ Dương Xuân Diệu** | Zalo H&H | **0** | **1** | `-` | `-` | 🟢 Chốt 1 SĐT từ ca nuôi dưỡng Zalo | 🟢 **Đạt chuẩn** |
+
+### 📊 3. Bảng Tổng Hợp Năng Lực & Tốc Độ Phản Hồi Lũy Kế 30 Ngày
+| Họ Tên Tư Vấn Viên | Tổng Tin Nhắn Đã Xử Lý | Tổng SĐT Thu Về | Tỷ Lệ Chuyển Đổi (CR) | SLA Phản Hồi TB (30 Ngày) | Phân Tích Chuyên Môn & Năng Lực Cốt Lõi | Xếp Loại Chung |
+| :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **Hồ Dương Xuân Diệu** | **2.235** | **23** | `1.0%` | **16.0 phút** | 🏆 **Kỷ lục phản hồi nhanh nhất toàn hệ thống.** Trụ cột Zalo OA H&H & Webchat, giữ chân khách cực tốt. | 🟢 **Xuất Sắc (SLA Speed)** |
+| **Nguyễn Thị Hồng Yến** | **2.433** | **22** | `0.9%` | **24.2 phút** | 🏆 **Trụ cột Dinh dưỡng Lâm sàng.** Nắm vững kiến thức suy thận, tiểu đường, ung thư, tư vấn đồng đều và ổn định nhất. | 🟢 **Xuất Sắc (Clinical)** |
+| **Nguyễn Thiện Nhân** | **2.752** | **29** | `1.1%` | **162.5 phút** | 💼 **Đầu tàu gánh khối lượng (Workhorse).** Tiếp nhận lượng inbox lớn nhất hệ thống trên các Fanpage Viện, cần thêm công cụ lọc để giảm SLA. | 🟢 **Tốt (High Volume)** |
+| **Nguyễn Phương Uyên** | **1.337** | **49** | **3.7%** | **423.0 phút** | 🎯 **Vua chốt Lead (Top Converter).** Đứng đầu toàn hệ thống về số lượng SĐT thu được (49 SĐT), chuyên bám đuổi ca khó. | 🟡 **Khá (Cần hạ SLA)** |
+| **Nguyễn Châu Hồng Thủy** | **605** | **5** | `0.8%` | **41.2 phút** | 🩺 **Tư vấn Dinh dưỡng chuyên sâu.** Chăm sóc bệnh nhân cần thiết kế thực đơn cá thể hóa, giải thích bệnh án kỹ lưỡng. | 🟢 **Tốt (Consultant)** |
+| **Anna Đậu** | **456** | **3** | `0.7%` | **74.6 phút** | 🎓 **Chuyên trách Tuyển sinh NERCI Academy.** Dẫn dắt các chiến dịch bùng nổ SĐT học viên đăng ký khóa đào tạo K20. | 🟢 **Tốt (Academy Lead)** |
+| **Đặng Hoàng Anh Thư** | **119** | **3** | **2.5%** | **59.4 phút** | ⚡ **Tư vấn viên dự phòng.** Tỷ lệ thu SĐT khá tốt (2.5%), cần rèn luyện thêm tốc độ bắt nhịp hội thoại ban đầu. | 🟡 **Khá** |
 
 
 ## 🎯 III. CHI TIẾT DANH SÁCH HOT LEAD & CÁC CA LÂM SÀNG / TUYỂN SINH NGÀY 06/09/2026
