@@ -25,7 +25,9 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ---
 
 ### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
-- 📄 **[[Pancake-Audit/2026-09-06-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 06/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-07-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 07/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-07-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 07/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-06-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 06/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-06-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 06/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-04-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 04/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-03-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 03/09/2026)]]** 
@@ -46,6 +48,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ---
 
 ### 4. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
+- 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
