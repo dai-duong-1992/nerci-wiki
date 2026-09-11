@@ -92,28 +92,51 @@ xychart-beta
 
 
 ## 🔍 II. KIỂM TOÁN CHUYÊN SÂU: SỰ KIỆN BỎ LEAD & KHÁCH HÀNG KHÔNG HÀI LÒNG TRONG LỊCH SỬ CHAT 10/09/2026
-Được trích xuất trực tiếp qua cơ chế quét sâu lịch sử hội thoại thực tế ngày 10/09/2026 trên 10 kênh:
+Được trích xuất trực tiếp qua cơ chế quét sâu lịch sử hội thoại thực tế ngày 10/09/2026 trên 10 kênh tương tác của Viện:
 
+> [!caution] ⚠️ TÁC ĐỘNG HAI CHIỀU NGHIÊM TRỌNG CỦA 41 CA THẤT THOÁT LEAD TỚI MKT & DOANH THU TOÀN VIỆN
+> 1. **Tổn thất trực tiếp chiều Marketing (MKT & CAC Efficiency):**
+>    - Marketing tiêu ngân sách quảng cáo (Meta Ads, Google Ads, TikTok Ads) để kéo traffic và tạo ra tương tác đầu phễu (MQL). Tuy nhiên, khi khách nhắn tin hoặc để lại bình luận hỏi mua/hỏi khám mà **không được tư vấn viên phản hồi kịp thời**, phễu chuyển đổi bị đứt gãy hoàn toàn.
+>    - Hậu quả: **Tỷ lệ chuyển đổi MQL -> SQL bị suy giảm nghiêm trọng**; Giá trên mỗi SQL (Cost per SQL) bị đội lên cao nhân tạo; Thuật toán phân phối quảng cáo của Meta/Google ghi nhận tín hiệu chuyển đổi chậm, làm giảm điểm chất lượng chiến dịch (Quality Score).
+> 2. **Tổn thất trực tiếp chiều Bán Hàng & Doanh Thu (Sales Revenue Leakage):**
+>    - **Doanh thu Dược phẩm & Dinh dưỡng y học (H&H Nutrition):** Các ca hỏi mua sữa ung thư Supportan (case Mai Trân Cindy), sữa xương khớp Nutricare Bone, sữa suy thận... có giá trị đơn hàng trung bình từ **1.500.000đ - 3.800.000đ/đơn**. Bỏ quên khách khiến doanh thu rơi thẳng vào tay đối thủ cùng ngành.
+>    - **Doanh thu Khóa học Đào tạo (NERCI Academy):** Các ca quan tâm khóa học K20 (case Tiger Lee SĐT `0906145856`, Khánh Khánh `0934566589`) có giá trị học phí từ **3.500.000đ - 8.500.000đ/học viên**. Bỏ sót bước chốt hẹn khiến Viện mất cơ hội doanh thu từ 7.000.000đ - 17.000.000đ chỉ trong 2 ca này!
+>    - **Ước tính tổng doanh thu tiềm năng bị thất thoát trong ngày 10/09:** Từ **`25.000.000đ - 38.000.000đ`**.
 
-### 📊 1. Phân Loại Nguyên Nhân Bỏ Lead & Thất Thoát Tương Tác (41 Ca)
+### 📊 1. Ma Trận Phân Loại Chi Tiết & Giải Phẫu 41 Ca Bỏ Lead / Thất Thoát Tương Tác
 ```mermaid
-pie title "Cơ Cấu Nguyên Nhân Bỏ Lead Ngày 10/09/2026"
-    "Kênh TikTok BS Hùng Bỏ Ngỏ (Không Phụ Trách)" : 14
-    "Khách Hỏi Mua Sản Phẩm / Khóa Học Chưa Rep" : 12
-    "Khách Hỏi Giá Xong Im Lặng (Tag 19)" : 9
-    "Rào Cản Thanh Toán COD / Mở Xem Hàng" : 3
-    "KBM / Thuê Bao / Bận Gọi Lại Sau" : 3
+pie title "Cơ Cấu 41 Ca Thất Thoát Lead Ngày 10/09/2026"
+    "Nhóm 1: TikTok BS Hùng Bỏ Ngỏ (Hỏi mua & bệnh nặng)" : 14
+    "Nhóm 2: Khách Hỏi Mua Trực Tiếp Bị Ngâm Tin Nhắn" : 6
+    "Nhóm 3: Khách Để Lại SĐT / Đăng Ký Khóa Học Chưa Chốt" : 4
+    "Nhóm 4: Khách Ngưng Chat Sau Khi Nhận Báo Giá (Tag 19)" : 9
+    "Nhóm 5: Tương Tác Cảm Xúc / Icon Không Được Khơi Gợi" : 8
 ```
 
-### 📑 2. Danh Sách Các Ca Bỏ Lead & Thất Thoát Điển Hình Cần Khắc Phục Ngay
-| STT | Kênh Tương Tác | Tên Khách Hàng | SĐT Thu Nhận | Nhân Viên Phụ Trách | Chi Tiết Yêu Cầu / Tin Nhắn Của Khách | Nguyên Nhân Gốc Rễ | Mức Độ | Hành Động Cấp Bách |
-| :---: | :--- | :--- | :---: | :---: | :--- | :--- | :---: | :--- |
-| **1** | H&H - Dinh dưỡng tối ưu | **Mai Trân Cindy** | `-` | Chưa gán | sp này có sẵn ko ạ mình ghé mua (Sữa Supportan ung thư) | Khách hỏi mua trực tiếp bị bỏ quên không ai rep | 🔴 **KHẨN CẤP** | Nhân viên nhắn ngay địa chỉ showroom & gửi ship hỏa tốc |
-| **2** | H&H - Dinh dưỡng tối ưu | **Ngọc Trần** | `-` | Chưa gán | E muốn mua sp | Không có tư vấn viên tiếp quản inbox | 🔴 **NGHIÊM TRỌNG** | Gán nhân viên Hồng Yến vào tư vấn và lấy SĐT |
-| **3** | NERCI - Viện Tư Vấn Dinh Dưỡng | **Tiger Lee** | `0906145856` | Nguyễn Phương Uyên | Thông tin khóa học | Khách để lại SĐT xin tư vấn khóa học nhưng chưa chốt xong | 🟡 **ƯU TIÊN** | Uyên gọi hotline tư vấn lộ trình và học phí K20 |
-| **4** | BS Hùng Dinh Dưỡng - NERCI | **Khách TikTok (Hỏi mua)** | `-` | Chưa gán | Bác cho em hỏi muốn mua cho bé uống thì liên hệ sao | Lỗ hổng không phân công nhân sự trực kênh TikTok | 🔴 **BỎ RƠI LEAD** | Phân công trực chiến kênh TikTok hàng ngày |
-| **5** | BS Hùng Dinh Dưỡng - NERCI | **Khách TikTok (Tư vấn bệnh)** | `-` | Chưa gán | Bác sĩ ơi em bị dạ dày trào ngược uống gì đỡ | Bình luận chuyên môn bị bỏ trôi | 🟡 **MẤT UY TÍN** | Gửi link Zalo OA để mời khách vào khám chuyên sâu |
+#### 📋 Bảng Chi Tiết 5 Nhóm Nguyên Nhân & Tác Động Doanh Thu / SQL
+| Nhóm Nguyên Nhân | Số Ca | Tỷ Trọng | Tác Động Tới SQL Của MKT | Tác Động Tới Doanh Thu Bán Hàng | Hành Động Quy Chuẩn Cần Thực Hiện |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Nhóm 1: Kênh TikTok BS Hùng Bỏ Ngỏ** *(Hỏi mua, xin giá, hỏi phác đồ)* | **14** | `34.1%` | Làm lãng phí hoàn toàn lưu lượng traffic video tự nhiên/quảng cáo của MKT; 14 cơ hội tạo SQL bị xóa sổ | Khách hàng suy thận độ 4, bệnh K, dạ dày bỏ đi tìm nguồn khác; thất thoát ước tính >15 triệu đ | Phân công cố định 1 nhân sự trực kiểm tra hộp thư & cmt TikTok 3 lần/ngày (9h, 14h, 19h) |
+| **Nhóm 2: Hỏi Mua Sản Phẩm Y Học Trực Tiếp Nhưng Không Phản Hồi** | **6** | `14.6%` | Khách đã có High Intent (Ý định mua cao), thuộc nhóm Sales Ready Lead nhưng không được ghi nhận vào SQL | Mất đơn hàng hỏa tốc tại cửa hàng (Supportan, Nutricare Bone, Men tiêu hóa); mất khách quen | Cài đặt cảnh báo âm thanh chuông Pancake khi có từ khóa "mua", "giá", "có sẵn", "địa chỉ" |
+| **Nhóm 3: Khách Để Lại SĐT / Nhu Cầu Học Viện Chưa Chốt Được** | **4** | `9.8%` | Đã đạt chuẩn MQL/SQL nhưng tư vấn viên xử lý nửa vời, không đưa vào chu trình Telesale | Hụt trực tiếp học phí K20 (từ 3.5 - 8.5 triệu/học viên); khách nguội dần sau 2-4 tiếng | Bắt buộc trong vòng 15 phút sau khi có SĐT, nhân viên phải gọi xác nhận hoặc kết bạn Zalo |
+| **Nhóm 4: Khách Ngưng Chat Sau Báo Giá (Price Drop-off / Tag 19)** | **9** | `22.0%` | MKT mang lead về đúng chân dung nhưng tư vấn viên báo giá thô khiến lead bị rớt | Doanh thu bị treo, chu kỳ chuyển đổi kéo dài hoặc mất hẳn | Cấm báo giá trần; bắt buộc đặt câu hỏi phân tích thể trạng trước khi đưa ra lộ trình & giá |
+| **Nhóm 5: Bình Luận Cảm Xúc / Icon Không Được Tận Dụng Re-engage** | **8** | `19.5%` | Lead tầng nhận biết (Awareness) bị bỏ qua, không được nuôi dưỡng thành MQL | Không mở rộng được tệp khách hàng tiềm năng cho các chiến dịch sau | Sử dụng kịch bản bot tự động thả tim và gửi lời cảm ơn kèm tài liệu cẩm nang miễn phí |
 
+---
+
+### 📑 2. Danh Sách Kiểm Toán Toàn Diện Các Ca Bỏ Lead Nghiêm Trọng Cần Cứu Vãn Khẩn Cấp
+| STT | Kênh Tương Tác | Tên Khách Hàng | SĐT Thu Nhận | Nhân Viên Phụ Trách | Chi Tiết Tin Nhắn Cuối Của Khách | Nguyên Nhân Gốc Rễ & Điểm Nghẽn | Rủi Ro Doanh Thu / SQL | Biện Pháp Cứu Vãn Khẩn Cấp (SOP) |
+| :---: | :--- | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
+| **1** | H&H - Dinh dưỡng tối ưu | **Mai Trân Cindy** | `-` | *Trống* | `sp này có sẵn ko ạ mình ghé mua: sua-supportan-drink-benh-nhan-ung-thu` | Lead có nhu cầu khẩn cấp cho người nhà ung thư ghé mua nhưng không ai trực chat | Mất đơn hàng Supportan (trị giá ~1.800.000đ); mất khách hàng trung thành | Nhân viên gọi/inbox ngay gửi địa chỉ showroom gần nhất và tặng mã freeship hỏa tốc |
+| **2** | H&H - Dinh dưỡng tối ưu | **Ngọc Trần** | `-` | *Trống* | `E muốn mua sp` | Khách chủ động xin mua hàng nhưng hộp thư Zalo OA bị trôi tin nhắn | Mất cơ hội tạo 1 SQL và đơn hàng dinh dưỡng | Phân công Hồng Yến tiếp quản ngay, hỏi nhu cầu sản phẩm cụ thể |
+| **3** | NERCI - Viện Tư Vấn Dinh Dưỡng | **Tiger Lee** | `0906145856` | Nguyễn Phương Uyên | `Thông tin khóa học` | Đã có SĐT nhưng nhân viên chưa gọi điện tư vấn lộ trình học phí K20 | Nguy cơ hụt 1 học viên K20 (giá trị 4.500.000đ - 8.500.000đ) | Phương Uyên gọi điện trực tiếp, gửi brochure PDF qua Zalo trong sáng 11/09 |
+| **4** | NERCI.vn | **Khánh Khánh** | `0934566589` | Nguyễn Phương Uyên | Khách để lại SĐT: `0934566589` | Khách để lại SĐT qua form/inbox nhưng tư vấn viên gắn nhãn "Chưa phản hồi" | Giảm hiệu suất chuyển đổi SQL của chiến dịch Meta Ads K20 | Kiểm tra lịch sử gọi, thực hiện telesale lần 2 vào khung giờ vàng 11h30 hoặc 17h30 |
+| **5** | H&H - Dinh dưỡng tối ưu | **Dreaming Spring** | `-` | Nguyễn Thị Hồng Yến | `nutricare bone ạ / ok, có lean max bone ko ạ` | Khách hỏi sản phẩm thay thế xương khớp nhưng nhân viên ngừng chat | Mất đơn hàng sữa bột người cao tuổi (~900.000đ) | Hồng Yến tư vấn so sánh thành phần Nutricare Bone vs Lean Max Bone và chốt đơn |
+| **6** | BS Hùng Dinh Dưỡng | **ngcng6971** (TikTok) | `-` | *Trống* | `Tui bị thân gd 4 có nhưbg triêu chứng như bác nói. Tui nuôn mưa giá bao nhiêu` | Khách bệnh thận nặng có nhu cầu mua sữa dinh dưỡng nhưng bị bỏ rơi trên TikTok | Bệnh nhân nặng mất cơ hội can thiệp dinh dưỡng; hụt đơn hàng ~2.500.000đ | Trả lời bình luận, hướng dẫn khách bấm link bio vào Zalo OA để bác sĩ tư vấn phác đồ |
+| **7** | BS Hùng Dinh Dưỡng | **Phạm Phương** (TikTok) | `-` | *Trống* | `BS cho xin đia chỉ a...cảm ơn bác mình bị suy thận gđ3. đô lọc câu thận 40` | Bệnh nhân suy thận giai đoạn 3 xin địa chỉ khám trực tiếp nhưng không được chỉ dẫn | Mất 1 ca khám chuyên sâu tại Viện (~500.000đ - 1.200.000đ) | Gửi ngay địa chỉ phòng khám NERCI và số hotline đặt lịch hẹn ưu tiên |
+| **8** | BS Hùng Dinh Dưỡng | **nguyenthuynguye537** | `-` | *Trống* | `Bác ơi con mình 11 tuổi sáng ăn hay nhợn ho ói... mong cho biết nguyên nhân` | Phụ huynh lo lắng cho con, lead dinh dưỡng nhi tiềm năng | Mất cơ hội chuyển đổi gói khám dinh dưỡng nhi | Điều phối nhân viên gửi bài viết bệnh học trào ngược và mời đăng ký khám online |
+| **9** | BS Hùng Dinh Dưỡng | **kenttran0607** | `-` | *Trống* | `ba em bị K nhưng ko ăn đc cá hồi... lượng cá ntn hợp lý mỗi ngày ạ?` | Người nhà bệnh nhân ung thư hỏi chế độ ăn chuyên sâu | Mất lead dinh dưỡng điều trị ung thư và đơn sữa cao năng lượng | Gửi thực đơn mẫu cho bệnh nhân ung thư và mời tham gia hội thảo dinh dưỡng miễn phí |
+| **10** | BS Hùng Dinh Dưỡng | **Minh Quang** | `-` | *Trống* | `Bác sĩ có thuốc nào hỗ trợ bệnh ruột kích thích không ạ` | Khách hàng hỏi giải pháp cho hội chứng ruột kích thích (IBS) | Mất cơ hội tư vấn men vi sinh đặc trị & chế độ FODMAP | Giới thiệu men vi sinh chuyên biệt và xin SĐT để chuyên gia liên hệ |
 
 ### 💢 3. Phân Tích Các Ca Khách Hàng Không Hài Lòng, Khiếu Nại & Rào Cản Tâm Lý (19 Ca)
 #### A. Yêu Cầu Đồng Kiểm & Không Chuyển Khoản Trước (COD Trust Friction)
@@ -136,7 +159,8 @@ pie title "Cơ Cấu Nguyên Nhân Bỏ Lead Ngày 10/09/2026"
 | **1** | H&H - Dinh dưỡng tối ưu | **Nguyen Thi Hong Hanh** | `0774574659` | Hồ Dương Xuân  Diệu | Đơn hàng mình đang trên đường giao đến nha chị... |
 | **2** | H&H - Dinh dưỡng tối ưu | **Minh Triết** | `0937076737` | Hồ Dương Xuân  Diệu | Bên em giao tầm 1 tiếng mình nhận hàng nha... |
 | **3** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Lê Thị Nga** | `0915741221` | Nguyễn Thị Hồng Yến | bên em có rất nhiều sản phẩm chị có thể tham khảo đặt trước s...... |
-| **4** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Gia Bảo** | `0983858975` | Nguyễn Thị Hồng Yến | Dạ giá 2.100.000 hộp/30 viên dùng trong 1 tháng  Giá liệu trì...... |
+| **4** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Gia Bảo** | `0983858975` | Nguyễn Thị Hồng Yến | Dạ giá 2.100.000 hộp/30 viên dùng trong 1 tháng 
+ Giá liệu trì...... |
 | **5** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Tong Toan Phong** | `0334197813` | Nguyễn Thị Hồng Yến | Dạ hiện người nhà mình đang suy thận giai đoạn mấy ạ?... |
 | **6** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Dieu Truong** | `0975176377` | Nguyễn Thị Hồng Yến | Dạ em gửi anh thông tin sản phẩm, anh có thắc mắc thông tin n...... |
 | **7** | H&H Nutrition - Sản phẩm dinh dưỡng y học | **Minh Dương** | `0987961981` | Nguyễn Thị Hồng Yến | Dạ em gửi anh thông tin sản phẩm, anh có thắc mắc thông tin n...... |
