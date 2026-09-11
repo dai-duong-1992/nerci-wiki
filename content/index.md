@@ -25,7 +25,11 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ---
 
 ### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
-- 📄 **[[Pancake-Audit/2026-09-08-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 08/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-10-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 10/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-10-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 10/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-09-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 09/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-09-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 09/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-08-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 08/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-08-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 08/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-07-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 07/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-07-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 07/09/2026)]]** 
