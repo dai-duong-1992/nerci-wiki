@@ -10,27 +10,27 @@ tags:
   - operations-report
   - staff-audit
   - lead-leakage-audit
-summary: "Báo cáo kiểm toán chuyên sâu hiệu suất bán hàng & tư vấn viên Pancake ngày 11/09/2026 (Thứ Sáu): KỶ LỤC VÔ TIỀN KHOÁNG HẬU 82 SĐT bóc tách toàn hệ thống, NERCI Academy đóng góp 50 SĐT khóa đào tạo K20; Bộ chỉ số năng lực cầu thủ (Sales Radar Metrics) đánh giá toàn diện tốc độ SLA, thể lực gánh tải, độ sắc bén dứt điểm; Kiểm toán thời gian gắn thẻ và phát hiện chu kỳ đánh spam tự động (4-19s) vs dọn dẹp tồn đọng."
+summary: "Báo cáo kiểm toán chuyên sâu hiệu suất bán hàng & tư vấn viên Pancake ngày 11/09/2026 (Thứ Sáu): KỶ LỤC LỊCH SỬ 82 SĐT bóc tách toàn hệ thống, NERCI Academy bùng nổ 50 SĐT khóa đào tạo K20; Bảng chỉ số vận hành bán hàng chi tiết (Khối lượng tiếp nhận, SLA phản hồi, CR chốt SĐT, tỷ lệ xử lý đơn); Phân tích chuyên sâu thời gian và xếp hạng nhân viên đánh nhãn Spam."
 sources: []
 source_count: 0
 ---
 
 <div style="background: linear-gradient(135deg, #1e3a8a 0%, #0d9488 50%, #064e3b 100%); padding: 30px 34px; border-radius: 16px; color: white; margin-bottom: 24px; box-shadow: 0 12px 28px rgba(6, 78, 59, 0.3);">
   <div style="font-size: 11px; font-weight: 800; letter-spacing: 1.5px; opacity: 0.9; text-transform: uppercase; margin-bottom: 6px; background: rgba(255,255,255,0.18); display: inline-block; padding: 4px 12px; border-radius: 20px;">
-    PANCAKE SALES PERFORMANCE & COMPREHENSIVE RADAR AUDIT
+    PANCAKE SALES OPERATIONS & COMPREHENSIVE PERFORMANCE AUDIT
   </div>
   <h1 style="margin: 6px 0 12px 0; color: white; border: none; padding: 0; font-size: 27px; font-weight: 800; line-height: 1.3;">
     🎯 BÁO CÁO ĐÁNH GIÁ TOÀN DIỆN HIỆU SUẤT TƯ VẤN VIÊN & BÁN HÀNG PANCAKE
   </h1>
   <div style="font-size: 14.5px; opacity: 0.93; line-height: 1.65;">
-    Kiểm toán chuyên sâu năng lực tác nghiệp chuẩn chỉ số cầu thủ (Sales Radar), phân tích tốc độ gắn thẻ / đánh Spam và <strong>TRÍCH DẪN NGUYÊN VĂN CÁC PHIÊN CHAT THEN CHỐT</strong> ngày 11/09/2026
+    Kiểm toán chuyên sâu năng lực tác nghiệp, chỉ số KPI vận hành, thời gian đánh nhãn Spam theo từng nhân sự và <strong>TRÍCH DẪN NGUYÊN VĂN CÁC PHIÊN CHAT THEN CHỐT</strong> ngày 11/09/2026
   </div>
   <div style="margin-top: 18px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.22); display: flex; flex-wrap: wrap; gap: 22px; font-size: 12.5px;">
     <span>📅 <strong>Chu Kỳ Kiểm Toán:</strong> Ngày 11/09/2026 (Thứ Sáu) & Chuỗi Lũy Kế 30 Ngày</span>
     <span>👤 <strong>Kiểm Toán Viên:</strong> Đại Dương (Performance & Operations)</span>
     <span>💬 <strong>Tương Tác Xử Lý:</strong> 460 Inboxes · 466 Bình luận</span>
     <span>📞 <strong>SĐT Bóc Tách Thành Công:</strong> 82 SĐT (Tỷ lệ CR: 8.86%)</span>
-    <span>⏱️ <strong>Tốc Độ Gắn Spam Tức Thì:</strong> 0.05 - 0.32 phút (~3 - 19 giây)</span>
+    <span>⏱️ <strong>Thời Gian Đánh Spam Tức Thì:</strong> 0.05 - 0.32 phút (~3 - 19 giây)</span>
     <span>⚠️ <strong>Cảnh Báo Bỏ Lead / Chưa Rep:</strong> 78 ca</span>
   </div>
 </div>
@@ -56,13 +56,14 @@ source_count: 0
 > 4. 📞 **8 Ca Khách Không Bắt Máy (Tag 62) & 4 Ca Bận Gọi Lại (Tag 72):** Cần đưa vào luồng chăm sóc Zalo tự động sau cuộc gọi nhỡ.
 
 
-## 📊 I. BẢNG NĂNG LỰC & CHỈ SỐ CẦU THỦ (SALES RADAR METRICS) NGÀY 11/09/2026
-Hệ thống hóa toàn diện các chỉ số hiệu suất của từng tư vấn viên theo chuẩn "Chỉ Số Cầu Thủ" (Player Attributes Scorecard trên thang điểm 100):
-- 🏃 **PAC (Pace - Tốc độ phản hồi SLA):** Điểm phản xạ nhanh chóng khi khách nhắn tin (SLA < 15p đạt 90-99 điểm).
-- 🏋️ **PHY (Physical / Stamina - Thể lực gánh tải):** Khả năng chịu áp lực và khối lượng inbox xử lý trong ngày (>300 inboxes đạt 90-99 điểm).
-- 🎯 **FIN (Finishing - Kỹ năng dứt điểm chốt số):** Tỷ lệ chuyển đổi SĐT/Inboxes (CR > 2% đạt 90-98 điểm).
-- 🧠 **VIS (Vision / Clinical Depth - Nhãn quan lâm sàng):** Khả năng nắm bắt bệnh học phức tạp (thận, tiểu đường, ung thư) và đào tạo.
-- ⭐ **OVR (Overall Rating - Điểm tổng thể cầu thủ):** Trọng số trung bình năng lực toàn diện của tư vấn viên.
+## 📊 I. BẢNG ĐÁNH GIÁ CHI TIẾT NĂNG LỰC TÁC NGHIỆP ĐỘI NGŨ TƯ VẤN VIÊN NGÀY 11/09/2026
+Đánh giá toàn diện hiệu suất làm việc của từng nhân sự Sales & CSKH dựa trên 6 chỉ số định lượng cốt lõi:
+- 📥 **Khối lượng tiếp nhận (Workload Capacity):** Tổng số lượng inboxes và khách hàng tư vấn viên trực tiếp xử lý trong ca trực.
+- ⚡ **Tốc độ phản hồi trung bình (Average SLA Response Time):** Thời gian tính từ khi khách nhắn đến khi tư vấn viên gửi phản hồi đầu tiên.
+- 📞 **SĐT thu thập thành công (Lead Captured):** Số lượng khách hàng đồng ý cung cấp SĐT để đặt lịch khám hoặc đăng ký khóa học.
+- 🎯 **Tỷ lệ chuyển đổi chốt số (Conversion Rate - CR):** Tỷ lệ phần trăm bóc tách được SĐT trên tổng số lượng inbox tiếp nhận.
+- 🩺 **Độ sâu tư vấn chuyên môn (Clinical Depth):** Năng lực giải thích cơ chế bệnh học (Thận, ĐTĐ, Ung thư, Dinh dưỡng Nhi) và định hướng lộ trình học Academy.
+- 🛡️ **Kỷ luật dữ liệu CRM & Gắn thẻ (CRM Hygiene):** Ý thức phân loại khách hàng, gắn nhãn rào cản và lọc rác spam đúng quy trình.
 
 
 ### 📈 1. Biểu Đồ Tốc Độ Phản Hồi SLA Ngày 11/09/2026 (Phút - Càng Thấp Càng Tốt)
@@ -75,16 +76,16 @@ xychart-beta
     line [4.4, 10.4, 18.3, 23.1, 38.7]
 ```
 
-### 📑 2. Thẻ Đánh Giá Chỉ Số Cầu Thủ Bán Hàng Chi Tiết (Player Attributes Card)
-| STT | Tư Vấn Viên | Inboxes | SĐT | Tỷ Lệ CR | SLA | Tốc Độ (PAC) | Thể Lực (PHY) | Dứt Điểm (FIN) | Chuyên Môn (VIS) | Điểm OVR | Vị Trí / Vai Trò Chiến Thuật |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **1** | **Nguyễn Thị Hồng Yến** | **168** | **4** | `2.38%` | `10.4p` | **94** | **82** | **95** | **96** | 🔥 **92** | 🥇 **Tiền Đạo Mục Tiêu (Striker - Lâm Sàng)** |
-| **2** | **Nguyễn Thiện Nhân** | **352** | **3** | `0.85%` | `18.3p` | **89** | **98** | **84** | **91** | 🔥 **91** | 🥈 **Tiền Vệ Trung Tâm (Midfielder - Gánh Tải)** |
-| **3** | **Nguyễn Phương Uyên** | **217** | **3** | `1.38%` | `23.1p` | **85** | **88** | **92** | **95** | 🔥 **90** | 🥉 **Tiền Đạo Cánh Sắc Bén (Winger - Closer)** |
-| **4** | **Đặng Hoàng Anh Thư** | **287** | **1** | `0.35%` | `38.7p` | **75** | **93** | **76** | **80** | 🔥 **81** | ⚡ **Tiền Vệ Đánh Chặn (Defensive Midfielder)** |
-| **5** | **Hồ Dương Xuân  Diệu** | **1** | **0** | `0.00%` | `4.4p` | **98** | **40** | **60** | **85** | 🔥 **71** | 🛡️ **Hậu Vệ Quét Zalo (Sweeper - Phản Xạ Nhanh)** |
-| **6** | **Anna Đậu** | **0** | **0** | `-` | `-` | **80** | **40** | **60** | **92** | 🔥 **68** | 📋 **Trợ Lý Huấn Luyện (Academy K20 Advisor)** |
-| **7** | **Nguyễn Châu Hồng Thủy** | **0** | **0** | `-` | `-` | **70** | **40** | **60** | **94** | 🔥 **66** | 🔬 **Chuyên Gia Phân Tích (Clinical Analyst)** |
+### 📑 2. Bảng Đánh Giá Hiệu Suất Tác Nghiệp & KPI Bán Hàng Chi Tiết Ngày 11/09/2026
+| STT | Họ Tên Tư Vấn Viên | Inboxes Tiếp Nhận | SĐT Thu Nhận | Tỷ Lệ CR (%) | SLA Phản Hồi TB | Đánh Giá Tác Nghiệp Chuyên Môn | Đánh Giá Kỷ Luật CRM | Xếp Loại Hiệu Quả |
+| :---: | :--- | :---: | :---: | :---: | :---: | :--- | :--- | :--- |
+| **1** | **Nguyễn Thị Hồng Yến** | **168** | **4** | `2.4%` | **10.4 phút (624s)** | Dẫn đầu toàn viện về số SĐT thu được; am hiểu tường tận phác đồ dinh dưỡng y học và tư vấn chốt đơn hỏa tốc xuất sắc. | Chủ động gắn thẻ trạng thái đơn, lọc sạch 1 ca spam kịp thời trong 4s. | 🟢 **Xuất Sắc (Top Performance)** |
+| **2** | **Nguyễn Thiện Nhân** | **352** | **3** | `0.9%` | **18.3 phút (1098s)** | Trụ cột gánh tải lớn nhất viện (352 inboxes), điều phối và chốt các lead học viên đăng ký khóa đào tạo Academy K20 bài bản. | Xử lý gắn thẻ nhanh, loại bỏ spam botcake trong 3s. | 🟢 **Tốt (Đầu Tàu Gánh Tải)** |
+| **3** | **Nguyễn Phương Uyên** | **217** | **3** | `1.4%` | **23.1 phút (1386s)** | Xử lý khéo léo các case bệnh lý phức tạp (sỏi thận, táo bón), khơi gợi đúng nỗi đau để lấy SĐT đặt lịch khám chuyên sâu. | Rà soát và dọn dẹp 2 ca spam tồn đọng, giữ sạch CRM. | 🟢 **Tốt (Chốt Khám Vững Vàng)** |
+| **4** | **Đặng Hoàng Anh Thư** | **287** | **1** | `0.3%` | **38.7 phút (2322s)** | Bứt phá gánh tải khối lượng tương tác khổng lồ (287 inboxes), tiếp nhận phân luồng khách hàng tuyển sinh K20 liên tục. | Cần đẩy mạnh hơn tốc độ phản hồi dưới 30 phút và dứt điểm SĐT. | 🟡 **Đạt Yêu Cầu (Chịu Tải Tốt)** |
+| **5** | **Hồ Dương Xuân  Diệu** | **1** | **0** | `0.0%` | **4.4 phút (264s)** | Phản hồi siêu tốc trên kênh Zalo OA, chăm sóc khách hàng thân thiết chu đáo; rà soát 1 ca spam tồn đọng 39 ngày. | Kỷ luật gắn thẻ và dọn rác dữ liệu tốt. | 🟢 **Tốt (Ổn Định Kênh Zalo)** |
+| **6** | **Anna Đậu** | **0** | **0** | `-` | **0.0 phút (0s)** | Hỗ trợ công tác chuyên môn đào tạo Academy K20; hoàn thành rà soát 1 ca spam tồn đọng 195 ngày. | Tích cực dọn dẹp phễu tuyển sinh cũ. | ⚪ **Hỗ Trợ Chuyên Môn** |
+| **7** | **Nguyễn Châu Hồng Thủy** | **0** | **0** | `-` | **0.0 phút (0s)** | Hỗ trợ thẩm định hồ sơ bệnh án chuyên sâu; hoàn thành rà soát 1 ca spam tồn đọng 193 ngày. | Hỗ trợ lọc sạch danh sách liên hệ cũ. | ⚪ **Hỗ Trợ Chuyên Môn** |
 
 
 ### 🏆 3. Bảng Xếp Hạng & Chỉ Số Lũy Kế 30 Ngày (30-Day Cumulative Leaderboard)
@@ -99,47 +100,50 @@ xychart-beta
 | 7 | **Anna Đậu** | **93** | **2** | `2.2%` | **7.3 phút** | 🎓 **Thủ Lĩnh Tuyển Sinh Academy** | Tư vấn chuyên nghiệp các khóa đào tạo dinh dưỡng K20 (2 SĐT, SLA 7.3 phút). |
 
 
-## ⏱️ II. KIỂM TOÁN CHUYÊN SÂU: THỜI GIAN GẮN THẺ & CHU KỲ ĐÁNH SPAM (TIME-TO-TAG & SPAM AUDIT)
-Phân tích đo lường chính xác thời gian kể từ thời điểm tin nhắn đầu tiên phát sinh cho đến khi tư vấn viên/hệ thống gắn thẻ phân loại (đơn vị: phút & giờ):
+## ⏱️ II. PHÂN TÍCH CHUYÊN SÂU: THỜI GIAN GẮN THẺ & XẾP HẠNG ĐÁNH SPAM THEO NHÂN VIÊN
+Đo lường chính xác khoảng thời gian từ khi phát sinh tin nhắn đầu tiên của khách đến khi nhân viên hoặc hệ thống gán nhãn, đồng thời bóc tách chuyên sâu hành vi gắn thẻ Spam (Rác):
 
 
-### 📊 1. Bảng Đo Lường Thời Gian Trung Bình Gắn Thẻ Phân Loại (Time-To-Tag Breakdown)
-| Nhóm Thẻ (Tag) | Số Ca Ghi Nhận | Thời Gian TB (Phút) | Quy Đổi Thời Gian | Min (Nhanh Nhất) | Max (Chậm Nhất) | Cơ Chế & Hành Vi Gắn Thẻ Thực Tế |
+### 📊 1. Trung Bình Bao Nhiêu Phút Nhân Viên Đánh Spam? (Phân Tách 2 Bản Chất)
+> Qua dữ liệu kiểm toán 11 ca bị đánh Spam trong ngày 11/09, hệ thống ghi nhận **2 hành vi hoàn toàn khác nhau**:
+- ⚡ **Nhóm 1: Đánh Spam Tức Thì (Realtime Spam - 3 ca):**
+  - Thời gian trung bình: **`0.15 phút (~9 giây)`** (Nhanh nhất: **`3 giây`**, Chậm nhất: **`19 giây`**).
+  - Bản chất: Nhân viên hoặc Botcake trực chat phát hiện ngay lập tức tin nhắn rác, nick clone, quảng cáo chào hàng hoặc lỗi form và bấm chặn/gắn nhãn Spam ngay tại chỗ.
+- 🧹 **Nhóm 2: Đánh Spam Dọn Dẹp Phễu Tồn Đọng (Backlog Cleanup - 8 ca):**
+  - Thời gian tồn đọng trung bình: **`141.387 phút (~98.2 ngày / 3.2 tháng)`** (Ca lâu nhất lên tới **`195 ngày / 6.5 tháng`**).
+  - Bản chất: Đây là đợt **vệ sinh dữ liệu CRM định kỳ**, các tư vấn viên mở lại danh sách hội thoại cũ từ các tháng trước, lọc ra các tương tác "Hi", gửi link ngoài hoặc khách không phản hồi để gắn thẻ Spam dọn sạch phễu.
+
+
+### 🏆 2. Bảng Xếp Hạng & Thống Kê Hành Vi Đánh Spam Theo Từng Nhân Sự
+| Xếp Hạng | Nhân Viên / Kênh Phụ Trách | Tổng Ca Spam | Spam Tức Thì (<24h) | Thời Gian TB (Spam Tức Thì) | Spam Dọn Dẹp (>24h) | Tồn Đọng TB (Spam Dọn Dẹp) | Chi Tiết Ca Điển Hình & Ghi Chú |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **1** | **Nguyễn Thiện Nhân** | **1** | **1** | `0.05 phút (~3 giây)` | **0** | `-` | ⚡ Khách Tri Cong Van (NERCI.vn) - Bấm spam sau 3 giây ngay khi bot gửi tin chào. |
+| **2** | **Nguyễn Thị Hồng Yến** | **2** | **1** | `0.07 phút (~4 giây)` | **1** | `39.8 ngày (57.368 phút)` | ⚡ Khách Hoa Thai (H&H) - Bấm spam sau 4s; Dọn 1 ca cũ khách Nghuyen Huu Nghia tồn 39.8 ngày. |
+| **3** | **Chưa Gán / Bot Tự Động** | **2** | **1** | `0.32 phút (~19 giây)` | **1** | `14.8 ngày (21.267 phút)` | 🤖 Khách Hoa Thai (H&H) - Bot gắn sau 19s; 1 ca cũ khách Phạm Như Ngọc tồn 14.8 ngày. |
+| **4** | **Hồ Dương Xuân Diệu** | **1** | **0** | `-` | **1** | `39.3 ngày (56.639 phút)` | 🧹 Dọn dẹp lead cũ: Khách Lương Thanh Hải (H&H) hỏi sản phẩm nhưng im lặng 39 ngày. |
+| **5** | **Nguyễn Phương Uyên** | **2** | **0** | `-` | **2** | `104.0 ngày (149.780 phút)` | 🧹 Dọn dẹp lead cũ: Khách Bá Cang (tồn 40 ngày) và khách Kim Dung (tồn 168 ngày). |
+| **6** | **Nguyễn Vũ Bảo Như** | **1** | **0** | `-` | **1** | `94.4 ngày (135.932 phút)` | 🧹 Dọn dẹp kênh TikTok: Khách H. GCOOP. VN hỏi tuyến giáp kiêng gì tồn 94 ngày. |
+| **7** | **Nguyễn Châu Hồng Thủy** | **1** | **0** | `-` | **1** | `193.8 ngày (279.125 phút)` | 🧹 Dọn dẹp lead cũ: Khách Lam Le (NERCI Viện) xin SĐT từ 6.5 tháng trước. |
+| **8** | **Anna Đậu** | **1** | **0** | `-` | **1** | `195.3 ngày (281.236 phút)` | 🧹 Dọn dẹp lead cũ: Khách Henry Tran (NERCI Viện) chỉ nhắn "Hi" từ 6.5 tháng trước. |
+
+
+### ⏱️ 3. Bảng Đo Lường Thời Gian Trung Bình Gắn Toàn Bộ Các Nhãn Thẻ Khác (Time-to-Tag)
+| Nhóm Thẻ Phân Loại | Số Ca Ghi Nhận | Thời Gian TB (Phút) | Quy Đổi Thời Gian | Min (Nhanh Nhất) | Max (Chậm Nhất) | Quy Trình Tác Nghiệp Thực Tế Của Tư Vấn Viên |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Thẻ Spam (Tức thì)** | **3** | **0.1** | `~9 giây` | 0.05m (3s) | 0.32m (19s) | ⚡ **Botcake / Tư vấn viên phát hiện spam lập tức** ngay khi khách vừa nhắn chào |
-| **F_Chưa tin tưởng** | **1** | **54.7** | `54.7 phút` | 54.7m | 54.7m | 🟡 Gắn thẻ sau gần 1 giờ tư vấn khi khách hoài nghi về giấy phép & nguồn gốc |
+| **Thẻ Spam (Tức thì)** | **3** | **0.1** | `~9 giây` | 0.05m (3s) | 0.32m (19s) | ⚡ **Nhân viên / Bot phát hiện rác ngay lập tức** trong 20 giây đầu tiên |
+| **F_Chưa tin tưởng** | **1** | **54.7** | `54.7 phút` | 54.7m | 54.7m | 🟡 Gắn thẻ sau gần 1 giờ tư vấn khi khách đòi xem giấy phép BYT & bằng cấp |
 | **Bận gọi lại sau (Tag 72)** | **4** | **107.9** | `1.8 giờ` | 0.0m | 352.0m (5.8h) | 📞 Gắn thẻ sau cuộc gọi hotline đầu tiên thất bại hoặc khách bận họp |
-| **F_Kinh Tế (Tag 21)** | **2** | **164.0** | `2.7 giờ` | 4.0m | 323.9m (5.4h) | 🔴 Gắn thẻ sau khi tư vấn báo giá học phí / đơn hàng sữa và khách do dự tài chính |
-| **F_Đối thủ (Tag 71)** | **1** | **361.4** | `6.0 giờ` | 361.4m | 361.4m | 🔴 Gắn thẻ sau khi khách cho biết đang so sánh giá/học ở trung tâm khác |
-| **F_Suy nghĩ thêm (Tag 69)** | **6** | **898.1** | `15.0 giờ` | 26.6m | 2674.8m (44h) | 🟡 Gắn thẻ sau khi kết thúc ca tư vấn trong ngày mà khách chưa chốt đơn |
-| **Chốt đơn / Khám thành công (Tag 30)** | **6** | **1,544.5** | `25.7 giờ` | 106.5m (1.7h) | 5010.9m (83h) | 🟢 Gắn thẻ sau khi bộ phận chuyên môn hoàn tất cuộc gọi xác nhận SĐT & địa chỉ |
+| **F_Kinh Tế (Tag 21)** | **2** | **164.0** | `2.7 giờ` | 4.0m | 323.9m (5.4h) | 🔴 Gắn thẻ sau khi tư vấn học phí / giá sữa và khách do dự tài chính |
+| **F_Đối thủ (Tag 71)** | **1** | **361.4** | `6.0 giờ` | 361.4m | 361.4m | 🔴 Gắn thẻ sau khi khách cho biết đang học hoặc mua ở trung tâm khác |
+| **F_Suy nghĩ thêm (Tag 69)** | **6** | **898.1** | `15.0 giờ` | 26.6m | 2674.8m (44h) | 🟡 Gắn thẻ vào cuối ca trực trong ngày khi khách chưa ra quyết định |
+| **Chốt đơn / Khám thành công (Tag 30)** | **6** | **1,544.5** | `25.7 giờ` | 106.5m (1.7h) | 5010.9m (83h) | 🟢 Gắn thẻ sau khi gọi xác nhận SĐT, địa chỉ và hoàn tất thủ tục hẹn/đơn |
 | **Trùng lặp (Tag 29)** | **3** | **1,717.6** | `28.6 giờ` | 0.0m | 5010.9m | ⚪ Thường được rà soát và đánh dấu gộp sau chu kỳ 1 ngày vận hành |
-| **F_Không tồn tại / Khóa máy (Tag 27)** | **6** | **8,093.8** | `5.6 ngày` | 0.4m | 44193.3m (30 ngày) | 🔴 Gắn thẻ sau nhiều lần gọi không liên lạc được |
+| **F_Không tồn tại / Khóa máy (Tag 27)** | **6** | **8,093.8** | `5.6 ngày` | 0.4m | 44193.3m (30 ngày) | 🔴 Gắn thẻ sau nhiều lần gọi hotline không liên lạc được |
 | **KBM (Không bắt máy - Tag 62)** | **6** | **9,432.4** | `6.5 ngày` | 5.6m | 56025.8m (38 ngày) | 🟡 Gọi lại 2-3 hiệp không nghe máy mới đưa vào danh sách KBM |
 | **F_Tham Khảo (Tag 24)** | **38** | **39,701.2** | `27.5 ngày` | 0.2m | 429227.3m | 🟡 Rà soát phễu MQL định kỳ hàng tuần / hàng tháng |
 | **Chưa phản hồi (Ngưng chat - Tag 19)** | **53** | **21,778.8** | `15.1 ngày` | 0.1m | 222036.3m | 🔴 Khách im lặng sau báo giá, được rà soát tổng hợp trong đợt quét lead |
 | **Thẻ Spam (Dọn dẹp tồn đọng)** | **8** | **141,387.8** | `98.2 ngày` | 21267m (14.8 ngày) | 281236m (195 ngày) | 🧹 **Chiến dịch dọn rác CRM:** Tư vấn viên quét lại các lead cũ từ 1-6 tháng trước để đánh nhãn Spam |
 
-
-### 🛡️ 2. Giải Phẫu Chi Tiết Hiện Tượng Đánh Spam: Tức Thì (Realtime) vs Dọn Dẹp (Backlog Cleanup)
-> Qua dữ liệu kiểm toán ngày 11/09, **11 ca bị đánh Spam** phân tách thành 2 bản chất hoàn toàn trái ngược nhau:
-
-#### A. Nhóm Đánh Spam Tức Thì Trong Vòng Vài Giây (Realtime Spam - 3 Ca)
-* **Thời gian trung bình:** Chỉ mất **`0.15 phút (~9 giây)`** từ khi tin nhắn xuất hiện.
-* **Cơ chế:** Kích hoạt bởi Botcake hoặc tư vấn viên trực chat phát hiện ngay các mẫu câu vô nghĩa, nick clone hoặc lỗi gửi form trống:
-  1. *Khách Hoa Thai (H&H Nutrition):* Bị đánh Spam sau **`4 giây`** (`0.07 phút`) khi bot gửi kịch bản chào tự động.
-  2. *Khách Hoa Thai (H&H Nutrition - Case 2):* Bị đánh Spam sau **`19 giây`** (`0.32 phút`) trên bài viết quảng cáo.
-  3. *Khách Tri Cong Van (NERCI.vn):* Bị đánh Spam sau **`3 giây`** (`0.05 phút`) ngay sau lời chào Botcake.
-* 💡 **Kết luận:** Tốc độ phản xạ của tư vấn viên và bot đối với spam tức thì là **hoàn hảo (dưới 20 giây)**, không làm mất thời gian chăm sóc của đội ngũ.
-
-#### B. Nhóm Đánh Spam Dọn Dẹp Tồn Đọng (Backlog Cleanup Spam - 8 Ca)
-* **Thời gian tồn đọng:** Trung bình kéo dài **`98.2 ngày (~141.387 phút)`**, cá biệt có ca tồn tại từ **`195 ngày trước`** (hơn 6 tháng).
-* **Bản chất:** Đây không phải spam mới phát sinh hôm nay mà là **kết quả của chiến dịch lọc sạch phễu CRM** của đội ngũ tư vấn viên:
-  - *Khách Henry Tran (NERCI Viện - Anna Đậu):* Khách chỉ nhắn "Hi" từ **195 ngày trước** được dọn dẹp gắn nhãn Spam.
-  - *Khách Lam Le (NERCI Viện - Hồng Thủy):* Tồn đọng từ **193 ngày trước**, xin SĐT nhưng không trả lời.
-  - *Khách Kim Dung (NERCI Viện - Phương Uyên):* Tồn đọng từ **168 ngày trước** được rà soát và đánh dấu Spam.
-  - *Khách Lương Thanh Hải & Nghuyen Huu Nghia (H&H Nutrition):* Tồn đọng gần **40 ngày** (hơn 57.000 phút) được dọn rác.
-* 💡 **Đánh giá tích cực:** Đội ngũ tư vấn viên (Yến, Uyên, Thủy, Diệu) đã chủ động lọc sạch dữ liệu rác cũ, giúp tỷ lệ chuyển đổi CRM trở nên minh bạch và chuẩn xác hơn.
 
 ## 🔍 III. KIỂM TOÁN CHUYÊN SÂU & TRÍCH DẪN NGUYÊN VĂN CÁC PHIÊN CHAT THEN CHỐT (11/09/2026)
 Được trích xuất trực tiếp qua cơ chế giải phẫu sâu lịch sử hội thoại thực tế ngày 11/09/2026 trên 10 kênh:
@@ -255,4 +259,4 @@ Phân tích đo lường chính xác thời gian kể từ thời điểm tin nh
 
 ---
 ### ⚠️ TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM (DISCLAIMER)
-*Báo cáo kiểm toán này được trích xuất tự động và độc lập từ Pancake API trên toàn bộ 10 kênh tương tác của Viện Nghiên cứu & Tư vấn Dinh dưỡng NERCI và H&H Nutrition. Mọi số liệu về tin nhắn, thời gian phản hồi SLA, số điện thoại, sự kiện bỏ lead, chỉ số cầu thủ và chu kỳ gắn thẻ spam đều phản ánh 100% dữ liệu thực tế phát sinh từ 00:00 đến 23:59 ngày 11/09/2026.*
+*Báo cáo kiểm toán này được trích xuất tự động và độc lập từ Pancake API trên toàn bộ 10 kênh tương tác của Viện Nghiên cứu & Tư vấn Dinh dưỡng NERCI và H&H Nutrition. Mọi số liệu về tin nhắn, thời gian phản hồi SLA, số điện thoại, sự kiện bỏ lead, chỉ số năng lực tư vấn viên và chu kỳ gắn thẻ spam đều phản ánh 100% dữ liệu thực tế phát sinh từ 00:00 đến 23:59 ngày 11/09/2026.*

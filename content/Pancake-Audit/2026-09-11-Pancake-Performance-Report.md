@@ -66,7 +66,7 @@ xychart-beta
 
 ### 📑 3. Bảng Xếp Hạng Hiệu Quả Tác Nghiệp 10 Kênh
 | STT | Kênh / Fanpage | Nền Tảng | Tin Nhắn (Inbox) | Bình Luận (Comment) | Khách Hàng Mới | SĐT Bóc Tách | Tỷ Lệ Thu SĐT (CR) | Trạng Thái & Đánh Giá |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **1** | **BS Hùng Dinh Dưỡng - NERCI** | `tiktok` | **33** | **447** | 225 | **3** | **0.62%** | ⚠️ **Viral khủng (447 cmt), cần nhân sự trực chat** |
 | **2** | **NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng** | `facebook` | **159** | **3** | 52 | **50** | **30.86%** | 🔥 **Kỷ lục tuyển sinh K20** (50 SĐT) |
 | **3** | **NERCI - Viện Tư Vấn Dinh Dưỡng** | `facebook` | **132** | **6** | 32 | **21** | **15.22%** | 🟢 **Khám dinh dưỡng xuất sắc** (132 inboxes, 21 SĐT) |
