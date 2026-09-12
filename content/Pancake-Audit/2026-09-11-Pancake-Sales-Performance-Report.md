@@ -110,8 +110,13 @@ xychart-beta
   - Thời gian trung bình: **`0.15 phút (~9 giây)`** (Nhanh nhất: **`3 giây`**, Chậm nhất: **`19 giây`**).
   - Bản chất: Nhân viên hoặc Botcake trực chat phát hiện ngay lập tức tin nhắn rác, nick clone, quảng cáo chào hàng hoặc lỗi form và bấm chặn/gắn nhãn Spam ngay tại chỗ.
 - 🧹 **Nhóm 2: Đánh Spam Dọn Dẹp Phễu Tồn Đọng (Backlog Cleanup - 8 ca):**
-  - Thời gian tồn đọng trung bình: **`141.387 phút (~98.2 ngày / 3.2 tháng)`** (Ca lâu nhất lên tới **`195 ngày / 6.5 tháng`**).
-  - Bản chất: Đây là đợt **vệ sinh dữ liệu CRM định kỳ**, các tư vấn viên mở lại danh sách hội thoại cũ từ các tháng trước, lọc ra các tương tác "Hi", gửi link ngoài hoặc khách không phản hồi để gắn thẻ Spam dọn sạch phễu.
+  - **Thời gian tồn đọng trung bình:** **`141.387 phút (~98.2 ngày / 3.2 tháng)`** (Ca lâu nhất lên tới **`195 ngày / 6.5 tháng`**).
+  - **Bản chất nghiệp vụ (Data Hygiene Audit):** 
+    - Con số hàng chục nghìn phút ở đây **KHÔNG PHẢI là thời gian nhân viên mất để xử lý một ca spam mới**. Đây là khoảng cách thời gian tính từ khi tin nhắn đầu tiên phát sinh trong quá khứ (từ 1 đến 6.5 tháng trước) cho tới thời điểm nhân viên bấm nút gắn thẻ vào ngày hôm hôm nay.
+    - **Tại sao lại có hiện tượng này?** Đây là hoạt động **vệ sinh dữ liệu CRM định kỳ (Clean-up Campaign)** của đội ngũ tư vấn viên (Yến, Uyên, Diệu, Thủy, Đậu). Nhân viên chủ động mở lại các hội thoại tồn đọng cũ từ nhiều tháng trước chứa các tin nhắn chào "Hi", nick ảo không phản hồi, tin rác chưa từng được phân loại để gắn thẻ Spam nhằm:
+      1. **Làm sạch phễu khách hàng:** Loại bỏ triệt để các lead rác ra khỏi danh sách chăm sóc lại (Re-marketing).
+      2. **Chuẩn hóa tỷ lệ chuyển đổi:** Ngăn chặn việc các hội thoại rác cũ làm sai lệch mẫu số tính tỷ lệ chốt (Conversion Rate) của toàn viện.
+      3. **Tối ưu hiệu quả tác nghiệp:** Tránh việc nhân viên ca sau phải tốn thời gian mở lại những cuộc trò chuyện không có giá trị từ quá khứ.
 
 
 ### 🏆 2. Bảng Xếp Hạng & Thống Kê Hành Vi Đánh Spam Theo Từng Nhân Sự
