@@ -8,7 +8,11 @@ title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 ## 📑 Danh Sách Báo Cáo Vận Hành Pancake
-- 📄 **[[Pancake-Audit/2026-09-11-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 11/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-13-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 13/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-13-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 13/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-12-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 12/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-12-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 12/09/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-09-11-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 11/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-11-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 11/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-10-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 10/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-10-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 10/09/2026)]]** 
