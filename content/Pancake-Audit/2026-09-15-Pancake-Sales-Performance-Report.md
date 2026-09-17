@@ -119,7 +119,8 @@ Dữ liệu kiểm toán đo lường 100% thời gian thực phát sinh từ 00
   > **N/A:** Vậy giao giúp chị đến đc này:  | 312 Nguyễn Thượng Hiền, Phường Đức nhuận- Chung cư Botanic
   > **N/A:** Vì đchi trên web sau 17g ko có người nhận.
   > **N/A:** Dạ chị ạ
-  > **N/A:** Dạ em xin phép được xác nhận lại đơn cho chị ạ  | tổng đơn của chị là 1 lốc Fomeal basic suop có giá 126.000đ + 33.000 phí ship = tổng 159.000đ
+  > **N/A:** Dạ em xin phép được xác nhận lại đơn cho chị ạ 
+ | tổng đơn của chị là 1 lốc Fomeal basic suop có giá 126.000đ + 33.000 phí ship = tổng 159.000đ
   > **N/A:** Ok
   > **N/A:** Dạ em cảm ơn chị nhiều ạ
 * 🎯 **Bài học tác nghiệp:** Tư vấn viên Nguyễn Vũ Bảo Như đã kịp thời nắm bắt nhu cầu của khách hàng Bảo Lam, giải đáp thấu đáo và chốt thành công SĐT để chuyển giao tiếp đón.
