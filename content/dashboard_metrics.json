@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "title": "NERCI Sales Performance Metrics",
+    "updated_at": "2026-09-19 09:28:57 (GMT+7)",
+    "target_date": "2026-09-17",
+    "data_source": "Pancake API Aggregation",
+    "security_level": "Aggregated - Zero PII"
+  },
+  "kpis": {
+    "total_touchpoints": 576,
+    "customer_inbox": 496,
+    "customer_comments": 80,
+    "new_customers": 153,
+    "phones_captured": 47,
+    "phone_conversion_rate": 8.16,
+    "team_avg_sla_sec": 997.1,
+    "team_median_sla_sec": 142,
+    "closed_deals": 7,
+    "sql_leads": 0,
+    "spam_blocked": 6,
+    "unresponsive_leads": 68
+  },
+  "funnel": {
+    "touchpoints": 576,
+    "new_inquiries": 153,
+    "phones_captured": 47,
+    "sql_qualified": 32,
+    "closed_deals": 7
+  },
+  "staff": [
+    {
+      "name": "Nguyễn Phương Uyên",
+      "inbox": 492,
+      "comments": 0,
+      "touchpoints": 492,
+      "phones": 8,
+      "conversion_rate": 1.63,
+      "avg_sla_sec": 1782.8,
+      "median_sla_sec": 1196,
+      "compliance_5m_pct": 41.7,
+      "resp_count": 12
+    },
+    {
+      "name": "Nguyễn Vũ Bảo Như",
+      "inbox": 149,
+      "comments": 0,
+      "touchpoints": 149,
+      "phones": 3,
+      "conversion_rate": 2.01,
+      "avg_sla_sec": 351.5,
+      "median_sla_sec": 167,
+      "compliance_5m_pct": 72.7,
+      "resp_count": 11
+    },
+    {
+      "name": "Nguyễn Thiện Nhân",
+      "inbox": 194,
+      "comments": 0,
+      "touchpoints": 194,
+      "phones": 2,
+      "conversion_rate": 1.03,
+      "avg_sla_sec": 2022.4,
+      "median_sla_sec": 2520,
+      "compliance_5m_pct": 37.5,
+      "resp_count": 8
+    },
+    {
+      "name": "Hồ Dương Xuân Diệu",
+      "inbox": 79,
+      "comments": 0,
+      "touchpoints": 79,
+      "phones": 2,
+      "conversion_rate": 2.53,
+      "avg_sla_sec": 123.4,
+      "median_sla_sec": 112,
+      "compliance_5m_pct": 90.0,
+      "resp_count": 10
+    },
+    {
+      "name": "Đặng Hoàng Anh Thư",
+      "inbox": 17,
+      "comments": 0,
+      "touchpoints": 17,
+      "phones": 0,
+      "conversion_rate": 0.0,
+      "avg_sla_sec": 101.0,
+      "median_sla_sec": 142,
+      "compliance_5m_pct": 100.0,
+      "resp_count": 2
+    }
+  ],
+  "channels": [
+    {
+      "id": "211371845395336",
+      "name": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+      "platform": "facebook",
+      "new_customers": 24,
+      "inbox": 53,
+      "comments": 1,
+      "phones": 23,
+      "conversion_rate": 42.59
+    },
+    {
+      "id": "106287525340056",
+      "name": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+      "platform": "facebook",
+      "new_customers": 38,
+      "inbox": 176,
+      "comments": 4,
+      "phones": 9,
+      "conversion_rate": 5.0
+    },
+    {
+      "id": "tt_6950173559475438594",
+      "name": "BS Hùng Dinh Dưỡng - NERCI",
+      "platform": "tiktok",
+      "new_customers": 43,
+      "inbox": 27,
+      "comments": 64,
+      "phones": 5,
+      "conversion_rate": 5.49
+    },
+    {
+      "id": "110050552088446",
+      "name": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+      "platform": "facebook",
+      "new_customers": 33,
+      "inbox": 109,
+      "comments": 10,
+      "phones": 4,
+      "conversion_rate": 3.36
+    },
+    {
+      "id": "zl_3931932230824176234",
+      "name": "H&H - Dinh dưỡng tối ưu",
+      "platform": "zalo",
+      "new_customers": 11,
+      "inbox": 102,
+      "comments": 0,
+      "phones": 3,
+      "conversion_rate": 2.94
+    },
+    {
+      "id": "1154098647775979",
+      "name": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+      "platform": "facebook",
+      "new_customers": 2,
+      "inbox": 17,
+      "comments": 1,
+      "phones": 2,
+      "conversion_rate": 11.11
+    },
+    {
+      "id": "zl_1362372561524781376",
+      "name": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+      "platform": "zalo",
+      "new_customers": 2,
+      "inbox": 12,
+      "comments": 0,
+      "phones": 1,
+      "conversion_rate": 8.33
+    },
+    {
+      "id": "115282578324521",
+      "name": "Cộng đồng Bác sĩ Dinh Dưỡng Việt Nam",
+      "platform": "facebook",
+      "new_customers": 0,
+      "inbox": 0,
+      "comments": 0,
+      "phones": 0,
+      "conversion_rate": 0.0
+    },
+    {
+      "id": "web_hhtest",
+      "name": "H&H",
+      "platform": "pke_chat_plugin",
+      "new_customers": 0,
+      "inbox": 0,
+      "comments": 0,
+      "phones": 0,
+      "conversion_rate": 0.0
+    },
+    {
+      "id": "web_Nerci",
+      "name": "Nerci",
+      "platform": "pke_chat_plugin",
+      "new_customers": 0,
+      "inbox": 0,
+      "comments": 0,
+      "phones": 0,
+      "conversion_rate": 0.0
+    }
+  ],
+  "hourly": [
+    {
+      "hour": "00:00",
+      "inbox": 2,
+      "comment": 1,
+      "new_cust": 1,
+      "phones": 1
+    },
+    {
+      "hour": "01:00",
+      "inbox": 4,
+      "comment": 0,
+      "new_cust": 1,
+      "phones": 2
+    },
+    {
+      "hour": "02:00",
+      "inbox": 2,
+      "comment": 1,
+      "new_cust": 2,
+      "phones": 0
+    },
+    {
+      "hour": "04:00",
+      "inbox": 5,
+      "comment": 2,
+      "new_cust": 4,
+      "phones": 3
+    },
+    {
+      "hour": "05:00",
+      "inbox": 9,
+      "comment": 0,
+      "new_cust": 3,
+      "phones": 2
+    },
+    {
+      "hour": "06:00",
+      "inbox": 7,
+      "comment": 0,
+      "new_cust": 5,
+      "phones": 3
+    },
+    {
+      "hour": "07:00",
+      "inbox": 8,
+      "comment": 3,
+      "new_cust": 4,
+      "phones": 2
+    },
+    {
+      "hour": "08:00",
+      "inbox": 44,
+      "comment": 1,
+      "new_cust": 5,
+      "phones": 1
+    },
+    {
+      "hour": "09:00",
+      "inbox": 62,
+      "comment": 4,
+      "new_cust": 9,
+      "phones": 5
+    },
+    {
+      "hour": "10:00",
+      "inbox": 64,
+      "comment": 5,
+      "new_cust": 10,
+      "phones": 4
+    },
+    {
+      "hour": "11:00",
+      "inbox": 32,
+      "comment": 5,
+      "new_cust": 7,
+      "phones": 2
+    },
+    {
+      "hour": "12:00",
+      "inbox": 22,
+      "comment": 4,
+      "new_cust": 8,
+      "phones": 3
+    },
+    {
+      "hour": "13:00",
+      "inbox": 29,
+      "comment": 3,
+      "new_cust": 7,
+      "phones": 0
+    },
+    {
+      "hour": "14:00",
+      "inbox": 35,
+      "comment": 3,
+      "new_cust": 8,
+      "phones": 1
+    },
+    {
+      "hour": "15:00",
+      "inbox": 31,
+      "comment": 4,
+      "new_cust": 9,
+      "phones": 4
+    },
+    {
+      "hour": "16:00",
+      "inbox": 32,
+      "comment": 4,
+      "new_cust": 7,
+      "phones": 3
+    },
+    {
+      "hour": "17:00",
+      "inbox": 21,
+      "comment": 8,
+      "new_cust": 10,
+      "phones": 0
+    },
+    {
+      "hour": "18:00",
+      "inbox": 21,
+      "comment": 5,
+      "new_cust": 10,
+      "phones": 2
+    },
+    {
+      "hour": "19:00",
+      "inbox": 28,
+      "comment": 6,
+      "new_cust": 16,
+      "phones": 0
+    },
+    {
+      "hour": "20:00",
+      "inbox": 28,
+      "comment": 8,
+      "new_cust": 14,
+      "phones": 7
+    },
+    {
+      "hour": "21:00",
+      "inbox": 5,
+      "comment": 12,
+      "new_cust": 10,
+      "phones": 2
+    },
+    {
+      "hour": "22:00",
+      "inbox": 3,
+      "comment": 1,
+      "new_cust": 2,
+      "phones": 0
+    },
+    {
+      "hour": "23:00",
+      "inbox": 2,
+      "comment": 0,
+      "new_cust": 1,
+      "phones": 0
+    }
+  ],
+  "trend_7d": [
+    {
+      "date": "2026-09-11",
+      "inbox": 460,
+      "comments": 476,
+      "touchpoints": 936,
+      "new_customers": 344,
+      "phones": 82,
+      "conversion_rate": 8.76
+    },
+    {
+      "date": "2026-09-12",
+      "inbox": 329,
+      "comments": 54,
+      "touchpoints": 383,
+      "new_customers": 123,
+      "phones": 69,
+      "conversion_rate": 18.02
+    },
+    {
+      "date": "2026-09-13",
+      "inbox": 182,
+      "comments": 72,
+      "touchpoints": 254,
+      "new_customers": 104,
+      "phones": 48,
+      "conversion_rate": 18.9
+    },
+    {
+      "date": "2026-09-14",
+      "inbox": 309,
+      "comments": 48,
+      "touchpoints": 357,
+      "new_customers": 122,
+      "phones": 98,
+      "conversion_rate": 27.45
+    },
+    {
+      "date": "2026-09-15",
+      "inbox": 254,
+      "comments": 183,
+      "touchpoints": 437,
+      "new_customers": 184,
+      "phones": 65,
+      "conversion_rate": 14.87
+    },
+    {
+      "date": "2026-09-16",
+      "inbox": 325,
+      "comments": 55,
+      "touchpoints": 380,
+      "new_customers": 124,
+      "phones": 66,
+      "conversion_rate": 17.37
+    },
+    {
+      "date": "2026-09-17",
+      "inbox": 496,
+      "comments": 80,
+      "touchpoints": 576,
+      "new_customers": 153,
+      "phones": 47,
+      "conversion_rate": 8.16
+    }
+  ],
+  "dropoff_reasons": [
+    {
+      "tag": "tag_19",
+      "label": "Chưa phản hồi (Ngưng chat)",
+      "count": 68
+    },
+    {
+      "tag": "tag_24",
+      "label": "F_Tham Khảo (Chưa có nhu cầu ngay)",
+      "count": 16
+    },
+    {
+      "tag": "tag_69",
+      "label": "F_Suy nghĩ thêm",
+      "count": 9
+    },
+    {
+      "tag": "tag_18",
+      "label": "Spam / Rác",
+      "count": 6
+    },
+    {
+      "tag": "tag_26",
+      "label": "F_Sắp xếp thời gian",
+      "count": 5
+    },
+    {
+      "tag": "tag_63",
+      "label": "Thuê bao",
+      "count": 4
+    },
+    {
+      "tag": "tag_29",
+      "label": "Trùng lặp",
+      "count": 4
+    },
+    {
+      "tag": "tag_62",
+      "label": "KBM (Không bắt máy)",
+      "count": 4
+    },
+    {
+      "tag": "tag_27",
+      "label": "F_Không tồn tại / Khóa máy",
+      "count": 2
+    },
+    {
+      "tag": "tag_68",
+      "label": "F_Vướng thanh toán",
+      "count": 1
+    }
+  ]
+}
