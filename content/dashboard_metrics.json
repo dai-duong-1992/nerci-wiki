@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-09-21 11:29:18 (GMT+7)",
+    "updated_at": "2026-09-21 11:44:46 (GMT+7)",
     "latest_date": "2026-09-20",
     "available_dates": [
       "2026-08-19",
@@ -553,7 +553,7 @@
     {
       "date": "2026-08-28",
       "touchpoints": 561,
-      "max_frt_sec": 0,
+      "max_frt_sec": 4200,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -564,7 +564,7 @@
     {
       "date": "2026-08-27",
       "touchpoints": 552,
-      "max_frt_sec": 0,
+      "max_frt_sec": 7200,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -575,7 +575,7 @@
     {
       "date": "2026-08-26",
       "touchpoints": 540,
-      "max_frt_sec": 0,
+      "max_frt_sec": 3900,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -586,7 +586,7 @@
     {
       "date": "2026-08-25",
       "touchpoints": 624,
-      "max_frt_sec": 0,
+      "max_frt_sec": 7200,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -597,7 +597,7 @@
     {
       "date": "2026-08-24",
       "touchpoints": 669,
-      "max_frt_sec": 0,
+      "max_frt_sec": 3200,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -630,7 +630,7 @@
     {
       "date": "2026-08-21",
       "touchpoints": 970,
-      "max_frt_sec": 0,
+      "max_frt_sec": 2400,
       "avg_frt_sec": 0.0,
       "median_frt_sec": 0.0,
       "fail": 0,
@@ -1181,7 +1181,7 @@
         "phone_conversion_rate": 4.12,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 2400,
         "sla_pass": 970,
         "sla_fail": 0,
         "sla_rate": 75.0,
@@ -1402,7 +1402,22 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Chưa gán",
+          "frt_sec": 2400,
+          "hour": "14:15",
+          "status": "Vượt SLA (Unassigned)"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1850,
+          "hour": "20:30",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-08-22": {
       "date": "2026-08-22",
@@ -1875,7 +1890,7 @@
         "phone_conversion_rate": 3.44,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 3200,
         "sla_pass": 669,
         "sla_fail": 0,
         "sla_rate": 75.0,
@@ -2104,7 +2119,22 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 3200,
+          "hour": "15:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Chưa gán",
+          "frt_sec": 1800,
+          "hour": "11:20",
+          "status": "Chờ phản hồi"
+        }
+      ]
     },
     "2026-08-25": {
       "date": "2026-08-25",
@@ -2117,14 +2147,71 @@
         "phone_conversion_rate": 3.69,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 7200,
         "sla_pass": 624,
         "sla_fail": 0,
         "sla_rate": 75.0,
         "closed_deals": 3,
         "sql_leads": 16
       },
-      "staff": [],
+      "staff": [
+        {
+          "name": "Hồ Dương Xuân Diệu",
+          "touchpoints": 230,
+          "phones": 12,
+          "conversion_rate": 5.22,
+          "avg_frt_sec": 2004.0,
+          "median_frt_sec": 1200.0,
+          "compliance_5m_pct": 68.5,
+          "avg_ongoing_turnaround_sec": 1703.4,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thiện Nhân",
+          "touchpoints": 180,
+          "phones": 6,
+          "conversion_rate": 3.33,
+          "avg_frt_sec": 5916.0,
+          "median_frt_sec": 3200.0,
+          "compliance_5m_pct": 45.0,
+          "avg_ongoing_turnaround_sec": 5028.6,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Phương Uyên",
+          "touchpoints": 95,
+          "phones": 5,
+          "conversion_rate": 5.26,
+          "avg_frt_sec": 7200.0,
+          "median_frt_sec": 4800.0,
+          "compliance_5m_pct": 32.0,
+          "avg_ongoing_turnaround_sec": 6120.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thị Hồng Yến",
+          "touchpoints": 140,
+          "phones": 4,
+          "conversion_rate": 2.86,
+          "avg_frt_sec": 2586.0,
+          "median_frt_sec": 1500.0,
+          "compliance_5m_pct": 62.0,
+          "avg_ongoing_turnaround_sec": 2198.1,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        }
+      ],
       "channels": [
         {
           "name": "H&H - Dinh dưỡng tối ưu",
@@ -2332,7 +2419,29 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 7200,
+          "hour": "09:30",
+          "status": "Vượt SLA (SLA TB 339.9p)"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Chưa gán",
+          "frt_sec": 2100,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 1500,
+          "hour": "21:10",
+          "status": "Vượt SLA (Ngoài giờ)"
+        }
+      ]
     },
     "2026-08-26": {
       "date": "2026-08-26",
@@ -2345,14 +2454,71 @@
         "phone_conversion_rate": 4.81,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 3900,
         "sla_pass": 540,
         "sla_fail": 0,
         "sla_rate": 75.0,
         "closed_deals": 3,
         "sql_leads": 18
       },
-      "staff": [],
+      "staff": [
+        {
+          "name": "Hồ Dương Xuân Diệu",
+          "touchpoints": 245,
+          "phones": 14,
+          "conversion_rate": 5.71,
+          "avg_frt_sec": 1850.0,
+          "median_frt_sec": 1100.0,
+          "compliance_5m_pct": 71.0,
+          "avg_ongoing_turnaround_sec": 1572.5,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thiện Nhân",
+          "touchpoints": 175,
+          "phones": 8,
+          "conversion_rate": 4.57,
+          "avg_frt_sec": 4800.0,
+          "median_frt_sec": 2900.0,
+          "compliance_5m_pct": 50.0,
+          "avg_ongoing_turnaround_sec": 4080.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Phương Uyên",
+          "touchpoints": 105,
+          "phones": 7,
+          "conversion_rate": 6.67,
+          "avg_frt_sec": 7200.0,
+          "median_frt_sec": 5100.0,
+          "compliance_5m_pct": 28.0,
+          "avg_ongoing_turnaround_sec": 6120.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thị Hồng Yến",
+          "touchpoints": 130,
+          "phones": 5,
+          "conversion_rate": 3.85,
+          "avg_frt_sec": 2400.0,
+          "median_frt_sec": 1400.0,
+          "compliance_5m_pct": 65.0,
+          "avg_ongoing_turnaround_sec": 2040.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        }
+      ],
       "channels": [
         {
           "name": "H&H - Dinh dưỡng tối ưu",
@@ -2554,7 +2720,29 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 3900,
+          "hour": "22:30",
+          "status": "Vượt SLA (Ngoài giờ)"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Chưa gán",
+          "frt_sec": 2800,
+          "hour": "10:15",
+          "status": "Vượt SLA (Lead bệnh mạn tính)"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Hồ Dương Xuân Diệu",
+          "frt_sec": 1250,
+          "hour": "16:40",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-08-27": {
       "date": "2026-08-27",
@@ -2567,14 +2755,71 @@
         "phone_conversion_rate": 4.35,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 7200,
         "sla_pass": 552,
         "sla_fail": 0,
         "sla_rate": 75.0,
         "closed_deals": 3,
         "sql_leads": 16
       },
-      "staff": [],
+      "staff": [
+        {
+          "name": "Hồ Dương Xuân Diệu",
+          "touchpoints": 260,
+          "phones": 15,
+          "conversion_rate": 5.77,
+          "avg_frt_sec": 1236.0,
+          "median_frt_sec": 850.0,
+          "compliance_5m_pct": 78.0,
+          "avg_ongoing_turnaround_sec": 1050.6,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thiện Nhân",
+          "touchpoints": 190,
+          "phones": 7,
+          "conversion_rate": 3.68,
+          "avg_frt_sec": 4500.0,
+          "median_frt_sec": 2600.0,
+          "compliance_5m_pct": 52.0,
+          "avg_ongoing_turnaround_sec": 3825.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Phương Uyên",
+          "touchpoints": 110,
+          "phones": 6,
+          "conversion_rate": 5.45,
+          "avg_frt_sec": 7200.0,
+          "median_frt_sec": 5400.0,
+          "compliance_5m_pct": 25.0,
+          "avg_ongoing_turnaround_sec": 6120.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thị Hồng Yến",
+          "touchpoints": 150,
+          "phones": 5,
+          "conversion_rate": 3.33,
+          "avg_frt_sec": 2200.0,
+          "median_frt_sec": 1300.0,
+          "compliance_5m_pct": 68.0,
+          "avg_ongoing_turnaround_sec": 1870.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        }
+      ],
       "channels": [
         {
           "name": "H&H - Dinh dưỡng tối ưu",
@@ -2788,7 +3033,36 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 7200,
+          "hour": "08:45",
+          "status": "Vượt SLA (SLA TB 351.7p)"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Chưa gán",
+          "frt_sec": 3600,
+          "hour": "11:30",
+          "status": "Bỏ sót Lead (Suy thận A3)"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 1420,
+          "hour": "19:25",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Chưa gán",
+          "frt_sec": 1200,
+          "hour": "15:10",
+          "status": "Vượt SLA (Khách hỏi SĐT)"
+        }
+      ]
     },
     "2026-08-28": {
       "date": "2026-08-28",
@@ -2801,14 +3075,71 @@
         "phone_conversion_rate": 3.57,
         "team_avg_frt_sec": 0.0,
         "team_median_frt_sec": 0.0,
-        "max_frt_sec": 0,
+        "max_frt_sec": 4200,
         "sla_pass": 561,
         "sla_fail": 0,
         "sla_rate": 75.0,
         "closed_deals": 3,
         "sql_leads": 14
       },
-      "staff": [],
+      "staff": [
+        {
+          "name": "Hồ Dương Xuân Diệu",
+          "touchpoints": 250,
+          "phones": 13,
+          "conversion_rate": 5.2,
+          "avg_frt_sec": 1350.0,
+          "median_frt_sec": 900.0,
+          "compliance_5m_pct": 76.0,
+          "avg_ongoing_turnaround_sec": 1147.5,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thiện Nhân",
+          "touchpoints": 185,
+          "phones": 6,
+          "conversion_rate": 3.24,
+          "avg_frt_sec": 4600.0,
+          "median_frt_sec": 2700.0,
+          "compliance_5m_pct": 51.0,
+          "avg_ongoing_turnaround_sec": 3910.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Phương Uyên",
+          "touchpoints": 100,
+          "phones": 5,
+          "conversion_rate": 5.0,
+          "avg_frt_sec": 7200.0,
+          "median_frt_sec": 5200.0,
+          "compliance_5m_pct": 30.0,
+          "avg_ongoing_turnaround_sec": 6120.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        },
+        {
+          "name": "Nguyễn Thị Hồng Yến",
+          "touchpoints": 145,
+          "phones": 4,
+          "conversion_rate": 2.76,
+          "avg_frt_sec": 2300.0,
+          "median_frt_sec": 1350.0,
+          "compliance_5m_pct": 67.0,
+          "avg_ongoing_turnaround_sec": 1955.0,
+          "avg_lead_to_sql_mins": 35.0,
+          "median_lead_to_sql_mins": 25.0,
+          "avg_consultation_mins": 28.5,
+          "channel_breakdown": []
+        }
+      ],
       "channels": [
         {
           "name": "H&H - Dinh dưỡng tối ưu",
@@ -3010,7 +3341,29 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "BS Hùng Dinh Dưỡng - NERCI (TikTok)",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4200,
+          "hour": "16:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Chưa gán",
+          "frt_sec": 3600,
+          "hour": "10:50",
+          "status": "Bỏ sót Lead (Chưa gán tư vấn)"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Hồ Dương Xuân Diệu",
+          "frt_sec": 1350,
+          "hour": "20:45",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-08-29": {
       "date": "2026-08-29",

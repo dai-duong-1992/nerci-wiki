@@ -1066,7 +1066,14 @@
       if (!slowBody) return;
       slowBody.innerHTML = '';
       if (!topList || topList.length === 0) {
-        slowBody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-dim); padding: 22px; font-weight: 500;">✅ Không có hội thoại vượt ngưỡng SLA trong chu kỳ này (100% đạt chuẩn)</td></tr>';
+        const curVal = document.getElementById('dateSelect') ? document.getElementById('dateSelect').value : '';
+        if (currentSelectMode === 'day' && curVal < '2026-09-04') {
+          slowBody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px; font-weight: 500; line-height: 1.6;">ℹ️ Giai đoạn dữ liệu thống kê tổng hợp từ Pancake API<br><span style="font-size: 11.5px; opacity: 0.8;">(Nhật ký kiểm toán hội thoại chi tiết từng giây được hệ thống kích hoạt lưu vết từ ngày 04/09/2026)</span></td></tr>';
+        } else if (currentSelectMode === 'month' && curVal.startsWith('2026-08')) {
+          slowBody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 24px; font-weight: 500; line-height: 1.6;">ℹ️ Tháng 08/2026 ghi nhận số liệu thống kê tổng hợp từ Pancake API<br><span style="font-size: 11.5px; opacity: 0.8;">(Toàn bộ nhật ký kiểm toán hội thoại chi tiết từng giây được lưu vết đầy đủ từ Tháng 09/2026)</span></td></tr>';
+        } else {
+          slowBody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--green-accent); padding: 24px; font-weight: 500;">✅ Toàn bộ hội thoại trong chu kỳ này đạt chuẩn SLA phản hồi nhanh &lt; 5 phút (100% tuân thủ)</td></tr>';
+        }
         return;
       }
       topList.forEach((sl, i) => {
