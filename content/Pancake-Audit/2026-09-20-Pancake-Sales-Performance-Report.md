@@ -144,9 +144,15 @@ xychart-beta
 #### Case 4. [H&H Nutrition - Sản phẩm dinh dưỡng y học] Khách Hàng: **Dinh Đoàn Văn** (SĐT: `0903980279`) — Tư Vấn: **Nguyễn Thị Hồng Yến**
 * **Chủ đề trích xuất:** Dạ con gửi cô thông tin sản phẩm cô tham khảo ạ
 * **Trích dẫn hội thoại thực tế:**
-  > **N/A:** Cudo Forte là sản phẩm probiotic hỗ trợ riêng cho khách hàng có bệnh thận mạn (CKD),  | Cudo Forte chứa 90 tỷ CFU các chủng lợi khuẩn như: | ✔️Lactobacillus acidophilus | ✔️Bifidobacterium longum | ✔️Streptococcus thermophilus
-  > **N/A:** Với cơ chế hoạt động: các lợi khuẩn sẽ đi vào trong đại tràng và sử dụng một phần các chất thải chứa nitơ (như ure, amoniac và các độc tố niệu) làm nguồn dinh dưỡng. | Điều này giúp tăng chuyển hóa các chất độc trong lòng ruột, tạo điều kiện để nhiều độc chất khuếch tán từ máu vào ruột rồi được đào thải qua phân.
-  > **N/A:** ✅Góp phần giảm ure máu, giảm axit uric từ đó giảm gánh nặng cho thận có hiệu quả làm chậm tiến trình suy thận. | https://dinhduongtoiuu.com/san-pham/cudo-forte/
+  > **N/A:** Cudo Forte là sản phẩm probiotic hỗ trợ riêng cho khách hàng có bệnh thận mạn (CKD), 
+ | Cudo Forte chứa 90 tỷ CFU các chủng lợi khuẩn như:
+ | ✔️Lactobacillus acidophilus
+ | ✔️Bifidobacterium longum
+ | ✔️Streptococcus thermophilus
+  > **N/A:** Với cơ chế hoạt động: các lợi khuẩn sẽ đi vào trong đại tràng và sử dụng một phần các chất thải chứa nitơ (như ure, amoniac và các độc tố niệu) làm nguồn dinh dưỡng.
+ | Điều này giúp tăng chuyển hóa các chất độc trong lòng ruột, tạo điều kiện để nhiều độc chất khuếch tán từ máu vào ruột rồi được đào thải qua phân.
+  > **N/A:** ✅Góp phần giảm ure máu, giảm axit uric từ đó giảm gánh nặng cho thận có hiệu quả làm chậm tiến trình suy thận.
+ | https://dinhduongtoiuu.com/san-pham/cudo-forte/
   > **N/A:** Dạ con gửi cô thông tin sản phẩm cô tham khảo ạ
 * 🎯 **Bài học tác nghiệp:** Tư vấn viên Nguyễn Thị Hồng Yến đã kịp thời nắm bắt nhu cầu của khách hàng Dinh Đoàn Văn, giải đáp thấu đáo và chốt thành công SĐT để chuyển giao tiếp đón.
 
@@ -182,12 +188,16 @@ xychart-beta
 | **25** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Van Bui** | `0942266943` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **26** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Truc Nguyen** | `0938753913` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **27** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nhung Ho** | `0989998801` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
-| **28** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Truc Bui** | `0939677406` | Nguyễn Thiện Nhân | Hình thức học: -  Lý thuyết:  36 buổi, học Online qua Zoom - ...... |
+| **28** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Truc Bui** | `0939677406` | Nguyễn Thiện Nhân | Hình thức học:
+ -  Lý thuyết:  36 buổi, học Online qua Zoom
+ - ...... |
 | **29** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Thien Tam** | `0985943068` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, a...... |
 | **30** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Lê Tới** | `0826666795` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, a...... |
 | **31** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nhà Đất Thế Ngân** | `0909379382` | Nguyễn Thiện Nhân | Khóa học được thiết kế theo lộ trình 5 Module, giúp học viên ...... |
 | **32** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Trần Huyền Trang** | `+84989986707` | Nguyễn Thiện Nhân | Dạ em cảm ơn chị đã quan tâm và đặt các câu hỏi trên ạ. Em có...... |
-| **33** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Minh Thịnh** | `0776631379` | Nguyễn Thiện Nhân | Hình thức học: -  Lý thuyết:  36 buổi, học Online qua Zoom - ...... |
+| **33** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Minh Thịnh** | `0776631379` | Nguyễn Thiện Nhân | Hình thức học:
+ -  Lý thuyết:  36 buổi, học Online qua Zoom
+ - ...... |
 | **34** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Cẩm Hương** | `0773455047` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **35** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Hoàng Văn Quyết** | `0934371666` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, a...... |
 | **36** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Kiều Vy** | `0787723929` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
@@ -195,7 +205,9 @@ xychart-beta
 | **38** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Kim Thanh Pham** | `0925269091` | Nguyễn Thiện Nhân | Dạ em gửi chị  thông tin Khóa học XÂY DỰNG THỰC ĐƠN như sau ạ...... |
 | **39** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Đặng Ngoc Trung** | `0935064338` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, a...... |
 | **40** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Snail Trâm** | `0939650881` | Nguyễn Thiện Nhân | Dạ chị sắp tới dự kiến dinh doanh gì ạ chị có thể chia sẽ chi...... |
-| **41** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Thị Cẩm Luyến** | `0789594425` | Nguyễn Thiện Nhân | Hình thức học: -  Lý thuyết:  36 buổi, học Online qua Zoom - ...... |
+| **41** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Thị Cẩm Luyến** | `0789594425` | Nguyễn Thiện Nhân | Hình thức học:
+ -  Lý thuyết:  36 buổi, học Online qua Zoom
+ - ...... |
 | **42** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Hoàng Nguyên** | `0931178134` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **43** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Le Binh** | `0985394133` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **44** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Dương** | `0988744002` | Nguyễn Thiện Nhân | Dạ mình đang làm công việc gì ạ... |

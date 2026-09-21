@@ -931,7 +931,7 @@
 
       renderFunnelAndStaff(kp, day.staff);
       renderTopSlowest(day.top_slowest);
-      renderTrendChart();
+      renderTrendChart(dateKey);
     }
 
     function renderOverviewMonth(monthKey) {
@@ -994,6 +994,16 @@
         closed_deals: round(mObj.phones_captured * 0.18, 0)
       }, monthStaffList);
 
+      // Top slowest for the month
+      let monthSlowest = [];
+      Object.keys(DATA.days).forEach(d => {
+        if (d.startsWith(monthKey)) {
+          monthSlowest.push(...(DATA.days[d].top_slowest || []));
+        }
+      });
+      monthSlowest.sort((a,b) => b.frt_sec - a.frt_sec);
+      renderTopSlowest(monthSlowest.slice(0, 10));
+
       renderTrendChart();
     }
 
@@ -1055,32 +1065,59 @@
       const slowBody = document.querySelector('#slowestTable tbody');
       if (!slowBody) return;
       slowBody.innerHTML = '';
-      (topList || []).forEach((sl, i) => {
+      if (!topList || topList.length === 0) {
+        slowBody.innerHTML = '<tr><td colspan="6" style="text-align: center; color: var(--text-dim); padding: 22px; font-weight: 500;">✅ Không có hội thoại vượt ngưỡng SLA trong chu kỳ này (100% đạt chuẩn)</td></tr>';
+        return;
+      }
+      topList.forEach((sl, i) => {
         let tr = document.createElement('tr');
+        let badgeClass = sl.frt_sec > 300 ? 'bg-red' : (sl.status === 'Chờ phản hồi' ? 'bg-orange' : 'bg-yellow');
         tr.innerHTML = `
           <td><strong>${i + 1}</strong></td>
           <td>${sl.page}</td>
           <td><strong>${sl.staff}</strong></td>
           <td style="color: var(--red); font-weight: 700;">${fmtTime(sl.frt_sec)}</td>
           <td>${sl.hour}</td>
-          <td><span class="badge bg-orange">${sl.status}</span></td>
+          <td><span class="badge ${badgeClass}">${sl.status}</span></td>
         `;
         slowBody.appendChild(tr);
       });
     }
 
-    function renderTrendChart() {
+    function renderTrendChart(dateKey) {
       const el = document.getElementById('trendChart');
+      if (!el) return;
       if (trendChartInst) trendChartInst.destroy();
 
-      const tData = DATA.trend_7d;
+      let tData = [];
+      const all30 = DATA.trend_30d || [];
+
+      if (dateKey && all30.length > 0) {
+        let targetIdx = all30.findIndex(d => d.date === dateKey);
+        if (targetIdx !== -1) {
+          let startIdx = Math.max(0, targetIdx - 6);
+          tData = all30.slice(startIdx, targetIdx + 1);
+        } else {
+          tData = all30.slice(-7);
+        }
+      } else if (DATA.trend_7d && DATA.trend_7d.length > 0) {
+        tData = DATA.trend_7d;
+      } else if (all30.length > 0) {
+        tData = all30.slice(-7);
+      }
+
+      if (!tData || tData.length === 0) return;
+
       trendChartInst = new Chart(el, {
         type: 'line',
         data: {
-          labels: tData.map(d => d.date.slice(5)),
+          labels: tData.map(d => {
+            let parts = d.date.split('-');
+            return parts.length >= 3 ? `${parts[2]}/${parts[1]}` : d.date.slice(5);
+          }),
           datasets: [
             {
-              label: 'Tổng Điểm Chạm',
+              label: 'Tổng Điểm Chạm (Touchpoints)',
               data: tData.map(d => d.touchpoints),
               borderColor: '#38BDF8',
               backgroundColor: 'rgba(56, 189, 248, 0.1)',
@@ -1089,7 +1126,7 @@
               yAxisID: 'y'
             },
             {
-              label: 'SĐT Lấy Được',
+              label: 'SĐT Lấy Được (Leads)',
               data: tData.map(d => d.phones),
               borderColor: '#4ADE80',
               backgroundColor: '#4ADE80',

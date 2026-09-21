@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "NERCI Sales & SLA 30-Day & Monthly Multi-Channel Intelligence",
-    "updated_at": "2026-09-21 09:35:08 (GMT+7)",
+    "updated_at": "2026-09-21 09:56:23 (GMT+7)",
     "latest_date": "2026-09-20",
     "available_dates": [
       "2026-08-19",
@@ -4625,7 +4625,64 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 5904,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 4970,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4939,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Hồ Dương Xuân Diệu",
+          "frt_sec": 4564,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4521,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4496,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4168,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4128,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-05": {
       "date": "2026-09-05",
@@ -4932,7 +4989,64 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 7122,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 6636,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4907,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 3716,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3067,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 2771,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2664,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2533,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-06": {
       "date": "2026-09-06",
@@ -5231,7 +5345,64 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6742,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 6129,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4193,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4086,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4030,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2804,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 1980,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 1878,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-07": {
       "date": "2026-09-07",
@@ -5538,7 +5709,64 @@
         }
       ],
       "dropoff_reasons": [],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 6461,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 5836,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4757,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4303,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4287,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 3542,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 1463,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 1165,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-08": {
       "date": "2026-09-08",
@@ -5926,7 +6154,64 @@
           "count": 2
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 7191,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Hồ Dương Xuân  Diệu",
+          "frt_sec": 7135,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 7122,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 7037,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6753,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6749,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6742,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6684,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-09": {
       "date": "2026-09-09",
@@ -6314,7 +6599,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4570,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 4135,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3280,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 2738,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2702,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 2626,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 2554,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2426,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-10": {
       "date": "2026-09-10",
@@ -6714,7 +7056,64 @@
           "count": 2
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 6539,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Hồ Dương Xuân  Diệu",
+          "frt_sec": 4982,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4213,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3969,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3787,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 3498,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2752,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2342,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-11": {
       "date": "2026-09-11",
@@ -7094,7 +7493,64 @@
           "count": 2
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6872,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4149,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 3696,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 3518,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 3340,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3323,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2778,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2189,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-12": {
       "date": "2026-09-12",
@@ -7494,7 +7950,64 @@
           "count": 2
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 7024,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6480,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Châu Hồng Thủy",
+          "frt_sec": 5692,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 4495,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 4288,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3572,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 3518,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2758,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-13": {
       "date": "2026-09-13",
@@ -7858,7 +8371,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6251,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4327,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3712,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2328,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1930,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Chưa gán",
+          "frt_sec": 650,
+          "hour": "09:46",
+          "status": "Chờ phản hồi"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Chưa gán",
+          "frt_sec": 650,
+          "hour": "04:19",
+          "status": "Chờ phản hồi"
+        },
+        {
+          "page": "H&H - Dinh dưỡng tối ưu",
+          "staff": "Chưa gán",
+          "frt_sec": 650,
+          "hour": "04:09",
+          "status": "Chờ phản hồi"
+        }
+      ]
     },
     "2026-09-14": {
       "date": "2026-09-14",
@@ -8238,7 +8808,64 @@
           "count": 2
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 5370,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4742,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4281,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 3693,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 2581,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2188,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 1950,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1454,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-15": {
       "date": "2026-09-15",
@@ -8604,7 +9231,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6953,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 6486,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "staff": "Nguyễn Vũ Bảo Như",
+          "frt_sec": 6099,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 6074,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 5743,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Hồ Dương Xuân  Diệu",
+          "frt_sec": 5256,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4586,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2141,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-16": {
       "date": "2026-09-16",
@@ -8998,7 +9682,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6642,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 6572,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 5931,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4433,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2590,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Đặng Hoàng Anh Thư",
+          "frt_sec": 2385,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 752,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Hồ Dương Xuân Diệu",
+          "frt_sec": 650,
+          "hour": "22:37",
+          "status": "Chờ phản hồi"
+        }
+      ]
     },
     "2026-09-17": {
       "date": "2026-09-17",
@@ -9364,7 +10105,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 6261,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 6058,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 5632,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3966,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3326,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2954,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "staff": "Nguyễn Vũ Bảo Như",
+          "frt_sec": 1787,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "staff": "Nguyễn Vũ Bảo Như",
+          "frt_sec": 744,
+          "hour": "10:42",
+          "status": "Vượt SLA"
+        }
+      ]
     },
     "2026-09-18": {
       "date": "2026-09-18",
@@ -9758,7 +10556,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4346,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4259,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2909,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 2767,
+          "hour": "21:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1600,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng",
+          "staff": "Nguyễn Vũ Bảo Như",
+          "frt_sec": 1008,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 937,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 650,
+          "hour": "07:59",
+          "status": "Chờ phản hồi"
+        }
+      ]
     },
     "2026-09-19": {
       "date": "2026-09-19",
@@ -10138,7 +10993,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 5621,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4797,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 4686,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 4587,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 3812,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 2216,
+          "hour": "15:30",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI.vn - Viện Nghiên Cứu và Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 650,
+          "hour": "04:31",
+          "status": "Chờ phản hồi"
+        },
+        {
+          "page": "Viện Nghiên cứu & Tư vấn dinh dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 650,
+          "hour": "15:03",
+          "status": "Chờ phản hồi"
+        }
+      ]
     },
     "2026-09-20": {
       "date": "2026-09-20",
@@ -10496,7 +11408,64 @@
           "count": 1
         }
       ],
-      "top_slowest": []
+      "top_slowest": [
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1884,
+          "hour": "16:18",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 1676,
+          "hour": "11:20",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 1568,
+          "hour": "19:45",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "NERCI - Viện Tư Vấn Dinh Dưỡng",
+          "staff": "Nguyễn Thiện Nhân",
+          "frt_sec": 1359,
+          "hour": "14:05",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Thị Hồng Yến",
+          "frt_sec": 1229,
+          "hour": "09:15",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Nguyễn Phương Uyên",
+          "frt_sec": 965,
+          "hour": "20:10",
+          "status": "Vượt SLA"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Chưa gán",
+          "frt_sec": 650,
+          "hour": "10:07",
+          "status": "Chờ phản hồi"
+        },
+        {
+          "page": "H&H Nutrition - Sản phẩm dinh dưỡng y học",
+          "staff": "Chưa gán",
+          "frt_sec": 650,
+          "hour": "08:22",
+          "status": "Chờ phản hồi"
+        }
+      ]
     }
   },
   "trend_30d": [
@@ -10684,6 +11653,64 @@
       "avg_frt_sec": 1613.4,
       "sla_rate": 38.9
     },
+    {
+      "date": "2026-09-14",
+      "touchpoints": 356,
+      "phones": 98,
+      "cr": 27.53,
+      "avg_frt_sec": 1080.0,
+      "sla_rate": 41.0
+    },
+    {
+      "date": "2026-09-15",
+      "touchpoints": 430,
+      "phones": 65,
+      "cr": 15.12,
+      "avg_frt_sec": 2453.1,
+      "sla_rate": 28.6
+    },
+    {
+      "date": "2026-09-16",
+      "touchpoints": 380,
+      "phones": 66,
+      "cr": 17.37,
+      "avg_frt_sec": 1308.5,
+      "sla_rate": 43.3
+    },
+    {
+      "date": "2026-09-17",
+      "touchpoints": 576,
+      "phones": 47,
+      "cr": 8.16,
+      "avg_frt_sec": 997.1,
+      "sla_rate": 62.8
+    },
+    {
+      "date": "2026-09-18",
+      "touchpoints": 382,
+      "phones": 47,
+      "cr": 12.3,
+      "avg_frt_sec": 869.7,
+      "sla_rate": 38.2
+    },
+    {
+      "date": "2026-09-19",
+      "touchpoints": 517,
+      "phones": 61,
+      "cr": 11.8,
+      "avg_frt_sec": 1075.3,
+      "sla_rate": 55.3
+    },
+    {
+      "date": "2026-09-20",
+      "touchpoints": 393,
+      "phones": 52,
+      "cr": 13.23,
+      "avg_frt_sec": 482.7,
+      "sla_rate": 51.9
+    }
+  ],
+  "trend_7d": [
     {
       "date": "2026-09-14",
       "touchpoints": 356,
