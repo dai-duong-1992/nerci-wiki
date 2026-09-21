@@ -205,7 +205,9 @@ xychart-beta
 | **42** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Violet Phuong Tran** | `0962005890` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **43** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Thy Lê** | `0817515158` | Nguyễn Thiện Nhân | Để có thể tư vấn lộ trình học và khóa học phù hợp cho mình, c...... |
 | **44** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Đào Thị Loan** | `0328862680` | Nguyễn Thiện Nhân | để em hỗ trợ sớm cho mình ak... |
-| **45** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Thuỳ Trúc Linh** | `0789944566` | Nguyễn Thiện Nhân | Hình thức học: -  Lý thuyết:  36 buổi, học Online qua Zoom - ...... |
+| **45** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Nguyễn Thuỳ Trúc Linh** | `0789944566` | Nguyễn Thiện Nhân | Hình thức học:
+ -  Lý thuyết:  36 buổi, học Online qua Zoom
+ - ...... |
 | **46** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **DH Kim Chi** | `0938938671` | Nguyễn Thiện Nhân | Khóa học được thiết kế theo lộ trình 5 Module, giúp học viên ...... |
 | **47** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Thu Hiền Nguyễn** | `0902541972` | Nguyễn Thiện Nhân | Khóa học được thiết kế theo lộ trình 5 Module, giúp học viên ...... |
 | **48** | NERCI Academy - Đào Tạo Chuyên Gia Dinh Dưỡng | **Lucia Nguyen** | `0971443014` | Nguyễn Thiện Nhân | Dạ không biết lộ trình học này có phù hợp với mình chứ ạ?... |
