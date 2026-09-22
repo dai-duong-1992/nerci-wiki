@@ -29,7 +29,8 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
 > 🚀 **[MỞ SALES & SLA PERFORMANCE METRICS DASHBOARD (LIVE)](/sales-dashboard.html)** — *Giao diện trực quan hóa dữ liệu real-time, biểu đồ SLA, phễu chuyển đổi và xếp hạng đội ngũ Sales.*
 
-- 📄 **[[Pancake-Audit/2026-09-20-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 20/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-21-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 21/09/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-09-20-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 20/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-20-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 20/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-19-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Ngày 19/09/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-19-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 19/09/2026)]]** 
