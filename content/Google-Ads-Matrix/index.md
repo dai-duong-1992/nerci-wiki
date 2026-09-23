@@ -8,7 +8,8 @@ title: 'Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)'
 ---
 
 ## 📑 Danh Sách Báo Cáo Ma Trận Google Ads
-- 📈 **[[Google-Ads-Matrix/2026-09-15-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Ngày 15/09/2026)]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-09-22-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-09-15-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Ngày 15/09/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-14-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Tháng 09/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-05-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Đối Chứng Hiệu Suất Facebook Ads & Google Ads NERCI (Kỳ Báo Cáo 05/09/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-02-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Hiệu Suất Tổng Thể Hệ Sinh Thái Google & Facebook Ads (Kỳ Báo Cáo 02/09/2026)]]** 
