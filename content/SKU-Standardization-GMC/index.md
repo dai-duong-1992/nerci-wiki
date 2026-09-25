@@ -1,5 +1,8 @@
 ---
 title: 'Dự Án Chuẩn Hóa SKU & Google Merchant Center'
+aliases:
+  - /SKU-Standardization-GMC/
+  - /SKU-Standardization-GMC
 ---
 
 # 📦 Dự Án Chuẩn Hóa Danh Mục SKU & Google Merchant Center (GMC)
@@ -9,9 +12,9 @@ title: 'Dự Án Chuẩn Hóa SKU & Google Merchant Center'
 
 ## 📑 Danh Sách Tài Liệu & Kế Hoạch Triển Khai
 
-- 📘 **[[SKU-Standardization-GMC/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu tiêu chuẩn cốt lõi)*
-- 📊 **[[SKU-Standardization-GMC/2026-09-21-Reconciliation-DinhDuongToUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
-- 📋 **[[SKU-Standardization-GMC/ke-hoach-chuan-hoa-va-dong-bo-sku-dinhduongtoiuu-pancake|Kế Hoạch Chuẩn Hóa & Đồng Bộ SKU Hệ Thống (Sheet Đổi SKU 17-9-26)]]**
+- 📘 **[[sku-standardization-gmc/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu tiêu chuẩn cốt lõi)*
+- 📊 **[[sku-standardization-gmc/2026-09-21-Reconciliation-DinhDuongToUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
+- 📋 **[[sku-standardization-gmc/ke-hoach-chuan-hoa-va-dong-bo-sku-dinhduongtoiuu-pancake|Kế Hoạch Chuẩn Hóa & Đồng Bộ SKU Hệ Thống (Sheet Đổi SKU 17-9-26)]]**
 
 ---
 
