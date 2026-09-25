@@ -82,7 +82,16 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ---
 
-### 4. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
+### 4. 📦 Dự Án Chuẩn Hóa SKU & Google Merchant Center (GMC)
+> 🚀 **[MỞ TRUNG TÂM DỰ ÁN CHUẨN HÓA SKU & GMC](/SKU-Standardization-GMC/)** — *Kiến trúc dữ liệu phân tầng 446 SKU, quy chuẩn mã mẫu item_group_id / item_id, đồng bộ KiotViet, WooCommerce và Google Shopping.*
+
+- 📘 **[[SKU-Standardization-GMC/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu chuẩn cốt lõi)*
+- 📊 **[[SKU-Standardization-GMC/2026-09-21-Reconciliation-DinhDuongToiUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
+- 📋 **[[SKU-Standardization-GMC/ke-hoach-chuan-hoa-va-dong-bo-sku-dinhduongtoiuu-pancake|Kế Hoạch Chuẩn Hóa & Đồng Bộ SKU Hệ Thống (Sheet Đổi SKU 17-9-26)]]**
+
+---
+
+### 5. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
 - 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
