@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NERCI Intelligence Hub — Multi-Account Performance Overview</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border: #E2E8F0;
+      --border-dark: #CBD5E1;
+      --primary: #1D3557;
+      --primary-light: #2A4365;
+      --blue: #2563EB;
+      --green: #059669;
+      --green-light: #DCFCE7;
+      --green-text: #166534;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --font-main: 'Be Vietnam Pro', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-main);
+      padding: 24px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1380px;
+      margin: 0 auto;
+    }
+
+    /* HEADER LOOKER WINDOW */
+    .window-header {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 12px 12px 0 0;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+    }
+    .window-controls {
+      display: flex;
+      gap: 8px;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .dot-red { background: #EF4444; }
+    .dot-yellow { background: #F59E0B; }
+    .dot-green { background: #10B981; }
+    .window-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.3px;
+    }
+    .window-badge {
+      background: #EFF6FF;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid #BFDBFE;
+    }
+
+    /* MAIN DASHBOARD CANVAS */
+    .dashboard-canvas {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 12px 12px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+      margin-bottom: 30px;
+    }
+
+    /* HEADER BANNER */
+    .header-banner {
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .hub-title h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+    .hub-title p {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--blue);
+      color: white;
+    }
+    .btn-primary:hover { background: #1D4ED8; }
+    .btn-outline {
+      background: white;
+      border-color: var(--border-dark);
+      color: var(--text);
+    }
+    .btn-outline:hover { background: var(--bg); }
+
+    /* KPI SCORECARDS (PAGE 3 PDF EXACT LAYOUT) */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 900px) {
+      .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 500px) {
+      .kpi-grid { grid-template-columns: 1fr; }
+    }
+    .kpi-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+    }
+    .kpi-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .kpi-value {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--primary);
+      font-family: var(--font-mono);
+      margin-bottom: 6px;
+    }
+    .kpi-sub {
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .sub-green { color: #16A34A; }
+    .sub-blue { color: var(--blue); }
+
+    /* ACCOUNT TABLE (PDF EXACT) */
+    .table-container {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 28px;
+    }
+    .table-header-title {
+      padding: 16px 20px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      background: #F8FAFC;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    th {
+      background: #F1F5F9;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 14px 18px;
+      font-size: 13px;
+      border-bottom: 1px solid var(--border);
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #F8FAFC; }
+    .badge-approved {
+      background: var(--green-light);
+      color: var(--green-text);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .mono { font-family: var(--font-mono); font-weight: 600; }
+
+    /* CHARTS SECTION */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 900px) {
+      .charts-grid { grid-template-columns: 1fr; }
+    }
+    .chart-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .chart-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* TABS */
+    .nav-tabs {
+      display: flex;
+      gap: 4px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+    .tab-btn {
+      padding: 10px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+    }
+    .tab-btn.active {
+      color: var(--blue);
+      border-bottom-color: var(--blue);
+    }
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- LOOKER TOP BAR -->
+  <div class="window-header">
+    <div class="window-controls">
+      <span class="dot dot-red"></span>
+      <span class="dot dot-yellow"></span>
+      <span class="dot dot-green"></span>
+    </div>
+    <div class="window-title">NERCI Intelligence Hub — Multi-Account Performance Overview (Internal Looker View)</div>
+    <div class="window-badge">● LIVE REPORTING</div>
+  </div>
+
+  <div class="dashboard-canvas">
+    <!-- HEADER TITLE & ACTIONS -->
+    <div class="header-banner">
+      <div class="hub-title">
+        <h1>Báo Cáo Hiệu Suất Tích Hợp Google Ads · GA4 · GSC & CRM</h1>
+        <p>Hệ thống giám sát đa tài khoản MCC, tự động hóa chuyển đổi thực và đối soát SEO vs Google Shopping</p>
+      </div>
+      <div class="header-actions">
+        <a href="https://dai-duong-1992.github.io/nerci-sales-dashboard/" class="btn btn-outline" target="_blank">
+          📊 Mở Sales CRM Dashboard
+        </a>
+        <a href="https://nerci.goccuaduong.com/sku-standardization-gmc/" class="btn btn-outline" target="_blank">
+          📦 Dự Án SKU & GMC
+        </a>
+      </div>
+    </div>
+
+    <!-- 4 BIG SCORECARDS (PDF REPLICA) -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">TOTAL SPEND (30D)</div>
+        <div class="kpi-value">148,249,997 ₫</div>
+        <div class="kpi-sub sub-blue">● Normal Pacing</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">VERIFIED PURCHASES</div>
+        <div class="kpi-value">1,420</div>
+        <div class="kpi-sub sub-green">▲ +12.4% vs LM</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">AVG. ROAS</div>
+        <div class="kpi-value">4.18x</div>
+        <div class="kpi-sub sub-green">▲ Target: 3.5x</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">API CONVERSION SYNC</div>
+        <div class="kpi-value">99.8%</div>
+        <div class="kpi-sub sub-green">● Active (No Error)</div>
+      </div>
+    </div>
+
+    <!-- SUB-ACCOUNT TABLE (PDF PAGE 3) -->
+    <div class="table-container">
+      <div class="table-header-title">
+        <span>🏢 Phân Bổ Hiệu Suất Theo Tài Khoản Con (MCC Sub-Accounts)</span>
+        <span style="font-size:12px; font-weight:normal; color:var(--text-muted)">Chu kỳ: 30 ngày gần nhất</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Tên Tài Khoản</th>
+            <th>Mã Account ID</th>
+            <th>Mục Tiêu Chính (Objective)</th>
+            <th>Chi Phí/Ngày</th>
+            <th>Chuyển Đổi/Ngày</th>
+            <th>Chỉ Số ROAS</th>
+            <th>Tuân Thủ Y Tế</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><strong>NERCI - Medical Nutrition E-com</strong></td>
+            <td class="mono">842-***-1102</td>
+            <td>Purchase (E-commerce)</td>
+            <td class="mono">2,875,659 ₫</td>
+            <td class="mono">33 đơn</td>
+            <td class="mono" style="color:var(--green)"><strong>4.36x</strong></td>
+            <td><span class="badge-approved">● Approved (100%)</span></td>
+          </tr>
+    
+          <tr>
+            <td><strong>NERCI - Clinical Training & Courses</strong></td>
+            <td class="mono">842-***-1109</td>
+            <td>Qualified Course Lead</td>
+            <td class="mono">1,402,581 ₫</td>
+            <td class="mono">9 đơn</td>
+            <td class="mono" style="color:var(--green)"><strong>4.07x</strong></td>
+            <td><span class="badge-approved">● Approved (100%)</span></td>
+          </tr>
+    
+          <tr>
+            <td><strong>NERCI - Clinical Consultation</strong></td>
+            <td class="mono">842-***-1115</td>
+            <td>Consultation Booking</td>
+            <td class="mono">663,428 ₫</td>
+            <td class="mono">3 đơn</td>
+            <td class="mono" style="color:var(--green)"><strong>3.64x</strong></td>
+            <td><span class="badge-approved">● Approved (100%)</span></td>
+          </tr>
+    
+        </tbody>
+      </table>
+    </div>
+
+    <!-- CHARTS GRID -->
+    <div class="charts-grid">
+      <div class="chart-card">
+        <div class="chart-title">
+          <span>📈 Xu Hướng Chi Phí Ads vs Doanh Thu Thực Tế CRM (30 Ngày)</span>
+          <span style="font-size:12px; color:var(--text-muted)">Đồng bộ tự động qua API</span>
+        </div>
+        <div style="height: 280px;">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">
+          <span>🍰 Tỷ Trọng Chi Tiêu Giữa Các Mảng</span>
+          <span style="font-size:12px; color:var(--text-muted)">3 Sub-Accounts</span>
+        </div>
+        <div style="height: 280px;">
+          <canvas id="shareChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABS SECTION: GSC KEYWORDS, OFFLINE LOGS, POLICY AUDIT -->
+    <div class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('tab-keywords')">🔍 Ma Trận Từ Khóa SEO vs Ads (GSC)</button>
+      <button class="tab-btn" onclick="switchTab('tab-sync')">🔄 Nhật Ký Đồng Bộ Chuyển Đổi Offline (CRM)</button>
+      <button class="tab-btn" onclick="switchTab('tab-policy')">🛡️ Giám Sát Chính Sách Y Tế (Google Ads Policy)</button>
+    </div>
+
+    <!-- TAB 1: KEYWORDS -->
+    <div id="tab-keywords" class="tab-pane active">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Từ Khóa / Truy Vấn</th>
+              <th>Mảng Kinh Doanh</th>
+              <th>Thứ Hạng SEO</th>
+              <th>Click SEO</th>
+              <th>Giá CPC Ads</th>
+              <th>Chi Phí Ads</th>
+              <th>Chuyển Đổi</th>
+              <th>Khuyến Nghị Chiến Lược</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td><strong>khám dinh dưỡng cho trẻ ở đâu tốt</strong></td>
+              <td>Khám Lâm Sàng</td>
+              <td class="mono">1.2</td>
+              <td class="mono">1,420</td>
+              <td class="mono">4,500 đ</td>
+              <td class="mono">2,800,000 đ</td>
+              <td class="mono">52</td>
+              <td style="font-size:12px;"><strong>🔻 Giảm 40% giá thầu Ads (SEO đã Top 1 vững chắc)</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>sữa cho người tiểu đường glucerna 400g</strong></td>
+              <td>E-commerce Sữa</td>
+              <td class="mono">2.1</td>
+              <td class="mono">980</td>
+              <td class="mono">3,200 đ</td>
+              <td class="mono">4,100,000 đ</td>
+              <td class="mono">68</td>
+              <td style="font-size:12px;"><strong>⚖️ Duy trì PMax kết hợp SEO bảo vệ vị thế</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>khóa học tư vấn dinh dưỡng y khoa</strong></td>
+              <td>Đào Tạo</td>
+              <td class="mono">1.5</td>
+              <td class="mono">650</td>
+              <td class="mono">6,800 đ</td>
+              <td class="mono">5,200,000 đ</td>
+              <td class="mono">34</td>
+              <td style="font-size:12px;"><strong>🎯 Giữ vị trí Top 1 Ads để bắt trọn học viên ngành y</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>chế độ ăn cho bệnh nhân suy thận mạn</strong></td>
+              <td>Khám Lâm Sàng</td>
+              <td class="mono">8.4</td>
+              <td class="mono">320</td>
+              <td class="mono">2,800 đ</td>
+              <td class="mono">3,900,000 đ</td>
+              <td class="mono">41</td>
+              <td style="font-size:12px;"><strong>🚀 Tăng ngân sách Ads (SEO chưa vào Top 5)</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>aptamil profutura cesarbiotik 1 800g</strong></td>
+              <td>E-commerce Sữa</td>
+              <td class="mono">12.3</td>
+              <td class="mono">180</td>
+              <td class="mono">2,400 đ</td>
+              <td class="mono">4,800,000 đ</td>
+              <td class="mono">86</td>
+              <td style="font-size:12px;"><strong>🚀 Đẩy mạnh Google Shopping (Mã SKU SP-SUA-DNN-APTPFCB1-800)</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>chứng chỉ dinh dưỡng lâm sàng bộ y tế</strong></td>
+              <td>Đào Tạo</td>
+              <td class="mono">2.8</td>
+              <td class="mono">540</td>
+              <td class="mono">7,200 đ</td>
+              <td class="mono">6,100,000 đ</td>
+              <td class="mono">48</td>
+              <td style="font-size:12px;"><strong>⚖️ Chạy Search chính xác để chốt lead bác sĩ</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>sữa vital 1.5kcal chai 200ml giá bao nhiêu</strong></td>
+              <td>E-commerce Sữa</td>
+              <td class="mono">3.4</td>
+              <td class="mono">420</td>
+              <td class="mono">2,100 đ</td>
+              <td class="mono">2,900,000 đ</td>
+              <td class="mono">55</td>
+              <td style="font-size:12px;"><strong>🛒 Tối ưu Google Shopping & Feed GMC</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>thực đơn tăng cân cho bé biếng ăn</strong></td>
+              <td>Khám Lâm Sàng</td>
+              <td class="mono">1.1</td>
+              <td class="mono">2,100</td>
+              <td class="mono">3,100 đ</td>
+              <td class="mono">1,200,000 đ</td>
+              <td class="mono">39</td>
+              <td style="font-size:12px;"><strong>🔻 Tắt Google Ads từ khóa này (SEO đã chiếm 85% click)</strong></td>
+            </tr>
+    
+            <tr>
+              <td><strong>viện nghiên cứu và tư vấn dinh dưỡng nerci</strong></td>
+              <td>Thương Hiệu</td>
+              <td class="mono">1.0</td>
+              <td class="mono">3,400</td>
+              <td class="mono">950 đ</td>
+              <td class="mono">1,500,000 đ</td>
+              <td class="mono">110</td>
+              <td style="font-size:12px;"><strong>🛡️ Chiến dịch Brand Defense giá rẻ bảo vệ tên Viện</strong></td>
+            </tr>
+    
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 2: OFFLINE SYNC -->
+    <div id="tab-sync" class="tab-pane">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Mã Đơn / Lead CRM</th>
+              <th>Thời Gian</th>
+              <th>Tài Khoản Ads</th>
+              <th>Loại Chuyển Đổi</th>
+              <th>Giá Trị Đơn</th>
+              <th>Mã GCLID</th>
+              <th>Trạng Thái API</th>
+              <th>Smart Bidding</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td class="mono">DH_ECOM_202657182</td>
+              <td style="font-size:12px;">2026-09-16 15:00:00</td>
+              <td>NERCI - Medical Nutrition E-com</td>
+              <td>Purchase</td>
+              <td class="mono" style="color:var(--green)">616,313 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm89050863A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">LEAD_EDU_202629147</td>
+              <td style="font-size:12px;">2026-09-23 19:00:00</td>
+              <td>NERCI - Clinical Training & Courses</td>
+              <td>Course_Booking</td>
+              <td class="mono" style="color:var(--green)">3,131,116 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm86810530A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202679629</td>
+              <td style="font-size:12px;">2026-09-13 21:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">370,695 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm65546039A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202650212</td>
+              <td style="font-size:12px;">2026-09-23 17:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">383,356 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm91953544A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202640682</td>
+              <td style="font-size:12px;">2026-09-15 06:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">520,011 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm36643979A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202692796</td>
+              <td style="font-size:12px;">2026-09-21 21:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">560,597 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm65106243A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202631858</td>
+              <td style="font-size:12px;">2026-09-21 08:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">456,456 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm71291030A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">KHAM_202644173</td>
+              <td style="font-size:12px;">2026-09-13 15:00:00</td>
+              <td>NERCI - Clinical Consultation</td>
+              <td>Consult_Booking</td>
+              <td class="mono" style="color:var(--green)">555,371 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm56338705A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">DH_ECOM_202664672</td>
+              <td style="font-size:12px;">2026-09-15 04:00:00</td>
+              <td>NERCI - Medical Nutrition E-com</td>
+              <td>Purchase</td>
+              <td class="mono" style="color:var(--green)">1,144,189 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm36512391A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">DH_ECOM_202658238</td>
+              <td style="font-size:12px;">2026-09-23 10:00:00</td>
+              <td>NERCI - Medical Nutrition E-com</td>
+              <td>Purchase</td>
+              <td class="mono" style="color:var(--green)">423,837 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm94517999A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">DH_ECOM_202647520</td>
+              <td style="font-size:12px;">2026-09-13 09:00:00</td>
+              <td>NERCI - Medical Nutrition E-com</td>
+              <td>Purchase</td>
+              <td class="mono" style="color:var(--green)">772,378 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm54953795A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">LEAD_EDU_202688056</td>
+              <td style="font-size:12px;">2026-09-20 23:00:00</td>
+              <td>NERCI - Clinical Training & Courses</td>
+              <td>Course_Booking</td>
+              <td class="mono" style="color:var(--green)">1,922,693 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm91881565A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">LEAD_EDU_202675690</td>
+              <td style="font-size:12px;">2026-09-14 03:00:00</td>
+              <td>NERCI - Clinical Training & Courses</td>
+              <td>Course_Booking</td>
+              <td class="mono" style="color:var(--green)">2,743,966 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm39845630A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">DH_ECOM_202626904</td>
+              <td style="font-size:12px;">2026-09-18 08:00:00</td>
+              <td>NERCI - Medical Nutrition E-com</td>
+              <td>Purchase</td>
+              <td class="mono" style="color:var(--green)">1,040,080 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm35174079A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+            <tr>
+              <td class="mono">LEAD_EDU_202626318</td>
+              <td style="font-size:12px;">2026-09-23 12:00:00</td>
+              <td>NERCI - Clinical Training & Courses</td>
+              <td>Course_Booking</td>
+              <td class="mono" style="color:var(--green)">2,240,178 ₫</td>
+              <td class="mono" style="font-size:11px; color:var(--text-muted)">Cj0KCQjwm16077293A...</td>
+              <td><span class="badge-approved">● SUCCESS (Uploaded)</span></td>
+              <td class="mono">TRUE</td>
+            </tr>
+    
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 3: POLICY AUDIT -->
+    <div id="tab-policy" class="tab-pane">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Chiến Dịch</th>
+              <th>Tiêu Đề (Headline)</th>
+              <th>Đoạn Mô Tả (Description)</th>
+              <th>Mức Độ Rủi Ro</th>
+              <th>Trạng Thái Duyệt</th>
+              <th>Ghi Chú Kiểm Duyệt</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td><strong>Ecom_PMax_Sua_Y_Hoc</strong></td>
+              <td>Sữa Thủy Phân Cho Trẻ Kém Hấp Thu</td>
+              <td style="font-size:12px; color:var(--text-muted)">Giải pháp dinh dưỡng y học hỗ trợ tiêu hóa vượt trội, chuẩn khuyến nghị viện dinh dưỡng.</td>
+              <td><span class="badge-approved" style="background:#E0F2FE; color:#0369A1;">SAFE</span></td>
+              <td><span class="badge-approved">● Approved (100%)</span></td>
+              <td style="font-size:12px;">Không vi phạm từ ngữ cam kết</td>
+            </tr>
+    
+            <tr>
+              <td><strong>Consult_Search_Kham_Dinh_Duong</strong></td>
+              <td>Khám Dinh Dưỡng Cùng Chuyên Gia</td>
+              <td style="font-size:12px; color:var(--text-muted)">Tư vấn chế độ ăn khoa học cho trẻ biếng ăn, suy dinh dưỡng và người cao tuổi.</td>
+              <td><span class="badge-approved" style="background:#E0F2FE; color:#0369A1;">SAFE</span></td>
+              <td><span class="badge-approved">● Approved (100%)</span></td>
+              <td style="font-size:12px;">Đạt chuẩn quảng cáo dịch vụ y tế</td>
+            </tr>
+    
+            <tr>
+              <td><strong>Edu_Search_Chung_Chi_Dinh_Duong</strong></td>
+              <td>Lớp Đào Tạo Dinh Dưỡng Y Học K28</td>
+              <td style="font-size:12px; color:var(--text-muted)">Khóa học cấp chứng chỉ dành riêng cho bác sĩ, điều dưỡng, cử nhân dinh dưỡng.</td>
+              <td><span class="badge-approved" style="background:#E0F2FE; color:#0369A1;">SAFE</span></td>
+              <td><span class="badge-approved">● Approved (100%)</span></td>
+              <td style="font-size:12px;">Đạt chuẩn giáo dục y khoa</td>
+            </tr>
+    
+            <tr>
+              <td><strong>Ecom_Shopping_Aptamil_Cesar</strong></td>
+              <td>Aptamil Cesarbiotik 1 - Lon 800g</td>
+              <td style="font-size:12px; color:var(--text-muted)">Dinh dưỡng sinh học cho trẻ sinh mổ, bổ sung lợi khuẩn probiotics chuẩn châu Âu.</td>
+              <td><span class="badge-approved" style="background:#E0F2FE; color:#0369A1;">LOW (Monitored)</span></td>
+              <td><span class="badge-approved">● Approved</span></td>
+              <td style="font-size:12px;">Đã loại trừ cụm từ nhạy cảm 'chữa dị ứng'</td>
+            </tr>
+    
+            <tr>
+              <td><strong>Consult_Display_Benh_Ly_Than</strong></td>
+              <td>Thực Đơn Chuyên Sâu Bệnh Thận</td>
+              <td style="font-size:12px; color:var(--text-muted)">Hỗ trợ kiểm soát đạm và điện giải cho bệnh nhân suy thận các giai đoạn.</td>
+              <td><span class="badge-approved" style="background:#E0F2FE; color:#0369A1;">SAFE</span></td>
+              <td><span class="badge-approved">● Approved (100%)</span></td>
+              <td style="font-size:12px;">Đã kiểm duyệt quy chuẩn Y tế</td>
+            </tr>
+    
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  // Tab Switcher
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // Chart 1: Daily Trend
+  const ctxTrend = document.getElementById('trendChart').getContext('2d');
+  new Chart(ctxTrend, {
+    type: 'line',
+    data: {
+      labels: ["2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11", "2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-19", "2026-09-20", "2026-09-21", "2026-09-22", "2026-09-23", "2026-09-24"],
+      datasets: [
+        {
+          label: 'Doanh Thu CRM Thực Tế (VNĐ)',
+          data: [21372301.0, 21361116.0, 21107796.0, 21947368.0, 21712088.0, 19673674.0, 19480586.0, 20466573.0, 20664476.0, 19837150.0, 21463287.0, 21088233.0, 20116224.0, 20498182.0, 19501884.0, 19540454.0, 20674100.0, 21927169.0, 20569006.0, 20619963.0, 19670024.0, 20672467.0, 20519674.0, 20799962.0, 21497827.0, 22458452.0, 19881092.0, 20491108.0, 20275293.0, 19797469.0],
+          borderColor: '#059669',
+          backgroundColor: 'rgba(5, 150, 105, 0.1)',
+          fill: true,
+          tension: 0.3,
+          borderWidth: 2
+        },
+        {
+          label: 'Chi Phí Ads (VNĐ)',
+          data: [4910785.0, 5005336.0, 4938589.0, 5082366.0, 5249883.0, 4826160.0, 4706680.0, 4774632.0, 4922583.0, 4867178.0, 5247075.0, 4956440.0, 4861069.0, 5066435.0, 4746129.0, 4781857.0, 4826402.0, 5295160.0, 5111547.0, 4963241.0, 4745368.0, 4923208.0, 4814165.0, 5062782.0, 5073770.0, 5218742.0, 4725263.0, 4817054.0, 4903175.0, 4826923.0],
+          borderColor: '#2563EB',
+          backgroundColor: 'rgba(37, 99, 235, 0.05)',
+          fill: true,
+          tension: 0.3,
+          borderWidth: 2
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        y: {
+          ticks: {
+            callback: function(val) { return (val / 1000000).toFixed(1) + ' tr'; }
+          }
+        },
+        x: {
+          ticks: { maxTicksLimit: 10 }
+        }
+      }
+    }
+  });
+
+  // Chart 2: Share Donut
+  const ctxShare = document.getElementById('shareChart').getContext('2d');
+  new Chart(ctxShare, {
+    type: 'doughnut',
+    data: {
+      labels: ['E-com Sữa Y Học (58%)', 'Đào Tạo Lâm Sàng (29%)', 'Tư Vấn Khám (13%)'],
+      datasets: [{
+        data: [85500000, 42600000, 20150000],
+        backgroundColor: ['#2563EB', '#059669', '#F59E0B'],
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom' }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
