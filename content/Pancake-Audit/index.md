@@ -8,7 +8,8 @@ title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 ## 📑 Danh Sách Báo Cáo Vận Hành Pancake
-- 📄 **[[Pancake-Audit/2026-10-05-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 05/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-06-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 06/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-05-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 05/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-04-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 04/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-03-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 03/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-03-Omnichannel-Pancake-Google-Meta-GA4-GSC-Performance-Report|Báo Cáo Tổng Hợp Toàn Diện Hiệu Suất Đa Kênh: Pancake CRM, Google Ads, Meta Ads, GA4 & GSC (Kỳ Đối Soát Tháng 09 - Đầu Tháng 10/2026)]]** 
