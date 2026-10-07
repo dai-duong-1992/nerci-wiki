@@ -121,6 +121,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 - 📜 **[[Brand-Strategy/nerci-new-website-internal-survey-spec|Đặc Tả Khảo Sát & Kiểm Thử Nội Bộ Website Bán Lẻ dinhduongtoiuu.com (H&H Nutrition)]]**
 - 📜 **[[Brand-Strategy/nerci-probation-checklist-and-google-ecosystem-action-log|Kế Hoạch 60 Ngày Thử Việc & Nhật Ký Hành Động Chi Tiết Hệ Sinh Thái Google NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-project-timeline-and-automation-roadmap|NERCI Project Timeline & Automation Roadmap 2026]]**
+- 📜 **[[Brand-Strategy/quan-tri-du-an-website-dinhduongtoiuu|Quản Trị Dự Án Website dinhduongtoiuu.com (H&H Nutrition) — Đã Xong / Chưa Xong]]**
 
 ---
 *Cập nhật tự động bởi Antigravity AI Agent System.*
