@@ -13,7 +13,7 @@ topics:
 status: "active"
 created: 2026-10-07
 updated: 2026-10-07
-updated_at: "2026-10-07 09:53:30 (GMT+7)"
+updated_at: "2026-10-07 10:28:30 (GMT+7)"
 sources: []
 source_count: 0
 aliases:
@@ -24,7 +24,7 @@ aliases:
 
 # 🛒 Quản Trị Dự Án Website dinhduongtoiuu.com — Cái Gì Được / Chưa Được
 
-> 📅 **Thời gian lập:** 2026-10-07 09:53:30 (GMT+7) · 🕒 **Cập nhật:** 2026-10-07 10:14:00 (GMT+7)
+> 📅 **Thời gian lập:** 2026-10-07 09:53:30 (GMT+7) · 🕒 **Cập nhật:** 2026-10-07 10:28:30 (GMT+7)
 > 👤 **Phụ trách:** Lê Đại Dương · Performance & Operations
 > 🏗️ **Đối tác phát triển:** đơn vị làm web (Hợp đồng 136055 ngày 12/08/2026, Phụ lục 01)
 > 🔗 **Lark Base SSOT (Master Sheet):** [https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh](https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh) (Token: `Ur4zbNbJiaGt3OsdOI5jHsPnpNh` — 8 bảng nghiệp vụ)
@@ -36,6 +36,9 @@ aliases:
 | :--- | :--- |
 | Phụ lục hợp đồng: **59** tính năng | ✅ Đã có **39** · 🟡 Một phần **8** · ❌ Chưa có **3** · 🔧 Đang thực hiện/kiểm thử **2** · 🔗 Phụ thuộc Pancake **3** · ⚠️ Khác cam kết **1** · ➖ Không áp dụng **3** |
 | Môi trường | **Chỉ có trên site thử nghiệm** `dinhduongtoiuu.edctech.online`. Site chính thức `dinhduongtoiuu.com` **chưa được cập nhật**. |
+| Xuất dữ liệu GMC (Mục 10.2) | ❌ **THIẾU HOÀN TOÀN**: Chưa có module xuất feed dữ liệu chuẩn Google (`item_group_id`, `id`, `availability`...) và toàn bộ các file liên quan. |
+| Bộ lọc danh mục con | ❌ **CHƯA CÓ HƯỚNG DẪN**: Tài liệu mới chỉ hướng dẫn danh mục cha cấp 1, chưa có hướng dẫn hay ma trận filter cho từng danh mục con. |
+| Dữ liệu Sales cho Bộ lọc | ❌ **CHƯA CÓ DỮ LIỆU TỪ SALES**: Dù file Sheet yêu cầu đã có, nhưng đội Sales/Dược sĩ chưa cấp data để tick sản phẩm, khiến bộ lọc tự ẩn. |
 | Sửa giao diện điện thoại (06/10) | 13/13 lỗi đã sửa trên site thử nghiệm, **chờ khách xem & đồng ý** |
 | Gộp biến thể ở danh sách (06/10) | Đã lập trình, chạy thử **tại máy** (chưa lên site thử nghiệm, chưa lên kho mã nguồn) |
 | Bộ lọc sản phẩm theo danh mục | Module đã xong, **dữ liệu lọc chưa nhập hết** (phải gán sản phẩm thủ công) |
@@ -135,7 +138,7 @@ Thời điểm đẩy đơn: COD/ví → hàng đợi vài phút; chuyển kho�
 | 7.2 | Gợi ý SP bằng AI + hiển thị SP đã xem | Chưa có | ❌ |
 | 7.3 | Theo dõi SP sắp có hàng | Chưa có (chỉ đánh dấu hết hàng) | ❌ |
 | 9.3 | Điều chuyển hàng giữa kho | Phải xuất kho A, nhập kho B thủ công | ❌ |
-| 10.2 | Feed Google Shopping tự động | Đang kiểm thử | 🔧 |
+| 10.2 | Feed sản phẩm tự động lên Google Shopping (GMC) | **Thiếu hoàn toàn** module xuất dữ liệu GMC chuẩn cấu trúc Google (`item_group_id`, `id`, `availability`...). Thiếu toàn bộ các file feed XML/TSV liên quan. | ❌ Chưa có |
 | 4.3 / 6.6 | Đơn vị giao nhận (GHN/Ahamove/EMS) | Chưa tích hợp; phí ship **cố định trong code** (`cart_shipping_fee()`); kế hoạch chỉ tính phí, **không tạo vận đơn, không có ViettelPost** (phụ lục yêu cầu GHN, ViettelPost) | 🔗 Chờ |
 | 12.4 | Chatbot AI trả lời khách 24/7 | Chưa có, đang hoãn; hướng tích hợp Pancake | 🔗 Chờ |
 | 13.1–13.3 | Tiện ích mã QR | Không áp dụng | ➖ |
@@ -159,6 +162,18 @@ Thời điểm đẩy đơn: COD/ví → hàng đợi vài phút; chuyển kho�
 - [ ] **Không đồng bộ**: tên/ảnh/mô tả/ĐVT/cân nặng/giá KM/giá đại lý; sửa hoặc hủy đơn web sau khi đã đẩy (phải sửa tay trên POS); đơn kênh khác (Facebook, Shopee) không về web.
 - [ ] Thiết kế quy trình nêu **cron dự phòng** kéo trạng thái đơn (webhook có thể mất) và **đối soát hằng đêm** — tài liệu mô tả như thiết kế, **chưa thấy xác nhận đã triển khai**.
 
+### 2.4. 🚨 Ba Lỗ Hổng Trọng Yếu: GMC Feed, Bộ Lọc Con & Dữ Liệu Sales
+
+1. **Thiếu hoàn toàn module xuất dữ liệu GMC theo cấu trúc chuẩn của Google:**
+   - Google Merchant Center yêu cầu chuẩn hóa feed dữ liệu bắt buộc gồm: `id` (mã biến thể SKU con), `item_group_id` (mã mẫu sản phẩm cha), `title`, `description`, `link`, `image_link`, `availability` (`in_stock` / `out_of_stock`), `price`, `sale_price`, `brand`, `google_product_category`, `condition`.
+   - **Thực tế:** Trong trang admin sửa sản phẩm mới chỉ bổ sung ô nhập tĩnh "Mã mẫu (Item Group ID)" cạnh Mã SKU, **hoàn toàn chưa có module xuất feed tự động** (URL feed dạng XML RSS 2.0 hoặc TSV) và **thiếu toàn bộ các file mã nguồn/cấu hình liên quan** để Google Merchant Center tự động nạp dữ liệu.
+2. **Chưa có tài liệu hướng dẫn và cơ chế phân cấp bộ lọc theo từng danh mục con:**
+   - Tài liệu `Huong-dan-bo-loc-san-pham-theo-danh-muc.docx` mới chỉ minh họa cho danh mục cha cấp 1 ("Sữa cho người bệnh").
+   - Đối với ngành dinh dưỡng y học, **từng danh mục con có thuộc tính lâm sàng riêng biệt** (ví dụ: *Sữa tiểu đường* cần lọc chỉ số GI, hàm lượng đường Isomaltulose; *Sữa thận* cần lọc hàm lượng Đạm, Natri, Kali, Phốt pho; *Sữa ung thư* cần lọc EPA; *Sữa nhi* cần lọc độ tuổi và cân nặng). Hiện tại **chưa có tài liệu hướng dẫn hay ma trận phân cấp bộ lọc cho từng danh mục con**.
+3. **Chưa có dữ liệu từ đội ngũ Sales để tích chọn tiêu chí bộ lọc:**
+   - Các bộ lọc giá trị gia tăng như "Chuyên gia khuyên dùng", "Giao nhanh 2h", "Bệnh lý", "Đối tượng sử dụng"... được lập trình theo cơ chế **tick chọn sản phẩm thủ công**.
+   - Dù trong file Sheet Excel yêu cầu tính năng ban đầu đã định nghĩa danh mục các filter này, nhưng **đội ngũ Sales / Dược sĩ tư vấn chưa cung cấp dữ liệu phân loại sản phẩm thực tế**. Vì hệ thống có cơ chế tự động ẩn các tiêu chí có 0 sản phẩm, nên toàn bộ các bộ lọc này **đang bị ẩn hoàn toàn ngoài website**, khiến tính năng bộ lọc không phát huy được giá trị thực tế.
+
 ---
 
 ## 3. ⏳ CẦN QUYẾT ĐỊNH (chờ phía Dương / khách)
@@ -175,6 +190,9 @@ Thời điểm đẩy đơn: COD/ví → hàng đợi vài phút; chuyển kho�
 | D8 | Thời điểm đưa bản sửa lên **site chính thức** | Sau khi khách xem và đồng ý | ⏳ |
 | D9 | Bật/tắt gộp biến thể mặc định; bộ truyện Guru hiện từng tập hay gộp | Tách nhóm quy cách của bộ Guru nếu muốn hiện riêng | ⏳ |
 | D10 | Đơn vị giao nhận: GHN/Ahamove/EMS chỉ tính phí, hay cần tạo vận đơn + ViettelPost như phụ lục | — | ⏳ |
+| D11 | **Module Feed GMC chuẩn Google**: Yêu cầu đối tác lập trình endpoint xuất file feed XML/TSV theo chuẩn GMC Help | Đối tác chưa có mã nguồn, đề xuất tích hợp API hoặc file tĩnh | ⏳ Chờ duyệt |
+| D12 | **Cung cấp dữ liệu từ Sales cho Bộ lọc**: Tổ chức buổi làm việc với đội ngũ Dược sĩ / Sales để gắn sản phẩm vào các thuộc tính lâm sàng | Sales cần bảng danh mục để tick thủ công | ⏳ Cần họp |
+| D13 | **Ma trận bộ lọc danh mục con**: Yêu cầu đối tác bàn giao tài liệu hướng dẫn và cấu hình bộ lọc riêng biệt cho từng danh mục con (Tiểu đường, Thận, Ung thư...) | Đối tác mới viết hướng dẫn chung cho cấp cha | ⏳ Chờ đối tác |
 
 ---
 
@@ -184,13 +202,15 @@ Thời điểm đẩy đơn: COD/ví → hàng đợi vài phút; chuyển kho�
 2. **Mâu thuẫn trong bảng đối chiếu** (cần đối tác sửa lại để không bị hiểu sai):
    - **9.6** Nhà cung cấp: ghi chú viết "**Chưa có**" nhưng cột trạng thái ghi "**Đã có**".
    - **4.3 / 6.6 / 12.4**: cột trạng thái ghi "Tích hợp/Liên kết Pancake" thay vì trạng thái thực — không biết là đã làm hay chưa.
-   - **10.2** Google Shopping: ô hiện trạng để trống, chỉ có nhãn "Đang kiểm thử".
+   - **10.2** Google Shopping: ô hiện trạng để trống, chỉ có nhãn "Đang kiểm thử" nhưng thực tế thiếu hoàn toàn feed GMC.
 3. **Hai phiên bản tài liệu đối chiếu** (`...10-05.docx` và `...10-05 (1).docx`) có **nội dung giống hệt nhau** — chỉ cần giữ một bản.
 4. **Chưa lên production**: mọi cải tiến 06/10 chưa có trên `dinhduongtoiuu.com`; khách hàng thật vẫn đang thấy bản cũ (các lỗi như nút nổi che nút "Thêm vào giỏ" vẫn tồn tại ở site chính thức).
 5. **Mã nguồn chưa lưu** (gộp biến thể): rủi ro mất công nếu máy chạy thử gặp sự cố.
 6. **Sai tồn kho/giá nếu trùng SKU** giữa các quy cách (xem 2.3).
 7. **Ghi chú đối chiếu với kho tri thức nội bộ:** các ghi chú cũ trong vault (kế hoạch SKU) còn nhắc **WooCommerce** của `dinhduongtoiuu.com` (ID Web WooCommerce, Parent ID…). Site mới do đối tác dựng là **PHP thuần**; cần xác định rõ khi nào chuyển đổi dữ liệu và SKU sẽ gắn vào hệ nào để không lệch kế hoạch.
 8. **Độ tin cậy số liệu:** các con số (343/245, 46 SP nhiều biến thể…) là **dữ liệu thử nghiệm** tại máy, không phải dữ liệu production.
+9. **Tê liệt chiến dịch Google Shopping / Performance Max do thiếu Feed GMC:** Nếu website không có endpoint xuất dữ liệu Google Merchant Center chuẩn cấu trúc (`item_group_id`, `id`, `availability`...), tài khoản Google Ads NERCI & H&H hoàn toàn không thể nạp sản phẩm để chạy quảng cáo mua sắm tự động (mục 10.2).
+10. **Bộ lọc bị "chết lâm sàng" ngoài web do thiếu dữ liệu từ Sales:** Cơ chế web tự ẩn bộ lọc có 0 sản phẩm. Vì đội ngũ Sales chưa cung cấp dữ liệu để tick sản phẩm, nên toàn bộ các filter quan trọng ("Chuyên gia khuyên dùng", "Giao nhanh 2h", "Bệnh lý") đều bị biến mất, khiến trải nghiệm tìm kiếm của khách hàng thất bại.
 
 ---
 
@@ -212,6 +232,9 @@ Thời điểm đẩy đơn: COD/ví → hàng đợi vài phút; chuyển kho�
 | A12 | Yêu cầu sửa bảng đối chiếu (9.6, 10.2, cột Pancake) và bỏ bản trùng | Đối tác | 🟡 | ☐ |
 | A13 | Rà phần chưa kiểm tra: trang quản trị và trang tài khoản sau đăng nhập | Đối tác | 🟡 | ☐ |
 | A14 | Khảo sát nội bộ theo [[nerci-new-website-internal-survey-spec]] sau khi lên production | Dương | 🟡 | ☐ |
+| A15 | **Yêu cầu đối tác lập trình module xuất Feed Google Merchant Center (GMC)**: Chuẩn hóa xuất file XML/TSV với đầy đủ `item_group_id`, `id`, giá, tồn kho, link ảnh theo chuẩn Google Help | Đối tác Web | 🔴 | ☐ |
+| A16 | **Yêu cầu đối tác bổ sung tài liệu & cơ chế bộ lọc theo từng danh mục con**: Thiết kế ma trận filter chuyên sâu cho từng phân loại bệnh lý (Tiểu đường, Thận, Ung thư...) | Đối tác Web | 🟠 | ☐ |
+| A17 | **Họp và thu thập dữ liệu từ đội ngũ Sales / Dược sĩ H&H**: Thu thập bảng phân loại sản phẩm thực tế để tiến hành tick chọn các tiêu chí bộ lọc (Chuyên gia khuyên dùng, Giao nhanh 2h, Bệnh lý) | Dương / Sales | 🔴 | ☐ |
 
 ---
 
