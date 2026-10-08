@@ -8,7 +8,9 @@ title: 'Chiến Lược Thương Hiệu & Đặc Tả Kỹ Thuật NERCI'
 ---
 
 ## 📑 Danh Sách Tài Liệu Đặc Tả & Kế Hoạch
+- 📜 **[[Brand-Strategy/draxe-content-library-va-so-sanh-nerci|Thư Viện Bài Viết Tham Chiếu DrAxe.com & Chiến Lược Khai Thác Nội Dung Cho NERCI & H&H Nutrition]]**
 - 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
+- 📜 **[[Brand-Strategy/ke-hoach-lam-giau-du-lieu-noi-dung-draxe-cho-nerci|Kế Hoạch Chia Nhỏ & Làm Giàu Dữ Liệu Nội Dung Sâu 3.800+ Bài Viết DrAxe.com Cho Viện NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
