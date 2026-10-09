@@ -2,7 +2,7 @@
 title: "Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 08/10/2026)"
 author: "Đại Dương · Performance & Operations"
 created: "2026-10-08"
-updated_at: "2026-10-08 15:55:20 (GMT+7)"
+updated_at: "2026-10-09 08:29:54 (GMT+7)"
 tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 ---
 
@@ -10,7 +10,7 @@ tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 
 > 📅 **Kỳ báo cáo:** Ngày 08/10/2026 (00:00:00 – 23:59:59)  
 > 👤 **Người lập:** Đại Dương · Performance & Operations  
-> 🕒 **Thời gian cập nhật:** 2026-10-08 15:55:20 (GMT+7)  
+> 🕒 **Thời gian cập nhật:** 2026-10-09 08:29:54 (GMT+7)  
 > 🌐 **Phạm vi:** 10 Kênh Fanpage / TikTok / Zalo OA thuộc Viện Dinh Dưỡng NERCI & H&H Nutrition  
 
 ---
@@ -19,16 +19,16 @@ tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 
 | Chỉ Số Cốt Lõi | Giá Trị Ghi Nhận | Đánh Giá Tình Trạng |
 | :--- | :---: | :--- |
-| 💬 **Tổng Điểm Chạm (Touchpoints)** | **222** | `215` inbox • `7` bình luận |
-| 👤 **Khách Hàng Mới** | **42** | Chiếm `18.9%` tổng lượt tương tác |
-| 📞 **Số Điện Thoại Thu Thập (Lead)** | **6** | Tỷ lệ chuyển đổi SĐT đạt **`2.7%`** |
+| 💬 **Tổng Điểm Chạm (Touchpoints)** | **383** | `365` inbox • `18` bình luận |
+| 👤 **Khách Hàng Mới** | **72** | Chiếm `18.8%` tổng lượt tương tác |
+| 📞 **Số Điện Thoại Thu Thập (Lead)** | **14** | Tỷ lệ chuyển đổi SĐT đạt **`3.66%`** |
 | 🎯 **Đủ Tiêu Chuẩn Y Khoa (SQL)** | **0** | Lead sẵn sàng chuyển Bác sĩ / Dược sĩ tư vấn chuyên sâu |
-| 🏆 **Chốt Đơn Thành Công** | **0** | Đơn hàng phát sinh / Đặt lịch khám |
+| 🏆 **Chốt Đơn Thành Công** | **2** | Đơn hàng phát sinh / Đặt lịch khám |
 
 > [!abstract] NHẬN XÉT CHIẾN LƯỢC TỪ HỆ THỐNG
-> 1. **Hiệu suất thu thập Lead:** Toàn hệ thống thu về **6 số điện thoại** từ 222 điểm chạm, tỷ lệ CR đạt **2.7%**.
-> 2. **Tư vấn viên dẫn đầu:** Nhân sự **Nguyễn Vũ Bảo Như** xuất sắc ghi nhận **1 SĐT** (tỷ lệ chốt `0.4%`), tuân thủ SLA phản hồi `60.0%`.
-> 3. **Rào cản lớn nhất:** Thẻ **Chưa phản hồi (Ngưng chat)** dẫn đầu với **28 ca**, cần kích hoạt kịch bản chăm sóc bám đuổi tự động qua Zalo/Botcake.
+> 1. **Hiệu suất thu thập Lead:** Toàn hệ thống thu về **14 số điện thoại** từ 383 điểm chạm, tỷ lệ CR đạt **3.66%**.
+> 2. **Tư vấn viên dẫn đầu:** Nhân sự **Nguyễn Đang Hạ** xuất sắc ghi nhận **3 SĐT** (tỷ lệ chốt `3.2%`), tuân thủ SLA phản hồi `33.3%`.
+> 3. **Rào cản lớn nhất:** Thẻ **Chưa phản hồi (Ngưng chat)** dẫn đầu với **43 ca**, cần kích hoạt kịch bản chăm sóc bám đuổi tự động qua Zalo/Botcake.
 
 ---
 
@@ -36,13 +36,13 @@ tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 
 | Tư Vấn Viên | Điểm Chạm | SĐT Chốt | Tỷ Lệ CR (%) | SLA TB | SLA Trung Vị | Đạt Chuẩn 5P | Đánh Giá |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Nguyễn Vũ Bảo Như** | 249 | **1** | `0.4%` | 7p2s | 3p46s | `60.0%` | 🔴 Cần cải thiện |
-| **Nguyễn Đang Hạ** | 53 | **1** | `1.9%` | 75p10s | 114p17s | `25.0%` | 🔴 Cần cải thiện |
-| **Nguyễn Phương Uyên** | 206 | **0** | `0.0%` | 34p | 16p | `12.5%` | 🔴 Cần cải thiện |
-| **Nguyễn Thiện Nhân** | 78 | **0** | `0.0%` | 195p55s | 179p48s | `0.0%` | 🔴 Cần cải thiện |
-| **Nguyễn Thị Hồng Yến** | 18 | **0** | `0.0%` | 32p42s | 62p44s | `50.0%` | 🔴 Cần cải thiện |
+| **Nguyễn Đang Hạ** | 95 | **3** | `3.2%` | 51p46s | 9p46s | `33.3%` | 🔴 Cần cải thiện |
+| **Nguyễn Thiện Nhân** | 132 | **2** | `1.5%` | 119p27s | 94p12s | `20.0%` | 🔴 Cần cải thiện |
+| **Nguyễn Vũ Bảo Như** | 265 | **1** | `0.4%` | 5p57s | 3p46s | `66.7%` | 🔴 Cần cải thiện |
+| **Nguyễn Phương Uyên** | 227 | **0** | `0.0%` | 30p43s | 15p2s | `22.2%` | 🔴 Cần cải thiện |
+| **Nguyễn Thị Hồng Yến** | 72 | **0** | `0.0%` | 19p | 6p11s | `50.0%` | 🔴 Cần cải thiện |
+| **Đặng Hoàng Anh Thư** | 17 | **0** | `0.0%` | 12p35s | 12p18s | `50.0%` | 🔴 Cần cải thiện |
 | **Hồ Dương Xuân Diệu** | 15 | **0** | `0.0%` | 29.5s | 33s | `100.0%` | 🔴 Cần cải thiện |
-| **Đặng Hoàng Anh Thư** | 14 | **0** | `0.0%` | 16p35s | 12p18s | `33.3%` | 🔴 Cần cải thiện |
 | **Thảo My** | 0 | **0** | `0.0%` | 0s | 0s | `100.0%` | 🔴 Cần cải thiện |
 
 > ℹ️ *Ghi chú chuẩn hóa SLA:* Thời gian phản hồi (SLA TB / Trung vị / Tỷ lệ đạt chuẩn 5P) được tính toán theo đúng **khung giờ làm việc quy định của Viện (08:00 – 21:00)** và đã **khấu trừ 11 tiếng ngoài ca ban đêm (21:00 – 08:00)**. Các tin nhắn gửi lúc đêm/rạng sáng chỉ bắt đầu tính thời gian chờ từ mốc **08:00:00 sáng**.
@@ -53,14 +53,14 @@ tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 
 | STT | Tên Rào Cản / Lý Do Từ Chối | Mã Thẻ | Số Ca Ghi Nhận | Tỷ Trọng Rào Cản | Đề Xuất Giải Pháp |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | **Chưa phản hồi (Ngưng chat)** | `tag_19` | **28** | `45.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 2 | **Spam / Rác** | `tag_18` | **15** | `24.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 3 | **F_Tham Khảo (Chưa có nhu cầu ngay)** | `tag_24` | **11** | `17.7%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 4 | **F_Sắp xếp thời gian** | `tag_26` | **2** | `3.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 5 | **F_Kinh Tế (Rào cản tài chính)** | `tag_21` | **2** | `3.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 6 | **F_Ở Xa (Địa lý)** | `tag_23` | **1** | `1.6%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 7 | **F_Hỏi ý kiến người thân** | `tag_25` | **1** | `1.6%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
-| 8 | **Thuê bao** | `tag_63` | **1** | `1.6%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 1 | **Chưa phản hồi (Ngưng chat)** | `tag_19` | **43** | `48.3%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 2 | **Spam / Rác** | `tag_18` | **22** | `24.7%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 3 | **F_Tham Khảo (Chưa có nhu cầu ngay)** | `tag_24` | **14** | `15.7%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 4 | **F_Sắp xếp thời gian** | `tag_26` | **2** | `2.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 5 | **F_Kinh Tế (Rào cản tài chính)** | `tag_21` | **2** | `2.2%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 6 | **F_Chưa có quyết định** | `tag_66` | **1** | `1.1%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 7 | **F_Ở Xa (Địa lý)** | `tag_23` | **1** | `1.1%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
+| 8 | **F_Hỏi ý kiến người thân** | `tag_25` | **1** | `1.1%` | Chuẩn hóa kịch bản xử lý phản bác chuyên khoa |
 
 ---
 
