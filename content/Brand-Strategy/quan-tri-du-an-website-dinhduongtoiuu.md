@@ -27,7 +27,7 @@ aliases:
 > 📅 **Thời gian lập:** 2026-10-07 09:53:30 (GMT+7) · 🕒 **Cập nhật:** 2026-10-07 10:28:30 (GMT+7)
 > 👤 **Phụ trách:** Lê Đại Dương · Performance & Operations
 > 🏗️ **Đối tác phát triển:** đơn vị làm web (Hợp đồng 136055 ngày 12/08/2026, Phụ lục 01)
-> 🔗 **Lark Base SSOT (Master Sheet):** [https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh](https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh) (Token: `Ur4zbNbJiaGt3OsdOI5jHsPnpNh` — 8 bảng nghiệp vụ)
+> 🔗 **Lark Base SSOT (Master Sheet):** [https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh](https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh) (Token: `Ur4zbNbJiaGt3OsdOI5jHsPnpNh` — 9 bảng nghiệp vụ, gồm bảng `08_SEO_Action_Plan_2026` / `tblqjf0xiDEBbDgu`)
 > 📚 **Cơ sở:** 8 tài liệu báo cáo nhận từ đối tác (05–06/10/2026), liệt kê ở mục 9. Tệp này **chỉ tổng hợp lại những gì tài liệu nêu**; mục nào chưa có bằng chứng được ghi rõ là "chưa xác minh".
 
 ## 0. Tóm tắt nhanh
