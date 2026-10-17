@@ -5,7 +5,7 @@ created: "2026-10-12"
 updated_at: "2026-10-17 08:08:31 (GMT+7)"
 tags: [log, nerci, pancake, operations-report, marketing-report, omnichannel]
 ---
-
+1
 # Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 12/10/2026)
 
 > 📅 **Kỳ báo cáo:** Ngày 12/10/2026 (00:00:00 – 23:59:59)  
