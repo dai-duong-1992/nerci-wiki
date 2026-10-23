@@ -12,7 +12,8 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
 
 ### 1. 📈 Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)
-- 📈 **[[Google-Ads-Matrix/2026-10-01-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-10-22-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 🚨 *(Mới nhất)*
+- 📈 **[[Google-Ads-Matrix/2026-10-01-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-22-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-15-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Ngày 15/09/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-14-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Tháng 09/2026)]]** 
@@ -31,7 +32,9 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
 > 🚀 **[MỞ SALES & SLA PERFORMANCE METRICS DASHBOARD (LIVE)](/sales-dashboard.html)** — *Giao diện trực quan hóa dữ liệu real-time, biểu đồ SLA, phễu chuyển đổi và xếp hạng đội ngũ Sales.*
 
-- 📄 **[[Pancake-Audit/2026-10-21-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 21/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-22-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 22/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-22-NERCI-Pancake-POS-30Days-Sales-Audit|Báo Cáo Kiểm Toán Doanh Thu & Bán Hàng Pancake POS 30 Ngày: Shop Nerci]]** 
+- 📄 **[[Pancake-Audit/2026-10-21-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 21/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-20-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 20/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-19-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 19/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-18-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 18/10/2026)]]** 
