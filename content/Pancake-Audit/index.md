@@ -8,7 +8,10 @@ title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 ## 📑 Danh Sách Báo Cáo Vận Hành Pancake
-- 📄 **[[Pancake-Audit/2026-10-22-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 22/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-24-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 24/10/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-10-23-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 23/10/2026)]]** 
+- 📄 **[[Pancake-Audit/2026-10-22-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 22/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-22-NERCI-Pancake-POS-30Days-Sales-Audit|Báo Cáo Kiểm Toán Doanh Thu & Bán Hàng Pancake POS 30 Ngày: Shop Nerci]]** 
 - 📄 **[[Pancake-Audit/2026-10-21-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 21/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-20-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 20/10/2026)]]** 
