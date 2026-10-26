@@ -3,33 +3,36 @@ title: 'Viện Dinh Dưỡng NERCI — Portal Báo Cáo & Tự Động Hóa'
 ---
 
 # 🌿 Viện Dinh Dưỡng NERCI & H&H Nutrition
-> *Hệ thống Intelligence, Kiểm toán Hội thoại Đa kênh, Ma Trận Google Ads & Báo cáo Tự động hóa Dinh Dưỡng Chữa Lành*
+> *Hệ thống Intelligence, Kiểm toán Hội thoại Đa kênh, Ma Trận Google Ads, Quản trị Lập chỉ mục GSC & Báo cáo Tự động hóa Dinh Dưỡng Chữa Lành*
 
 Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thông minh của **Viện Dinh Dưỡng NERCI & H&H Nutrition** (`nerci.goccuaduong.com`).
 
 ---
 
-## 📑 Cấu Trúc Báo Cáo & Tài Liệu Vận Hành
+## 📑 Cấu Trúc Báo Cáo & Dự Án Vận Hành
 
-### 1. 📈 Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)
+### 1. 🌐 🚀 Dự Án Quản Trị Lập Chỉ Mục Google Search Console (GSC Indexing)
+> 🔗 **[MỞ TRUNG TÂM DỰ ÁN LẬP CHỈ MỤC GSC (/gsc-indexing/)](/gsc-indexing/)** — *Kiểm toán lập chỉ mục 1.328 URLs, kích hoạt Google Indexing API v3 (200 URLs/ngày), giám sát 8 sitemaps và đồng bộ hai chiều trực tiếp với Lark Base SSOT.*
+
+- 📄 **[[gsc-indexing/2026-10-26-DinhDuongToiUu-GSC-Index-Action-Report|Báo Cáo Kiểm Toán GSC & Thực Thi Index Lượt 2 (26/10/2026)]]** 🚨 *(Mới nhất - Index đạt 733 URLs)*
+- 📘 **[[gsc-indexing/ke-hoach-lap-chi-muc-google-search-console-dinhduongtoiuu|Kế Hoạch Lập Chỉ Mục GSC Toàn Diện dinhduongtoiuu.com]]** 🌟 *(Tài liệu chiến lược cốt lõi)*
+- 🗄️ **[Mở Bảng Lark Base URL Index Tracker (1.328 URLs)](https://ajpi82edbxhs.jp.larksuite.com/base/Ur4zbNbJiaGt3OsdOI5jHsPnpNh?table=tblgSApnFCmnJ343&view=vewvPnOS2g)**
+
+---
+
+### 2. 📈 Ma Trận Hiệu Suất Google Ads API (MCC H&H Group & NERCI)
 - 📈 **[[Google-Ads-Matrix/2026-10-22-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 🚨 *(Mới nhất)*
 - 📈 **[[Google-Ads-Matrix/2026-10-01-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-09-22-Monli-Google-Ads-Performance-Report|Báo Cáo Hiệu Suất Quảng Cáo Google Ads — Monli Interior Hub (30 Ngày Gần Nhất)]]** 
-- 📈 **[[Google-Ads-Matrix/2026-09-15-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Ngày 15/09/2026)]]** 
-- 📈 **[[Google-Ads-Matrix/2026-09-14-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Phân Tích Chéo Hiệu Suất Đa Kênh: Meta Ads, Google Ads, GA4 & GSC (Tháng 09/2026)]]** 
-- 📈 **[[Google-Ads-Matrix/2026-09-05-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Đối Chứng Hiệu Suất Facebook Ads & Google Ads NERCI (Kỳ Báo Cáo 05/09/2026)]]** 
-- 📈 **[[Google-Ads-Matrix/2026-09-02-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Hiệu Suất Tổng Thể Hệ Sinh Thái Google & Facebook Ads (Kỳ Báo Cáo 02/09/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-29-NERCI-Google-Ads-Matrix-Performance-Report|2026 08 29 NERCI Google Ads Matrix Performance Report]]** 
-- 📈 **[[Google-Ads-Matrix/2026-08-28-Omnichannel-Facebook-Google-GA4-GSC-Performance-Report|Báo Cáo Hiệu Suất Tổng Thể Đa Kênh: Meta Ads, Google Ads, GA4 & Search Console]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-28-NERCI-Google-Ads-Matrix-Performance-Report|Báo Cáo Phân Tích Ma Trận Google Ads, GA4 & Search Console (28/08/2026)]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-27-NERCI-Google-Ads-Matrix-Performance-Report|2026 08 27 NERCI Google Ads Matrix Performance Report]]** 
-- 📈 **[[Google-Ads-Matrix/2026-08-27-ASA-CIRCA-Omnichannel-Ads-Report|2026 08 27 ASA CIRCA Omnichannel Ads Report]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-11-Google-Ads-Detailed-Report|2026 08 11 Google Ads Detailed Report]]** 
 - 📈 **[[Google-Ads-Matrix/2026-08-10-Google-Ads-PMax-Shopping-Report|Google Ads PMax & Shopping Detailed Report]]** 
 
 ---
 
-### 2. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
+### 3. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
 > 🚀 **[MỞ SALES & SLA PERFORMANCE METRICS DASHBOARD (LIVE)](/sales-dashboard.html)** — *Giao diện trực quan hóa dữ liệu real-time, biểu đồ SLA, phễu chuyển đổi và xếp hạng đội ngũ Sales.*
 
 - 📄 **[[Pancake-Audit/2026-10-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/10/2026)]]** 🚨 *(Mới nhất)*
@@ -56,7 +59,6 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 - 📄 **[[Pancake-Audit/2026-10-05-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 05/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-04-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 04/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-03-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 03/10/2026)]]** 
-- 📄 **[[Pancake-Audit/2026-10-03-Omnichannel-Pancake-Google-Meta-GA4-GSC-Performance-Report|Báo Cáo Tổng Hợp Toàn Diện Hiệu Suất Đa Kênh: Pancake CRM, Google Ads, Meta Ads, GA4 & GSC (Kỳ Đối Soát Tháng 09 - Đầu Tháng 10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-02-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 02/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-01-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 01/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-09-30-Pancake-Sales-Performance-Report|Báo Cáo Đánh Giá Toàn Diện Hiệu Suất Tư Vấn Viên & Bán Hàng Pancake (Lũy Kế Đến Ngày 30/09/2026)]]** 
@@ -112,13 +114,13 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ---
 
-### 3. 📢 Giám Sát Quảng Cáo Đối Thủ Dược Phẩm (ASA-NERCI)
+### 4. 📢 Giám Sát Quảng Cáo Đối Thủ Dược Phẩm (ASA-NERCI)
 - 📊 **[[ASA-Ads-Scraper/2026-09-05-ASA-NERCI-FB-Detailed-Comparison|2026 09 05 ASA NERCI FB Detailed Comparison]]** 🚨 *(Mới nhất)*
 - 📊 **[[ASA-Ads-Scraper/2026-07-28-ASA-NERCI-FB-Detailed-Comparison|2026 07 28 ASA NERCI FB Detailed Comparison]]** 
 
 ---
 
-### 4. 📦 Dự Án Chuẩn Hóa SKU & Google Merchant Center (GMC)
+### 5. 📦 Dự Án Chuẩn Hóa SKU & Google Merchant Center (GMC)
 > 🚀 **[MỞ TRUNG TÂM DỰ ÁN CHUẨN HÓA SKU & GMC](/sku-standardization-gmc/)** — *Kiến trúc dữ liệu phân tầng 446 SKU, quy chuẩn mã mẫu item_group_id / item_id, đồng bộ KiotViet, WooCommerce và Google Shopping.*
 
 - 📘 **[[sku-standardization-gmc/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu chuẩn cốt lõi)*
@@ -127,12 +129,10 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 
 ---
 
-### 5. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
+### 6. 🏛️ Kế Hoạch Vận Hành, Google Ecosystem & Chiến Lược Số
 - 📜 **[[Brand-Strategy/draxe-content-library-va-so-sanh-nerci|Thư Viện Bài Viết Tham Chiếu DrAxe.com & Chiến Lược Khai Thác Nội Dung Cho NERCI & H&H Nutrition]]**
 - 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
 - 📜 **[[Brand-Strategy/ke-hoach-lam-giau-du-lieu-noi-dung-draxe-cho-nerci|Kế Hoạch Chia Nhỏ & Làm Giàu Dữ Liệu Nội Dung Sâu 3.800+ Bài Viết DrAxe.com Cho Viện NERCI]]**
-- 📜 **[[Brand-Strategy/ke-hoach-lap-chi-muc-google-search-console-dinhduongtoiuu|Kế Hoạch Lập Chỉ Mục Google Search Console Toàn Diện Cho Website dinhduongtoiuu.com]]**
-- 📜 **[[Brand-Strategy/ke-hoach-seo-tong-the-website-dinhduongtoiuu|Kế Hoạch SEO Tổng Thể & Lộ Trình Thống Trị Từ Khóa Ngành Dinh Dưỡng Y Học Cho Website dinhduongtoiuu.com (H&H Nutrition)]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
@@ -146,7 +146,6 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 - 📜 **[[Brand-Strategy/nerci-new-website-internal-survey-spec|Đặc Tả Khảo Sát & Kiểm Thử Nội Bộ Website Bán Lẻ dinhduongtoiuu.com (H&H Nutrition)]]**
 - 📜 **[[Brand-Strategy/nerci-probation-checklist-and-google-ecosystem-action-log|Kế Hoạch 60 Ngày Thử Việc & Nhật Ký Hành Động Chi Tiết Hệ Sinh Thái Google NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-project-timeline-and-automation-roadmap|NERCI Project Timeline & Automation Roadmap 2026]]**
-- 📜 **[[Brand-Strategy/quan-tri-du-an-website-dinhduongtoiuu|Quản Trị Dự Án Website dinhduongtoiuu.com (H&H Nutrition) — Đã Xong / Chưa Xong]]**
 
 ---
 *Cập nhật tự động bởi Antigravity AI Agent System.*
