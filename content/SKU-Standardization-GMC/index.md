@@ -13,7 +13,7 @@ aliases:
 ## 📑 Danh Sách Tài Liệu & Kế Hoạch Triển Khai
 
 - 📘 **[[sku-standardization-gmc/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu tiêu chuẩn cốt lõi)*
-- 📊 **[[sku-standardization-gmc/2026-09-21-Reconciliation-DinhDuongToUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
+- 📊 **[[sku-standardization-gmc/2026-09-21-Reconciliation-DinhDuongToiUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
 - 📋 **[[sku-standardization-gmc/ke-hoach-chuan-hoa-va-dong-bo-sku-dinhduongtoiuu-pancake|Kế Hoạch Chuẩn Hóa & Đồng Bộ SKU Hệ Thống (Sheet Đổi SKU 17-9-26)]]**
 
 ---

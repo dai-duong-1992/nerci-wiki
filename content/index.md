@@ -124,7 +124,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 > 🚀 **[MỞ TRUNG TÂM DỰ ÁN CHUẨN HÓA SKU & GMC](/sku-standardization-gmc/)** — *Kiến trúc dữ liệu phân tầng 446 SKU, quy chuẩn mã mẫu item_group_id / item_id, đồng bộ KiotViet, WooCommerce và Google Shopping.*
 
 - 📘 **[[sku-standardization-gmc/quy-chuan-sku-google-merchant-center-nerci|Quy Chuẩn Cấu Trúc SKU & Mindset Quản Trị item_id / item_group_id Theo Google Merchant Center]]** 🚨 *(Tài liệu chuẩn cốt lõi)*
-- 📊 **[[sku-standardization-gmc/2026-09-21-Reconciliation-DinhDuongToUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
+- 📊 **[[sku-standardization-gmc/2026-09-21-Reconciliation-DinhDuongToiUu-SKU|Báo Cáo Rà Soát Chuẩn Hóa SKU & Đối Soát Web Dinhduongtoiuu.com]]**
 - 📋 **[[sku-standardization-gmc/ke-hoach-chuan-hoa-va-dong-bo-sku-dinhduongtoiuu-pancake|Kế Hoạch Chuẩn Hóa & Đồng Bộ SKU Hệ Thống (Sheet Đổi SKU 17-9-26)]]**
 
 ---
