@@ -35,7 +35,8 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 ### 3. 📊 Kiểm Toán & Vận Hành Hội Thoại Đa Kênh (Pancake CRM)
 > 🚀 **[MỞ SALES & SLA PERFORMANCE METRICS DASHBOARD (LIVE)](/sales-dashboard.html)** — *Giao diện trực quan hóa dữ liệu real-time, biểu đồ SLA, phễu chuyển đổi và xếp hạng đội ngũ Sales.*
 
-- 📄 **[[Pancake-Audit/2026-10-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-26-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 26/10/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-10-25-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 25/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-24-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 24/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-23-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 23/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-22-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 22/10/2026)]]** 
@@ -133,6 +134,7 @@ Chào mừng bạn đến với cổng thông tin vận hành và báo cáo thô
 - 📜 **[[Brand-Strategy/draxe-content-library-va-so-sanh-nerci|Thư Viện Bài Viết Tham Chiếu DrAxe.com & Chiến Lược Khai Thác Nội Dung Cho NERCI & H&H Nutrition]]**
 - 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
 - 📜 **[[Brand-Strategy/ke-hoach-lam-giau-du-lieu-noi-dung-draxe-cho-nerci|Kế Hoạch Chia Nhỏ & Làm Giàu Dữ Liệu Nội Dung Sâu 3.800+ Bài Viết DrAxe.com Cho Viện NERCI]]**
+- 📜 **[[Brand-Strategy/ke-hoach-performance-marketing-thang-11-2026-dinhduongtoiuu-nerci|ke hoach performance marketing thang 11 2026 dinhduongtoiuu nerci]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-advanced-medical-ux-and-automation-spec|Báo Cáo Đề Xuất & Đặc Tả Kỹ Thuật Chuyên Sâu Hệ Sinh Thái Số NERCI]]**
 - 📜 **[[Brand-Strategy/nerci-brand-identity-and-ai-automation-master-strategy|Chiến Lược Nhận Diện Thương Hiệu NERCI & Khung Vận Hành AI Automation (2025-2030)]]**
