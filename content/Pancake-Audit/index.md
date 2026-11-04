@@ -8,7 +8,9 @@ title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 ## 📑 Danh Sách Báo Cáo Vận Hành Pancake
-- 📄 **[[Pancake-Audit/2026-11-01-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 01/11/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-11-03-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 03/11/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-11-02-Pancake-POS-vs-GMC-Reconciliation-Report|Báo Cáo Đối Soát Danh Mục: Pancake POS vs Google Merchant Center — H&H Nutrition]]** 
+- 📄 **[[Pancake-Audit/2026-11-01-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 01/11/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-31-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 31/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-30-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 30/10/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-10-29-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 29/10/2026)]]** 

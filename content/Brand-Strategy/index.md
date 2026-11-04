@@ -10,6 +10,7 @@ title: 'Chiến Lược Thương Hiệu & Đặc Tả Kỹ Thuật NERCI'
 ## 📑 Danh Sách Tài Liệu Đặc Tả & Kế Hoạch
 - 📜 **[[Brand-Strategy/draxe-content-library-va-so-sanh-nerci|Thư Viện Bài Viết Tham Chiếu DrAxe.com & Chiến Lược Khai Thác Nội Dung Cho NERCI & H&H Nutrition]]**
 - 📜 **[[Brand-Strategy/ke-hoach-chuan-hoa-thuong-hieu-nerci-va-lien-he|📋 Kế Hoạch Chuẩn Hóa Thương Hiệu NERCI & Thông Tin Liên Hệ Trên Website nerci.vn]]**
+- 📜 **[[Brand-Strategy/ke-hoach-google-ads-5-trieu-dinhduongtoiuu|Kế Hoạch Triển Khai Google Ads 5 Triệu Cho Website dinhduongtoiuu.com — Tập Trung Shopping RLSA, PMax Cudo-Forte & GDN Thương Hiệu]]**
 - 📜 **[[Brand-Strategy/ke-hoach-lam-giau-du-lieu-noi-dung-draxe-cho-nerci|Kế Hoạch Chia Nhỏ & Làm Giàu Dữ Liệu Nội Dung Sâu 3.800+ Bài Viết DrAxe.com Cho Viện NERCI]]**
 - 📜 **[[Brand-Strategy/ke-hoach-performance-marketing-thang-11-2026-dinhduongtoiuu-nerci|ke hoach performance marketing thang 11 2026 dinhduongtoiuu nerci]]**
 - 📜 **[[Brand-Strategy/nerci-access-and-automation-list|Danh Sách Quyền Truy Cập & Tích Hợp Vận Hành NERCI]]**
