@@ -8,7 +8,8 @@ title: 'Kiểm Toán & Vận Hành Hội Thoại Pancake'
 ---
 
 ## 📑 Danh Sách Báo Cáo Vận Hành Pancake
-- 📄 **[[Pancake-Audit/2026-11-06-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 06/11/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-11-07-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 07/11/2026)]]** 🚨 *(Mới nhất)*
+- 📄 **[[Pancake-Audit/2026-11-06-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 06/11/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-11-05-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 05/11/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-11-04-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 04/11/2026)]]** 
 - 📄 **[[Pancake-Audit/2026-11-03-Pancake-Performance-Report|Báo Cáo Hiệu Suất Vận Hành Đa Kênh Pancake (Ngày 03/11/2026)]]** 
