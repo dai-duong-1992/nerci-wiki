@@ -78,7 +78,9 @@ flowchart LR
 ## 📑 DANH MỤC TÀI LIỆU & BÁO CÁO DỰ ÁN
 
 ### 1. ⚡ Báo Cáo Kiểm Toán & Thực Thi "Index Theo Lượt" (Indexing API)
-- 📄 **[[gsc-indexing/2026-11-06-DinhDuongToiUu-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console dinhduongtoiuu.com]]** 🚨 *(Mới nhất)*
+- 📄 **[[gsc-indexing/2026-11-07-Monli-GSC-Index-Action-Report-Round6-Final|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console monli.com.sg — Đợt 6 (Hoàn Tất 100%)]]** 🚨 *(Mới nhất)*
+- 📄 **[[gsc-indexing/2026-11-07-Monli-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console monli.com.sg — Đợt 5]]** 
+- 📄 **[[gsc-indexing/2026-11-06-DinhDuongToiUu-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console dinhduongtoiuu.com]]** 
 - 📄 **[[gsc-indexing/2026-11-05-DinhDuongToiUu-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console dinhduongtoiuu.com]]** 
 - 📄 **[[gsc-indexing/2026-11-04-DinhDuongToiUu-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console dinhduongtoiuu.com]]** 
 - 📄 **[[gsc-indexing/2026-11-03-Monli-GSC-Index-Action-Report|Báo Cáo Tự Động Hóa Lập Chỉ Mục Google Search Console monli.com.sg — Đợt 4]]** 
